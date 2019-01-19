@@ -54,7 +54,7 @@ app.get('/distributor-registration', (req, res, next) => {
 });
 
 app.get('/career', (req, res, next) => {
-    res.render('search');
+    res.render('career');
 });
 
 app.get('/', (req, res, next) => {
