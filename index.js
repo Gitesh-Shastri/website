@@ -1,10 +1,15 @@
 const express = require('express');
-const app = express()
-
+var bodyParser = require('body-parser');
+const app = express();
+const nodeoutlook = require("nodejs-nodemailer-outlook");
 const port = process.env.PORT || 9000;
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
+
+
+app.use(bodyParser.urlencoded({extended: true}));
+
 
 const pro = [
     {
@@ -42,6 +47,24 @@ app.get('/pharmacy-registration', (req, res, next) => {
 
 app.post('/mail', (req, res, next) => {
     console.log(req.body);
+    var token = Math.floor((Math.random() * 10000) + 1000);
+    var content="We have received a query on token Id "+token;
+    var message1="Hello Team, <br/> we have received a query. Please find the details below of the concerned.<br/>Kindly do the needful at the earliest.";
+    message1+="<table style=\"border-collapse: collapse;\"><tr style=\"background-color: lightgray;\"><td style=\"border: 1px solid #ddd;padding: 8px;\"><strong>From</strong></td><td style=\"border: 1px solid #ddd;padding: 8px;\">"+req.body.Name+"</td></tr>";
+    message1+="<tr><td style=\"border: 1px solid #ddd;padding: 8px;\"><strong>EmailId</strong></td><td style=\"border: 1px solid #ddd;padding: 8px;\">"+req.body.Email+"</td></tr>";
+    message1+="<tr style=\"background-color: lightgray;\"><td style=\"border: 1px solid #ddd;padding: 8px;\"><strong>Phone</strong></td><td style=\"border: 1px solid #ddd;padding: 8px;\">"+req.body.Phone+"</td></tr>";
+    message1+="<tr><td style=\"border: 1px solid #ddd;padding: 8px;\"><strong>Category</strong></td><td style=\"border: 1px solid #ddd;padding: 8px;\">"+req.body.category+"</td></tr>";
+    message1+="<tr style=\"background-color: lightgray;\"><td style=\"border: 1px solid #ddd;padding: 8px;\"><strong>Message</strong></td><td style=\"border: 1px solid #ddd;padding: 8px;\">"+req.body.message+"</td></tr>";
+    nodeoutlook.sendEmail({
+        auth: {
+          user: "Team.medicento@outlook.com",
+          pass: "med4lyf@51"
+        },
+        from: "Team.medicento@outlook.com",
+        to: "contact.medicento@gmail.com,giteshshastri96@gmail.com",
+        subject: content,
+        html: message1
+      });
     res.redirect('/');
 });
 
