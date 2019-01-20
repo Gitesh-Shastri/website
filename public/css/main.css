@@ -5,9 +5,30 @@ html {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   height: 100%;
   width: 100%;
+}
+.about-us{
+    margin-top: 20px;
+    width: 80%;
+    padding: 20px;
+    margin: 4% 6% 2% 10%;
+}
+.about-us .head-about {
+    text-align: justify;
+    color: #565252;
+    font-size: 16px;
+    width: 60%;
+    margin: 30px auto;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+}
+.about-us span{
+    margin-left: 45%;
+    font-size: 24px;
+    box-shadow: 0px 15px 10px -10px grey;
 }
 .contact{
     font-weight: 100;
@@ -21,4 +42,22 @@ html {
     background: #ff0000;
     padding: 0px;
     box-shadow: 3px 3px 6px grey;
+}
+.seperator{
+    height: 1px;
+    width: 100%;
+    background: #a09a9a;
+}
+
+.grey-bg {
+    background: #f6f6f6;
+    padding: 80px 0;
+    display: block;
+}
+.listing-item {
+    list-style: none;
+    overflow: hidden;
+}
+.listing-item li{
+    float: left;
 }

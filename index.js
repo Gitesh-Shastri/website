@@ -57,6 +57,10 @@ app.get('/career', (req, res, next) => {
     res.render('career');
 });
 
+app.get('/careers', (req, res, next) => {
+    res.render('career');
+});
+
 app.get('/', (req, res, next) => {
     res.render('index', { pro: pro });
 });

@@ -1,0 +1,293 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+.content{
+	width: 100%;
+	max-width: 1142px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.a:focus{
+	outline: 2px dashed #689;
+}
+
+@media all and (max-width: 767px){
+	.content{
+		padding: 0 20px;
+	}	
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;		
+}
+
+ul .a{
+	display: block;
+	background: #2aa9d2;
+	border: 4zpx solid black;
+	text-align: center;
+	overflow: hidden;
+	font-size: 10px;
+	text-decoration: none;
+	color: #333;
+	width: 130%;
+	height: auto;
+	margin-bottom: -50px;
+	box-shadow: 3px 3px 9px -3px rgba(0,0,0,0.4);
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+ul .a:hover{
+	background-color: #d7fbf6;
+}
+
+.dep-a,.dep-b,.dep-c {
+	margin-top: 2px;
+}
+@media all and (max-width: 767px){
+	ul .a{
+		font-size: .7em;
+	}
+}
+.administration > .li > .a{
+	margin-bottom: 25px;
+}
+
+.director > .li > .a{
+	width: 50%;
+	margin: 0 auto 0 auto;
+}
+.cf > .li > .a {
+	margin: 0 auto;
+}
+/*.subdirector:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 130px;
+	background: red;
+	border-left: 3px solid #000;
+	left: 45.45%;
+	position: relative;
+}*/
+
+.departments{
+	position: absolute;
+	width: 100%;
+}
+
+.departments > .li:first-child{	
+	width: 25%;
+	height: 64px;
+	margin: 0 auto 92px auto;		
+	padding-top: 13px;
+	z-index: 1;	
+}
+
+
+
+.departments > .li:first-child{	
+	float: left;
+	left: 32%;
+
+}
+
+.departments > .li:first-child .a{
+	width: 150%;
+	height: auto;
+}
+@media all and (max-width: 767px){
+	.departments > .li:first-child{
+		width: 40%;	
+	}
+
+
+	.departments < .li:first-child{
+		left: 10%;
+		margin-left: 2px;
+	}
+}
+
+/*
+.departments > .li:first-child a{
+	//prashant 
+	right: 200px;
+}
+*/
+.department:first-child,
+.departments .li:nth-child(2){
+	margin-left: 0;
+	clear: left;	
+}
+
+.departments:after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 75%;
+	height: 15px;	
+	border-top: 3px solid #000;
+	border-right: 3px solid #000;
+	margin: 0 auto;
+	top: 140px;
+	left: 14%;
+}
+
+@media all and (max-width: 767px){
+	.departments:after{
+		border-right: none;
+		left: 0;
+		width: 49.8%;
+	}  
+}
+
+@media all and (min-width: 768px){
+	.department:first-child:before,
+   .department:last-child:before{
+    border:none;
+  }
+}
+
+.line {
+	display: block;
+	background: white;
+	width: 60px;
+	height: 3px;
+	box-shadow: 
+		0px 80px #000;
+	}
+
+.hori {
+	display: block;
+	background: black;
+	margin:0 auto;
+	width: 3px;
+	height: 40px;
+	box-shadow: 
+		12px 140px #000;
+}
+
+.department:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 50px;
+	border-left: 3px solid black;
+	z-index: 1;
+	top: -15px;
+	left: 68%;
+	margin-left: -10px;
+}
+
+.department{
+	border-left: 3px solid #000;
+	width: 22%;
+	float: left;
+	margin-left: 15%;
+}
+
+.lt-ie8 .department{
+	width: 18.25%;
+}
+
+@media all and (max-width: 767px){
+	.department{
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	/*.department:before{
+		content: "";
+		display: block;
+		position: absolute;
+		width: 0;
+		height: 60px;
+		border-left: 100px solid black;
+		z-index: 1;
+		top: 100px;
+		left: 0%;
+		margin-left: -3px;
+	}*/
+
+	.department:nth-child(2):before{
+		display: none;
+	}
+}
+
+.department > .a{
+	margin: 0 0 -26px -3px;
+	z-index: 1;
+}
+
+.department > .a:hover{	
+	height: auto;
+	width: 130%;
+}
+
+.department < ul{
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.department .li{	
+	padding-left: 30px;
+	vertical-align: middle;
+	height: 150px;
+	width: 210px;	
+}
+h3{
+	font-size: 17px;
+	font-weight: bold;
+}
+
+hr {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+}
+.department .li .a{
+	background: #ccc;
+	top: 20px;	
+	position: absolute;
+	z-index: 1;
+	width: 250px;
+	height: 120px;
+	right: -58px;
+	vertical-align: middle;
+}
+
+.department .li .a:hover{
+	background-color: #6ddabe;
+}
+
+.pic{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	float: left;
+	margin: 15px;
+}
+
+.text{
+	text-align: center;
+	font-size: 13px;
+}

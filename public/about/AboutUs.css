@@ -1,0 +1,51 @@
+		.container{
+			width: 100%;
+		}
+		.jumbotron {
+			color: white;
+			margin-top: 1%;
+			height: 200px;
+		}
+		.list{
+			list-style: none;
+			text-align: center;
+			padding-top: 10px;
+		}
+		.card {
+			cursor: context-menu;
+			padding: 5px 5px 0px 0px; 
+		}
+		.fa {
+			width: 40px;
+			color: white;
+			padding-top: 10px;
+			border-radius: 50%;
+			height: 40px;
+			background: #007bb5;
+		}
+		div.list {
+			height: 97%;
+		}
+		div.list:hover{
+			background-color: #6ddabe;
+			color: white;
+		}
+		.hidden{
+			display: none;
+		}
+		.image{
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			border: 2px solid #778899;
+		}
+		.info{
+			font-weight: normal;
+			font-size: 15px;
+		}
+		hr{
+			margin-bottom: 20px ; 
+			margin-top: 20px ; 
+			border-color: #778899;
+		}
+		
