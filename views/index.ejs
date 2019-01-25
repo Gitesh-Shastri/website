@@ -825,16 +825,16 @@
 
               </div>
               <div class="col-md-9 content-right">
-                <form action="/mail" method="post" >
+                <form action="/mail" method="post">
                   <div class="row">
                     <div class="col-md-6">
-                        <input type="text" placeholder="Name" name="Name" required />
+                        <input type="text" placeholder="Name" name="Name" required id="name"/>
                     </div>
                     <div class="col-md-6">
-                        <input type="text" placeholder="Phone" name="Phone" required />
+                        <input type="text" placeholder="Phone" name="Phone" required id="phone"/>
                     </div>
                     <div class="col-md-6">
-                        <input type="email" placeholder="Email" name="Email" required />
+                        <input type="email" placeholder="Email" name="Email" required id="email"/>
                     </div>
                     <div class="col-md-6" style="margin-top: 23px;">
                       <select name="category" id="category" style="width:100%">
@@ -874,7 +874,7 @@
                         </select>      
                     </div>
                     <div class="col-md-12">Message
-                      <textarea name="message" rows="3"></textarea>
+                      <textarea name="message" rows="3" id="message"></textarea>
                     </div>
                   </div>
                   <br />
@@ -1070,6 +1070,6 @@
     </div>
   </div>
 </div>
-    <% include scripts %>
-  </body>
+<% include scripts %>
+</body>
 </html>
