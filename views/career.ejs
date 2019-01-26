@@ -170,7 +170,10 @@
                     <input required="" name="Email" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
                   </div>
                   <div class="group">
-                    <input type="text" placeholder="Phone" name="Phone" required />
+                    <input type="number" pattern="/^-?\d+\.?\d*$/" name="Phone" required onKeyPress="if(this.value.length==10) return false;" />
+                    <span class="highlight"></span><span class="bar"></span><label>Phone</label>  </div>
+                  <div class="group">
+                    <input type="text" style="display: none;" placeholder="source" name="source" value="website-career-page" required />
                   </div>
                   <div class="group">
                     <select name="category" style="width:20%;">

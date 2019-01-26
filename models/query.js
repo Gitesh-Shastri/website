@@ -25,6 +25,10 @@ const querySchema = mongoose.Schema({
         type: String,
         default: 0
     },
+    source: {
+        type: String,
+        default: "-"
+    },
     created_at: {
         type: Date,
         default: Date.now()    
