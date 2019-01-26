@@ -58,7 +58,10 @@ app.get('/pharmacy-registration', (req, res, next) => {
 
 app.post('/mail', (req, res, next) => {
     console.log(req.body);
-    Token.findById('5c4c1b029ec740040b8e5961')
+    console.log(req.body.Phone.length);
+    console.log(req.body.message.length);
+    if(req.body.Phone.length > 9) {
+     Token.findById('5c4c1b029ec740040b8e5961')
     .exec()
     .then( doc => {
         doc.code = doc.code+1;
@@ -97,6 +100,10 @@ app.post('/mail', (req, res, next) => {
         console.log(err);
         res.redirect('/');
     });
+     } else {
+      console.log('invalid');
+      res.redirect('/');
+  }
 });
 
 app.get('/about-us', (req, res, next) => {
