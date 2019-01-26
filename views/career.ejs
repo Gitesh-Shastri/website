@@ -164,10 +164,10 @@
               <div class="col-md-9 content-right">
                 <form action="/mail" method="post">
                   <div class="group">
-                    <input required="" name="Name" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
+                    <input required name="Name" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
                   </div>
                   <div class="group">
-                    <input required="" name="Email" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
+                    <input required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"name="Email" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
                   </div>
                   <div class="group">
                     <input type="number" pattern="/^-?\d+\.?\d*$/" name="Phone" required onKeyPress="if(this.value.length==10) return false;" />

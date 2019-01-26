@@ -56,46 +56,6 @@ app.get('/pharmacy-registration', (req, res, next) => {
     res.render('addRetailer');
 });
 
-app.get('/allArea', (req, res, next) => {
-    console.log('areas');
-    Area.find().exec().then( areas => {
-        console.log(areas)
-        res.render('areas', {areas: areas, moment: moment});
-    }).
-    catch( err => {
-        console.log(err);
-        res.redirect('/');
-    });
-});
-
-app.post('/addArea', (req, res, next) => {
-    var area = new Area({
-            area_name: req.body.area,
-            area_city: req.body.city,
-            area_state: req.body.state,
-            area_pincode: req.body.pincode
-    });
-    area.save();
-    res.status(200).json({ message: "data saved", data: area});
-});
-
-app.get('/newArea', (req, res, next) => {
-    res.render('area');
-});
-
-app.get('/code', (req, res, next) => {
-    Token.findById('5c4c1b029ec740040b8e5961')
-    .exec()
-    .then( doc => {
-        console.log(doc);
-        res.redirect('/');    
-    })
-    .catch( err => {
-        console.log(err);
-        res.redirect('/');
-    });
-});
-
 app.post('/mail', (req, res, next) => {
     console.log(req.body);
     Token.findById('5c4c1b029ec740040b8e5961')
@@ -136,29 +96,6 @@ app.post('/mail', (req, res, next) => {
     .catch( err => {
         console.log(err);
         res.redirect('/');
-    });
-});
-
-app.get('/queries', (req, res, next) => {
-    Query.find()
-    .exec()
-    .then( queries => {
-        res.render('queries', {queries: queries, moment: moment});
-    })
-    .catch( err => {
-        console.log(err);
-        res.redirect('/');
-    });
-});
-
-app.post('/deleteArea', (req, res, next) => {
-    Area.findByIdAndRemove( req.body._id, (err, doc) => {
-        if(err) {
-            console.log(err);
-            res.status(200).json({message : "error occured"});        
-        } else {
-            res.status(200).json({message : "document deleted"});
-        }
     });
 });
 
