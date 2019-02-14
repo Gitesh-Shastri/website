@@ -106,6 +106,10 @@ app.post('/mail', (req, res, next) => {
   }
 });
 
+app.get('/medicento-privacy-policy', (req, res, next) => {
+    res.render('privacy_policy');
+});
+
 app.get('/about-us', (req, res, next) => {
     res.render('aboutus');
 });
