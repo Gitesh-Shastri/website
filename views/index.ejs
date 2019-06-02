@@ -80,7 +80,7 @@
            var js, fjs = d.getElementsByTagName(s)[0];
            if (d.getElementById(id)) {return;}
            js = d.createElement(s); js.id = id;
-           js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+           js.src = "https://connect.facebook.net/en_US/sdk.js";
            fjs.parentNode.insertBefore(js, fjs);
          }(document, 'script', 'facebook-jssdk'));
       </script>
@@ -96,14 +96,11 @@
     <% include header %>
     <!--/.HEADER END-->
     
-    <!-- <div class="fb-messengermessageus" 
+    <div class="fb-messengermessageus" 
     messenger_app_id="666109423835797" 
     page_id="786213198112710"
     color="blue"
-    size="standard"> -->
-    <div class="fb-customerchat"
- page_id="786213198112710">
-</div>
+    size="standard">
   </div>
     <!--CONTENT WRAP-->
     <div class="content-wrap">
