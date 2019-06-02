@@ -108,6 +108,7 @@
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '666109423835797',
+      autoLogAppEvents : true,
       xfbml            : true,
       version          : 'v3.3'
     });
@@ -123,7 +124,9 @@
 
 <!-- Your customer chat code -->
 <div class="fb-customerchat"
-  attribution=setup_tool
+  attribution=setup_tool 
+  logged_in_greeting="Hello. How we can help you?"
+  logged_out_greeting="Hello. How we can help you?"
   page_id="786213198112710">
 </div>
     <!--CONTENT WRAP-->
