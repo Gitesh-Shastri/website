@@ -16,6 +16,8 @@
     <meta content="medicento - your medicine channel" name="description">
     <meta content="Gitesh Shastri" name="author">
     <!--Fav-->
+    <meta name="no-referrer" content="origin">
+
     <link href="images/logo.ico" rel="shortcut icon">
     
     <!--styles-->
@@ -96,12 +98,7 @@
     <% include header %>
     <!--/.HEADER END-->
     
-    <!-- <div class="fb-messengermessageus" 
-    messenger_app_id="666109423835797" 
-    page_id="786213198112710"
-    color="blue"
-    size="standard">
-  </div> -->
+     
   <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>
@@ -122,13 +119,22 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
+<div id="message_id">
+<div class="hi_how_can">Hi..How can we can you ?</div>  
+<div class="fb-messengermessageus" 
+    messenger_app_id="666109423835797" 
+    page_id="786213198112710"
+    color="blue"
+    size="xlarge">
+  </div> 
+</div> 
+
+<!-- <div class="fb-customerchat"
   attribution=setup_tool 
   logged_in_greeting="Hello. How we can help you?"
   logged_out_greeting="Hello. How we can help you?"
   page_id="786213198112710">
-</div>
+</div> -->
     <!--CONTENT WRAP-->
     <div class="content-wrap">
       <!--CONTENT-->
