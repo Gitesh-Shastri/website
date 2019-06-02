@@ -65,6 +65,25 @@
     <![endif]-->
   </head>
   <body>
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '666109423835797',
+            xfbml      : true,
+            version    : 'v3.3'
+          });
+          FB.AppEvents.logPageView();
+        };
+      
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "https://connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
     <!--PRELOADER-->
     <div id="preloader">
       <div id="status">
@@ -888,26 +907,7 @@
         </section>
         <!--/.CONTACT END-->
         <!-- Load Facebook SDK for JavaScript -->
-        <div id="fb-root"></div>
-        <script>
-          window.fbAsyncInit = function() {
-            FB.init({
-              appId           : 786213198112710,
-              xfbml            : true,
-              version          : 'v3.2'
-            });
-          };
         
-          (function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>        
-          <div class="fb-customerchat"
-          page_id="786213198112710">
-        </div>
 
         <!--FOOTER-->
         <footer>
