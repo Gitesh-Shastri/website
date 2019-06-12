@@ -1304,11 +1304,11 @@ ul.portfolio-image li .desc {
 	font-size: 12px !important;
 }
 .skillst .count-bar .count {
-	position: absolute;
+	/*position: absolute;*/
 	line-height: 18px;
 	top: -28px;
 	right: -20px;
-	/*width: 40px;*/
+	width: 40px;
 	height: 18px;
 	color: #fff;
 	text-align: center;
