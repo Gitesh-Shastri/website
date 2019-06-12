@@ -51,7 +51,7 @@ html {
 	top: 0;
 	margin: 0px;
 	padding: 0px;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 	font-family: 'Roboto', sans-serif;
 	height: 100%;
 	width: 100%;
@@ -1308,7 +1308,7 @@ ul.portfolio-image li .desc {
 	line-height: 18px;
 	top: -28px;
 	right: -20px;
-	width: 40px;
+	/*width: 40px;*/
 	height: 18px;
 	color: #fff;
 	text-align: center;
