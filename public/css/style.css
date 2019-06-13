@@ -1486,3 +1486,14 @@ ul.portfolio-image li .desc {
 		width: 100%;
 	}
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  background-color:white;
+  margin-top: 160px;
+  height: 350px;
+  text-align: center;
+  align-self: left;
+  font-family: Time roman;
+}
+
