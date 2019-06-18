@@ -1569,11 +1569,11 @@ ul.portfolio-image li .desc {
 }
 
 .btn {
-  background-color: DodgerBlue;
+  background-color: grey;
   border: none;
-  color: pink;
-  padding: 12px 16px;
-  font-size: 16px;
+  color: white;
+  padding: 11px 15px;
+  font-size: 15px;
   cursor: pointer;
 }
 
