@@ -119,6 +119,8 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+
+<!--
 <div id="message_id">
 <div class="hi_how_can">Hi..How can we help you ?</div>  
 <div class="fb-messengermessageus" 
@@ -147,15 +149,72 @@
                   <source src="images/Medicento.mp4" type="video/mp4">
               </video>
 
+              
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="w3-display-left">
+      <div class="card blue-grey darken-1" style="margin-left: 100px;">
+        <div class="card-content white-text">
+          <span class="card-title" style ="font-size:25px;"><b>Medicento</b> <span>
+            <p><b> Partner with us as</b></p><hr style="color:black; width: 100%;">
+            <!--<span class="card-title" style ="font-size:15px;margin-left:-4%;"><b>Retailer</b> <span>
+              <span class="card-title" style ="font-size:15px;margin-left: 15%;"><b> Distributor</b> <span>
+                <span class="card-title" style ="font-size:15px;margin-left: 17%;"><b>Manufacturer</b> <span>-->
+                  <button class="btn" style="width: 32%;text-align: center;">Retailer</button>
+                  <button class="btn" style="width: 32%;text-align: center;"> Distributor</button>
+                  <button class="btn" style="width: 32%;text-align: center;" >Manufacturer</button>
+                  <br>
+                  <hr style="color:black; width: 100%;">
+               
+              <form align="left" style="font-size: 18px">
+                Address :<input type="text" style="margin-left:2%;width: 65%;height: 25px;"></br>
+                Pincode : <input type="number" style="margin-left:1%;width: 65%;height: 25px"><br>
+                <button type="button" onclick="alert('Hello world!')"  style="background-color:grey;margin-left:22%;width: 66% ;color: white">Join Now</button>
+                 <!--<button class="btn" style="width: 80% ; height: 35px;text-align: center;margin-left: 10%;font-size: 20px;" ><b> Next!</b></button> -->
+               </form>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="chat" class="animated-chat tada" onclick="loadChatbox()" style=" bottom: 1px;margin-left: 1100px;width: 12%; ">hi.. how can I help you</div>
+<div class="chatbox" id="chatbox" style=" margin-left: 110000px;">
+<span class="chat-text">MEDICENTO</span>
+<script>
+//<![CDATA[
+document.write('<div id="smartchatbox_img901621879" style="width: 280px; height: 450px; overflow: hidden; margin: auto; padding: 0;">');
+document.write('<div id="smartchatbox901621879" style="width: 280px; height: 450px; overflow: hidden; margin: auto; padding: 0; border:0; ">');
+document.write('<iframe src="https://www3.smartchatbox.com/shoutbox/sb.php?key=901621879" scrolling="no" frameborder="0" width="280px" height="450px" style="border:0; margin:0; padding: 0;">');
+document.write('</iframe></div></div>');
+//]]>
+</script>
+<div id="close-chat" onclick="closeChatbox()">&times;</div>
+<div id="minim-chat" onclick="minimChatbox()"><span class="minim-button">&minus;</span></div>
+<div id="maxi-chat" onclick="loadChatbox()"><span class="maxi-button">&plus;</span></div>
+</div>
+
+<script>
+//<![CDATA[
+function loadChatbox(){var e=document.getElementById("minim-chat");e.style.display="block";var e=document.getElementById("maxi-chat");e.style.display="none";var e=document.getElementById("chatbox");e.style.margin="0";}
+function closeChatbox(){var e=document.getElementById("chatbox");e.style.margin="0 0 -1500px 0";}
+function minimChatbox(){var e=document.getElementById("minim-chat");e.style.display="none";var e=document.getElementById("maxi-chat");e.style.display="block";var e=document.getElementById("chatbox");e.style.margin="0 0 -460px 0";}
+//]]>
+</script>
+  
+  
+
             <div class="row">
-                <div class="wrap-hero-content">
+                <!--<div class="wrap-hero-content" style="margin-left: 170px;">
                     <div class="hero-content">
-                       <h1 style="font-size: 60px;"><b>medicento.</b></h1>
+                      <h1 style="font-size: 60px;"><b>medicento.</b></h1>
                       
                           <h4>your medicine channel</h4>                  
                           <div class="mouse-icon margin-20">
                               <div class="scroll"></div>
-                            </div>
+                            </div>-->
                        
                           <!--              <button  class="button button2" onclick="openSearch()">Know Your Medicine</button>
             -->      </div>
@@ -389,7 +448,7 @@
                   </div> -->
                   <div class="skillbar" data-percent="40%">
                     <div class="title head-sm">
-                      Retailers Onboarded
+                      Retailers Onboard
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -596,6 +655,34 @@
             </div> 
           </div> 
        </section> 
+
+ <!-- app section -->
+        <section class="white-bg" id="skill">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>App Section</span>
+                </h3>
+                <br>
+                  <p>Convenient way or ordering for retailers </p>
+                  </div>
+                     <img src="images/mobile app picture.jpeg"  align="right" width="250" height="400">
+                      <br>
+                  <form class="example" action="/action_page.php" style="margin:left;max-width:400px">
+                  <input type="text" style="height: 45px;" placeholder="phone number.." name="search2">
+                  <button class="btn" >get app link</button><br> 
+                  <a href="https://play.google.com/store/apps/details?id=com.medicento.retailerappmedi&hl=en" target="_blank" class="download-link">
+                  <img src="images/google app button.jpeg"  align="left" width="120" height="40">
+                  </a>
+                  </form>
+            </div>
+         </div>
+    </section>
+
+
+
+
 
         <!--EDUCATION-->
         <section class="white-bg" id="education">
