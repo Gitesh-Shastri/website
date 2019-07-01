@@ -119,6 +119,8 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+
+<!--
 <div id="message_id">
 <div class="hi_how_can">Hi..How can we help you ?</div>  
 <div class="fb-messengermessageus" 
@@ -177,6 +179,30 @@
     </div>
   </div>
 </div>
+
+<div id="chat" class="animated-chat tada" onclick="loadChatbox()" style=" bottom: 1px;margin-left: 1100px;width: 12%; ">hi.. how can I help you</div>
+<div class="chatbox" id="chatbox" style=" margin-left: 110000px;">
+<span class="chat-text">MEDICENTO</span>
+<script>
+//<![CDATA[
+document.write('<div id="smartchatbox_img901621879" style="width: 280px; height: 450px; overflow: hidden; margin: auto; padding: 0;">');
+document.write('<div id="smartchatbox901621879" style="width: 280px; height: 450px; overflow: hidden; margin: auto; padding: 0; border:0; ">');
+document.write('<iframe src="https://www3.smartchatbox.com/shoutbox/sb.php?key=901621879" scrolling="no" frameborder="0" width="280px" height="450px" style="border:0; margin:0; padding: 0;">');
+document.write('</iframe></div></div>');
+//]]>
+</script>
+<div id="close-chat" onclick="closeChatbox()">&times;</div>
+<div id="minim-chat" onclick="minimChatbox()"><span class="minim-button">&minus;</span></div>
+<div id="maxi-chat" onclick="loadChatbox()"><span class="maxi-button">&plus;</span></div>
+</div>
+
+<script>
+//<![CDATA[
+function loadChatbox(){var e=document.getElementById("minim-chat");e.style.display="block";var e=document.getElementById("maxi-chat");e.style.display="none";var e=document.getElementById("chatbox");e.style.margin="0";}
+function closeChatbox(){var e=document.getElementById("chatbox");e.style.margin="0 0 -1500px 0";}
+function minimChatbox(){var e=document.getElementById("minim-chat");e.style.display="none";var e=document.getElementById("maxi-chat");e.style.display="block";var e=document.getElementById("chatbox");e.style.margin="0 0 -460px 0";}
+//]]>
+</script>
   
   
 
