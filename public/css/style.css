@@ -1623,7 +1623,59 @@ ul.portfolio-image li .desc {
 }
 @keyframes hvr-pulse-grow{to{-webkit-transform:scale(1.1);transform:scale(1.1)}
 }
-
 body{
   background:#dedede
+}
+
+/* chat bot css */
+.chat-box {
+    position:fixed;
+    right:15px;
+    bottom:0;
+    box-shadow:0 0 0.1em #000;
+}
+
+.chat-closed {
+    width: 170px;
+    height: 30px;
+    background: lightblue;
+    line-height: 35px;
+    font-size: 10px;
+    text-align: center;
+    border:1px solid #777;
+    color: #000;
+}
+
+.chat-header {
+    width: 350px;
+    height: 35px;
+    background: lightblue;
+    line-height: 33px;
+    text-indent: 20px;
+    border:1px solid #777;
+    border-bottom:none;
+}
+
+.chat-content{
+    width:350px;
+    height:500px;
+    background:#ffffff;
+    border:1px solid #777;
+    overflow-y:auto;
+    word-wrap: break-word;
+}
+
+.box{
+    width:10px;
+    height:10px;
+    background:green;
+    float:left;
+    position:relative;
+    top: 11px;
+    left: 10px;
+    border:1px solid #ededed;
+}
+
+.hide {
+    display:none;
 }

@@ -180,15 +180,27 @@
   </div>
 </div>
 
-<div id="chat" class="animated-chat tada" onclick="loadChatbox()" style="position: absolute;bottom: 20px; right: 20px; width: 12%; ">hi.. how can I help you</div>
+<!--<div id="chat" class="animated-chat tada" onclick="loadChatbox()" style="position: fixed;bottom: 90px; right: 20px; width: 12%; ">hi.. how can I help you
+<img style="width: 80px;height: 80px;margin-left: -10px;p" src="images/icon.png">
+</div>
 <div class="chatbox" id="chatbox" style=" margin-left: 110000px;">
 <span class="chat-text">MEDICENTO</span>
+<div class="chat-content">
+*<br>
+*<br>
+youru chat box c<br>
+*<br>
+*<br>
+*<br>
+
+</div>
+</div>
 <script>
 //<![CDATA[
 document.write('<div id="smartchatbox_img901621879" style="width: 280px; height: 450px; overflow: hidden; margin: auto; padding: 0;">');
 document.write('<div id="smartchatbox901621879" style="width: 280px; height: 450px; overflow: hidden; margin: auto; padding: 0; border:0; ">');
-document.write('<iframe src="https://www3.smartchatbox.com/shoutbox/sb.php?key=901621879" scrolling="no" frameborder="0" width="280px" height="450px" style="border:0; margin:0; padding: 0;">');
-document.write('</iframe></div></div>');
+/*document.write('<iframe src="views/chatbot_content.ejs" scrolling="no" frameborder="0" width="280px" height="450px" style="border:0; margin:0; padding: 0;">');
+document.write('</iframe></div></div>');*/
 //]]>
 </script>
 <div id="close-chat" onclick="closeChatbox()">&times;</div>
@@ -197,16 +209,89 @@ document.write('</iframe></div></div>');
 </div>
 
 <script>
+
+
+
 //<![CDATA[
 function loadChatbox(){var e=document.getElementById("minim-chat");e.style.display="block";var e=document.getElementById("maxi-chat");e.style.display="none";var e=document.getElementById("chatbox");e.style.margin="0";}
 function closeChatbox(){var e=document.getElementById("chatbox");e.style.margin="0 0 -1500px 0";}
 function minimChatbox(){var e=document.getElementById("minim-chat");e.style.display="none";var e=document.getElementById("maxi-chat");e.style.display="block";var e=document.getElementById("chatbox");e.style.margin="0 0 -460px 0";}
 //]]>
 </script>
-  
+
+
+
+<!--
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".animated-chat").on("click",function(e){
+        $(".chat-text,.chat-content").removeClass("hide");
+        $(this).addClass("hide");
+    });
+
+    $(".chat-text").on("click",function(e){
+        $(".chat-text,.chat-content").addClass("hide");
+        $(".animated-chat").removeClass("hide");    });
+});
+</script> -->
+
+<div class="chat-box">
+<div class="chat-closed">
+<img style="bottom:140px;height: 20px; margin-left: -40px;" src="images/icon.png">  Hi How  can I help you!! </div>
+<div class="chat-header hide"><img style="bottom:140px;height: 20px;" src="images/icon.png">Online Support <i class="fa fa-window-minimize" aria-hidden="true" style="margin-left: 130px;"></i></div>
+<div class="chat-content hide">
+
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+Your chat content...
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+Your chat content...
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+*<br>
+</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".chat-closed").on("click",function(e){
+        $(".chat-header,.chat-content").removeClass("hide");
+        $(this).addClass("hide");
+    });
+
+    $(".chat-header").on("click",function(e){
+        $(".chat-header,.chat-content").addClass("hide");
+        $(".chat-closed").removeClass("hide");    });
+});
+</script>
+
+
   
 
-            <div class="row">
+           <div class="row">
                 <!--<div class="wrap-hero-content" style="margin-left: 170px;">
                     <div class="hero-content">
                       <h1 style="font-size: 60px;"><b>medicento.</b></h1>
