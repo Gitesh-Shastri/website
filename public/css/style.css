@@ -1638,18 +1638,18 @@ body{
 .chat-closed {
     width: 170px;
     height: 30px;
-    background: lightblue;
+    background: #417BA8;
     line-height: 35px;
     font-size: 10px;
     text-align: center;
     border:1px solid #777;
-    color: #000;
+    color: white;
 }
 
 .chat-header {
     width: 350px;
     height: 35px;
-    background: lightblue;
+    background: #417BA8;
     line-height: 33px;
     text-indent: 20px;
     border:1px solid #777;
