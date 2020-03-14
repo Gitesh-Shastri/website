@@ -12,6 +12,7 @@ const port = process.env.PORT || 9000;
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/client/build'));
 
 const MONGODB_URI = 'mongodb://GiteshMedi:shastri1@ds263590.mlab.com:63590/medicento';
 
@@ -151,8 +152,7 @@ app.get('/careers', (req, res, next) => {
 app.get('/admin', (req, res, next) => {
 	const compression = require('compression');
 	app.disable('x-powered-by');
-        app.use(compression())
-	app.use(express.static('client/build'));
+    app.use(compression())
 	res.sendfile(path.resolve(__dirname, 'client', 'build', 'index.html'));
 });
 
