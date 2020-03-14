@@ -6,6 +6,7 @@ const nodeoutlook = require('nodejs-nodemailer-outlook');
 const Query = require('./models/query');
 const mongoose = require('mongoose');
 const moment = require('moment');
+const path = require('path');
 const Token = require('./models/token');
 const port = process.env.PORT || 9000;
 
@@ -147,9 +148,15 @@ app.get('/careers', (req, res, next) => {
 	res.render('career');
 });
 
-app.get('/', (req, res, next) => {
-	res.render('index', { pro: pro });
+app.get('/admin', (req, res, next) => {
+	app.use(express.static('client/build'));
+	res.sendfile(path.resolve(__dirname, 'client', 'build', 'index.html'));
 });
+
+app.get('*', (req, res, next) => {
+	res.render('main_index', { pro: pro });
+});
+
 
 app.listen(port, function() {
 	console.log('Listening on PORT : ' + port);
