@@ -153,11 +153,12 @@ app.get('/admin', (req, res, next) => {
 	const compression = require('compression');
 	app.disable('x-powered-by');
 	app.use(express.static(__dirname + '/client/build'));
-    app.use(compression())
+        app.use(compression())
 	res.sendfile(path.resolve(__dirname, 'client', 'build', 'index.html'));
 });
 
 app.get('*', (req, res, next) => {
+        res.sendfile(path.resolve(__dirname, 'client', 'build', 'index.html'));
 	res.render('main_index', { pro: pro });
 });
 
