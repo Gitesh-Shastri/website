@@ -159,7 +159,6 @@ app.get('/admin', (req, res, next) => {
 
 app.get('*', (req, res, next) => {
         res.sendfile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-	res.render('main_index', { pro: pro });
 });
 
 
