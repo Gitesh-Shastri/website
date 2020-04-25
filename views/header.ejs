@@ -1,67 +1,50 @@
-<div class="header">
-    <div class="for-sticky">
-      <!--LOGO-->
-      <div class="col-md-3 logo">
-        <a href="/"><img alt="logo" style="margin-left: -26px;width:46%" src="images/logo.jpeg"></a>
+<style>
+  #image_log {
+	width: 90px;
+}
+.bg-light {
+	background: white !important;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+	font-weight: 600;
+}
+.navbar {
+  background: white !important;
+  margin-bottom: 0px !important;
+  color: black !important;
+  height: 65px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: black !important; 
+}
+</style>
+<div className="nav_with_side">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><img src="http://medicento.com/medicento-Logo.png" alt="" id="image_log" /></a>
       </div>
-      <!--/.LOGO END-->
-      <div class="col-md-4 col-xs-12" style="font-size:12px;">
-        <p>
-          <span class="fa fa-phone"></span> +91 97317 85240 &nbsp;
-          <span class="fa fa-envelope"></span> contact.medicento@gmail.com
-        </p>
-      </div>
-      <div class="col-md-2 col-xs-6">
-        <a class="btn btn-danger" href="/pharmacy-registration" style="margin-top: 5px;font-size:12px;height: 45px;width:100%;background: #ff0000;padding: 2px;">Join Our <br/> Pharmacy Network</a>
-      </div>
-      <div class="col-md-2 col-xs-6">
-          <a class="btn btn-danger" href="/distributor-registration" style="margin-top: 5px;font-size:12px;height: 45px;width:100%;background: #ff0000;padding: 2px;">Sell as <br/> Distributor</a>
-      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Health & Things</a></li>
+        <li><a href="#">Achievements</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Testimonial</a></li>
+        <li><a href="/about-us">Team</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="/career">Career</a></li>
+        <li><a href="/login">Login</a></li>
+      </ul>
     </div>
-    <div class="menu-wrap">
-      <nav class="menu">
-        <div class="menu-list">
-          <a data-scroll="" href="#home" class="active">
-            <span>Home</span>
-          </a>
-          <a target="blank" href="/about-us">
-            <span>About Us</span>
-          </a>
-       <!--   <a data-scroll="" href="#work">
-            <span>Work</span>
-          </a>  -->
-           <a data-scroll="" href="#services">
-            <span>Services</span>
-          </a>
-          <a data-scroll="" href="#employement">
-            <span>Health & Things</span>
-          </a>
-          <a data-scroll="" href="#skill">
-            <span>Achievements</span>
-          </a>
-          <a data-scroll="" href="#education">
-            <span>Blogs</span>
-          </a>
-          <a data-scroll="" href="#testimonial">
-            <span>Testimonial</span>
-          </a>
-          <a data-scroll="" href="#blog">
-            <span>Team</span>
-          </a>
-          <a data-scroll="" href="#contact">
-            <span>Contact</span>
-          </a>
-          <a target="_blank" href="/career">
-            <span>Career</span>
-          </a>
-        </div>
-      </nav>
-      <button class="close-button" id="close-button">Close Menu</button>
     </div>
-    <button class="menu-button" id="open-button">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button><!--/.for-sticky-->
-  </div>
-  
+  </nav>
+</div>
