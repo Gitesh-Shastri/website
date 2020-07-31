@@ -18,6 +18,8 @@
     "moment": "^2.24.0",
     "mongoose": "^5.4.6",
     "nodejs-nodemailer-outlook": "^1.0.8",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "react-router-dom": "^5.2.0",
+    "react-slideshow-image": "^3.0.2"
   }
 }
