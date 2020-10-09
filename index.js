@@ -134,7 +134,7 @@ app.get('/medicento-privacy-policy', (req, res, next) => {
 });
 
 app.get('/about-us', (req, res, next) => {
-	res.render('aboutus');
+	res.sendfile(path.resolve(__dirname, 'client', 'build', 'about.html'));
 });
 
 app.get('/distributor-registration', (req, res, next) => {
