@@ -137,6 +137,10 @@ app.get('/about-us', (req, res, next) => {
 	res.sendfile(path.resolve(__dirname, 'client', 'build', 'about.html'));
 });
 
+app.get('/essentials', (req, res, next) => {
+	res.sendfile(path.resolve(__dirname, 'client', 'build', 'essentials.html'));
+});
+
 app.get('/distributor-registration', (req, res, next) => {
 	res.render('addDistrbutor');
 });
