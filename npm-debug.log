@@ -1,0 +1,2647 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-slideshow-image' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData react-slideshow-image@^3.0.2
+8 silly fetchNamedPackageData react-slideshow-image
+9 silly mapToRegistry name react-slideshow-image
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/react-slideshow-image
+13 verbose request uri https://registry.npmjs.org/react-slideshow-image
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 12:34:56 PM
+16 verbose request id d101d8b078ea35b4
+17 http request GET https://registry.npmjs.org/react-slideshow-image
+18 http 200 https://registry.npmjs.org/react-slideshow-image
+19 verbose headers { date: 'Fri, 31 Jul 2020 12:34:56 GMT',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'transfer-encoding': 'chunked',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'set-cookie':
+19 verbose headers    [ '__cfduid=d0403d431791c35789cdcf6a95c8273561596198896; expires=Sun, 30-Aug-20 12:34:56 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+19 verbose headers   'cf-ray': '5bb75b3f68519566-IAD',
+19 verbose headers   'cache-control': 'public, max-age=300',
+19 verbose headers   etag: 'W/"abc132b380ca53233d206faab95682b3"',
+19 verbose headers   'last-modified': 'Sun, 26 Jul 2020 08:53:16 GMT',
+19 verbose headers   vary: 'accept-encoding, accept',
+19 verbose headers   'cf-cache-status': 'DYNAMIC',
+19 verbose headers   'cf-request-id': '0446775ba100009566683ab200000001',
+19 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+19 verbose headers   server: 'cloudflare',
+19 verbose headers   'content-encoding': 'gzip' }
+20 silly get cb [ 200,
+20 silly get   { date: 'Fri, 31 Jul 2020 12:34:56 GMT',
+20 silly get     'content-type': 'application/json',
+20 silly get     'transfer-encoding': 'chunked',
+20 silly get     connection: 'keep-alive',
+20 silly get     'set-cookie':
+20 silly get      [ '__cfduid=d0403d431791c35789cdcf6a95c8273561596198896; expires=Sun, 30-Aug-20 12:34:56 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+20 silly get     'cf-ray': '5bb75b3f68519566-IAD',
+20 silly get     'cache-control': 'public, max-age=300',
+20 silly get     etag: 'W/"abc132b380ca53233d206faab95682b3"',
+20 silly get     'last-modified': 'Sun, 26 Jul 2020 08:53:16 GMT',
+20 silly get     vary: 'accept-encoding, accept',
+20 silly get     'cf-cache-status': 'DYNAMIC',
+20 silly get     'cf-request-id': '0446775ba100009566683ab200000001',
+20 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 silly get     server: 'cloudflare',
+20 silly get     'content-encoding': 'gzip' } ]
+21 verbose get saving react-slideshow-image to /home/ubuntu/.npm/registry.npmjs.org/react-slideshow-image/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule react-slideshow-image@3.0.2 checking installable status
+35 silly cache add args [ 'react-slideshow-image@^3.0.2', null ]
+36 verbose cache add spec react-slideshow-image@^3.0.2
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'react-slideshow-image@^3.0.2',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'react-slideshow-image',
+37 silly cache add   rawSpec: '^3.0.2',
+37 silly cache add   spec: '>=3.0.2 <4.0.0',
+37 silly cache add   type: 'range' }
+38 silly addNamed react-slideshow-image@>=3.0.2 <4.0.0
+39 verbose addNamed ">=3.0.2 <4.0.0" is a valid semver range for react-slideshow-image
+40 silly addNameRange { name: 'react-slideshow-image',
+40 silly addNameRange   range: '>=3.0.2 <4.0.0',
+40 silly addNameRange   hasData: false }
+41 silly mapToRegistry name react-slideshow-image
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/react-slideshow-image
+45 verbose addNameRange registry:https://registry.npmjs.org/react-slideshow-image not in flight; fetching
+46 verbose get https://registry.npmjs.org/react-slideshow-image not expired, no request
+47 silly addNameRange number 2 { name: 'react-slideshow-image',
+47 silly addNameRange   range: '>=3.0.2 <4.0.0',
+47 silly addNameRange   hasData: true }
+48 silly addNameRange versions [ 'react-slideshow-image',
+48 silly addNameRange   [ '0.1.0',
+48 silly addNameRange     '0.1.1',
+48 silly addNameRange     '0.1.2',
+48 silly addNameRange     '0.1.3',
+48 silly addNameRange     '0.2.0',
+48 silly addNameRange     '0.2.1',
+48 silly addNameRange     '0.2.2',
+48 silly addNameRange     '1.0.0',
+48 silly addNameRange     '1.0.1',
+48 silly addNameRange     '1.0.2',
+48 silly addNameRange     '1.0.3',
+48 silly addNameRange     '1.0.4',
+48 silly addNameRange     '1.0.5',
+48 silly addNameRange     '1.0.6',
+48 silly addNameRange     '1.0.7',
+48 silly addNameRange     '1.0.8',
+48 silly addNameRange     '1.0.9',
+48 silly addNameRange     '1.0.10',
+48 silly addNameRange     '1.1.0',
+48 silly addNameRange     '1.1.1',
+48 silly addNameRange     '1.1.2',
+48 silly addNameRange     '1.1.3',
+48 silly addNameRange     '1.1.4',
+48 silly addNameRange     '1.1.5',
+48 silly addNameRange     '1.1.7',
+48 silly addNameRange     '1.1.8',
+48 silly addNameRange     '1.2.0',
+48 silly addNameRange     '1.2.1',
+48 silly addNameRange     '1.2.2',
+48 silly addNameRange     '1.3.0',
+48 silly addNameRange     '1.3.1',
+48 silly addNameRange     '1.3.2',
+48 silly addNameRange     '1.3.3',
+48 silly addNameRange     '1.3.4',
+48 silly addNameRange     '1.4.0',
+48 silly addNameRange     '1.4.2',
+48 silly addNameRange     '1.5.0',
+48 silly addNameRange     '1.5.1',
+48 silly addNameRange     '1.5.2',
+48 silly addNameRange     '1.5.3',
+48 silly addNameRange     '2.0.0',
+48 silly addNameRange     '2.0.1',
+48 silly addNameRange     '2.0.2',
+48 silly addNameRange     '3.0.0',
+48 silly addNameRange     '3.0.1',
+48 silly addNameRange     '3.0.2' ] ]
+49 silly addNamed react-slideshow-image@3.0.2
+50 verbose addNamed "3.0.2" is a plain semver version for react-slideshow-image
+51 silly mapToRegistry name react-slideshow-image
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry uri https://registry.npmjs.org/react-slideshow-image
+55 verbose addRemoteTarball https://registry.npmjs.org/react-slideshow-image/-/react-slideshow-image-3.0.2.tgz not in flight; adding
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-slideshow-image/-/react-slideshow-image-3.0.2.tgz',
+56 verbose addRemoteTarball   '784c439c3b679f5bf6e27eb396b06c3c8b5903e4' ]
+57 info retry fetch attempt 1 at 12:34:57 PM
+58 info attempt registry request try #1 at 12:34:57 PM
+59 http fetch GET https://registry.npmjs.org/react-slideshow-image/-/react-slideshow-image-3.0.2.tgz
+60 http fetch 200 https://registry.npmjs.org/react-slideshow-image/-/react-slideshow-image-3.0.2.tgz
+61 silly fetchAndShaCheck shasum 784c439c3b679f5bf6e27eb396b06c3c8b5903e4
+62 verbose addTmpTarball /tmp/npm-1521-547ef4dd/registry.npmjs.org/react-slideshow-image/-/react-slideshow-image-3.0.2.tgz not in flight; adding
+63 verbose addTmpTarball already have metadata; skipping unpack for react-slideshow-image@3.0.2
+64 silly cache afterAdd react-slideshow-image@3.0.2
+65 verbose afterAdd /home/ubuntu/.npm/react-slideshow-image/3.0.2/package/package.json not in flight; writing
+66 verbose afterAdd /home/ubuntu/.npm/react-slideshow-image/3.0.2/package/package.json written
+67 silly fetchNamedPackageData @tweenjs/tween.js
+68 silly mapToRegistry name @tweenjs/tween.js
+69 silly mapToRegistry scope (from package name) @tweenjs
+70 verbose mapToRegistry no registry URL found in name for scope @tweenjs
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry uri https://registry.npmjs.org/@tweenjs%2ftween.js
+74 silly fetchNamedPackageData prop-types
+75 silly mapToRegistry name prop-types
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/prop-types
+79 silly fetchNamedPackageData resize-observer-polyfill
+80 silly mapToRegistry name resize-observer-polyfill
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/resize-observer-polyfill
+84 verbose request uri https://registry.npmjs.org/@tweenjs%2ftween.js
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 12:34:57 PM
+87 http request GET https://registry.npmjs.org/@tweenjs%2ftween.js
+88 verbose request uri https://registry.npmjs.org/prop-types
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 12:34:57 PM
+91 http request GET https://registry.npmjs.org/prop-types
+92 verbose request uri https://registry.npmjs.org/resize-observer-polyfill
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 12:34:57 PM
+95 http request GET https://registry.npmjs.org/resize-observer-polyfill
+96 http 200 https://registry.npmjs.org/resize-observer-polyfill
+97 verbose headers { date: 'Fri, 31 Jul 2020 12:34:57 GMT',
+97 verbose headers   'content-type': 'application/json',
+97 verbose headers   'transfer-encoding': 'chunked',
+97 verbose headers   connection: 'keep-alive',
+97 verbose headers   'set-cookie':
+97 verbose headers    [ '__cfduid=dc04f2c335c603b745790cbb087a6c8331596198897; expires=Sun, 30-Aug-20 12:34:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+97 verbose headers   'cf-ray': '5bb75b449ad7749f-IAD',
+97 verbose headers   'cache-control': 'public, max-age=300',
+97 verbose headers   etag: 'W/"0d0e5bae9f262b807c11a90410c08b4f"',
+97 verbose headers   'last-modified': 'Mon, 29 Apr 2019 03:26:48 GMT',
+97 verbose headers   vary: 'accept-encoding, accept',
+97 verbose headers   'cf-cache-status': 'DYNAMIC',
+97 verbose headers   'cf-request-id': '0446775edd0000749fbcae6200000001',
+97 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+97 verbose headers   server: 'cloudflare',
+97 verbose headers   'content-encoding': 'gzip' }
+98 silly get cb [ 200,
+98 silly get   { date: 'Fri, 31 Jul 2020 12:34:57 GMT',
+98 silly get     'content-type': 'application/json',
+98 silly get     'transfer-encoding': 'chunked',
+98 silly get     connection: 'keep-alive',
+98 silly get     'set-cookie':
+98 silly get      [ '__cfduid=dc04f2c335c603b745790cbb087a6c8331596198897; expires=Sun, 30-Aug-20 12:34:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+98 silly get     'cf-ray': '5bb75b449ad7749f-IAD',
+98 silly get     'cache-control': 'public, max-age=300',
+98 silly get     etag: 'W/"0d0e5bae9f262b807c11a90410c08b4f"',
+98 silly get     'last-modified': 'Mon, 29 Apr 2019 03:26:48 GMT',
+98 silly get     vary: 'accept-encoding, accept',
+98 silly get     'cf-cache-status': 'DYNAMIC',
+98 silly get     'cf-request-id': '0446775edd0000749fbcae6200000001',
+98 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+98 silly get     server: 'cloudflare',
+98 silly get     'content-encoding': 'gzip' } ]
+99 verbose get saving resize-observer-polyfill to /home/ubuntu/.npm/registry.npmjs.org/resize-observer-polyfill/.cache.json
+100 silly resolveWithNewModule resize-observer-polyfill@1.5.1 checking installable status
+101 silly cache add args [ 'resize-observer-polyfill@^1.5.1', null ]
+102 verbose cache add spec resize-observer-polyfill@^1.5.1
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'resize-observer-polyfill@^1.5.1',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'resize-observer-polyfill',
+103 silly cache add   rawSpec: '^1.5.1',
+103 silly cache add   spec: '>=1.5.1 <2.0.0',
+103 silly cache add   type: 'range' }
+104 silly addNamed resize-observer-polyfill@>=1.5.1 <2.0.0
+105 verbose addNamed ">=1.5.1 <2.0.0" is a valid semver range for resize-observer-polyfill
+106 silly addNameRange { name: 'resize-observer-polyfill',
+106 silly addNameRange   range: '>=1.5.1 <2.0.0',
+106 silly addNameRange   hasData: false }
+107 silly mapToRegistry name resize-observer-polyfill
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/resize-observer-polyfill
+111 verbose addNameRange registry:https://registry.npmjs.org/resize-observer-polyfill not in flight; fetching
+112 verbose get https://registry.npmjs.org/resize-observer-polyfill not expired, no request
+113 silly addNameRange number 2 { name: 'resize-observer-polyfill',
+113 silly addNameRange   range: '>=1.5.1 <2.0.0',
+113 silly addNameRange   hasData: true }
+114 silly addNameRange versions [ 'resize-observer-polyfill',
+114 silly addNameRange   [ '1.0.0',
+114 silly addNameRange     '1.1.0',
+114 silly addNameRange     '1.1.1',
+114 silly addNameRange     '1.1.2',
+114 silly addNameRange     '1.1.3',
+114 silly addNameRange     '1.1.4',
+114 silly addNameRange     '1.1.5',
+114 silly addNameRange     '1.2.0',
+114 silly addNameRange     '1.2.1',
+114 silly addNameRange     '1.3.0',
+114 silly addNameRange     '1.3.1',
+114 silly addNameRange     '1.3.2',
+114 silly addNameRange     '1.4.0',
+114 silly addNameRange     '1.4.1',
+114 silly addNameRange     '1.4.2',
+114 silly addNameRange     '1.5.0',
+114 silly addNameRange     '1.5.1' ] ]
+115 silly addNamed resize-observer-polyfill@1.5.1
+116 verbose addNamed "1.5.1" is a plain semver version for resize-observer-polyfill
+117 silly mapToRegistry name resize-observer-polyfill
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry uri https://registry.npmjs.org/resize-observer-polyfill
+121 verbose addRemoteTarball https://registry.npmjs.org/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz not in flight; adding
+122 verbose addRemoteTarball [ 'https://registry.npmjs.org/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz',
+122 verbose addRemoteTarball   '0e9020dd3d21024458d4ebd27e23e40269810464' ]
+123 info retry fetch attempt 1 at 12:34:57 PM
+124 info attempt registry request try #1 at 12:34:57 PM
+125 http fetch GET https://registry.npmjs.org/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz
+126 http 200 https://registry.npmjs.org/@tweenjs%2ftween.js
+127 verbose headers { date: 'Fri, 31 Jul 2020 12:34:57 GMT',
+127 verbose headers   'content-type': 'application/json',
+127 verbose headers   'transfer-encoding': 'chunked',
+127 verbose headers   connection: 'keep-alive',
+127 verbose headers   'set-cookie':
+127 verbose headers    [ '__cfduid=d3546c7fe68234d584f2f0daa121edc191596198897; expires=Sun, 30-Aug-20 12:34:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+127 verbose headers   'cf-ray': '5bb75b449ba39566-IAD',
+127 verbose headers   'cache-control': 'public, max-age=300',
+127 verbose headers   etag: 'W/"e1d329f222aa983ecdd3fca9834f3e4c"',
+127 verbose headers   'last-modified': 'Sun, 21 Jun 2020 02:03:04 GMT',
+127 verbose headers   vary: 'accept-encoding, accept',
+127 verbose headers   'cf-cache-status': 'DYNAMIC',
+127 verbose headers   'cf-request-id': '0446775eda00009566683c2200000001',
+127 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+127 verbose headers   server: 'cloudflare',
+127 verbose headers   'content-encoding': 'gzip' }
+128 silly get cb [ 200,
+128 silly get   { date: 'Fri, 31 Jul 2020 12:34:57 GMT',
+128 silly get     'content-type': 'application/json',
+128 silly get     'transfer-encoding': 'chunked',
+128 silly get     connection: 'keep-alive',
+128 silly get     'set-cookie':
+128 silly get      [ '__cfduid=d3546c7fe68234d584f2f0daa121edc191596198897; expires=Sun, 30-Aug-20 12:34:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+128 silly get     'cf-ray': '5bb75b449ba39566-IAD',
+128 silly get     'cache-control': 'public, max-age=300',
+128 silly get     etag: 'W/"e1d329f222aa983ecdd3fca9834f3e4c"',
+128 silly get     'last-modified': 'Sun, 21 Jun 2020 02:03:04 GMT',
+128 silly get     vary: 'accept-encoding, accept',
+128 silly get     'cf-cache-status': 'DYNAMIC',
+128 silly get     'cf-request-id': '0446775eda00009566683c2200000001',
+128 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+128 silly get     server: 'cloudflare',
+128 silly get     'content-encoding': 'gzip' } ]
+129 verbose get saving @tweenjs/tween.js to /home/ubuntu/.npm/registry.npmjs.org/_40tweenjs_252ftween.js/.cache.json
+130 silly resolveWithNewModule @tweenjs/tween.js@18.6.0 checking installable status
+131 silly cache add args [ '@tweenjs/tween.js@^18.1.2', null ]
+132 verbose cache add spec @tweenjs/tween.js@^18.1.2
+133 silly cache add parsed spec Result {
+133 silly cache add   raw: '@tweenjs/tween.js@^18.1.2',
+133 silly cache add   scope: '@tweenjs',
+133 silly cache add   name: '@tweenjs/tween.js',
+133 silly cache add   rawSpec: '^18.1.2',
+133 silly cache add   spec: '>=18.1.2 <19.0.0',
+133 silly cache add   type: 'range' }
+134 silly addNamed @tweenjs/tween.js@>=18.1.2 <19.0.0
+135 verbose addNamed ">=18.1.2 <19.0.0" is a valid semver range for @tweenjs/tween.js
+136 silly addNameRange { name: '@tweenjs/tween.js',
+136 silly addNameRange   range: '>=18.1.2 <19.0.0',
+136 silly addNameRange   hasData: false }
+137 silly mapToRegistry name @tweenjs/tween.js
+138 silly mapToRegistry scope (from package name) @tweenjs
+139 verbose mapToRegistry no registry URL found in name for scope @tweenjs
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npmjs.org/
+142 silly mapToRegistry uri https://registry.npmjs.org/@tweenjs%2ftween.js
+143 verbose addNameRange registry:https://registry.npmjs.org/@tweenjs%2ftween.js not in flight; fetching
+144 verbose get https://registry.npmjs.org/@tweenjs%2ftween.js not expired, no request
+145 silly addNameRange number 2 { name: '@tweenjs/tween.js',
+145 silly addNameRange   range: '>=18.1.2 <19.0.0',
+145 silly addNameRange   hasData: true }
+146 silly addNameRange versions [ '@tweenjs/tween.js',
+146 silly addNameRange   [ '0.0.0-development',
+146 silly addNameRange     '16.6.0',
+146 silly addNameRange     '16.7.0',
+146 silly addNameRange     '16.8.0',
+146 silly addNameRange     '16.9.0',
+146 silly addNameRange     '16.10.0',
+146 silly addNameRange     '16.11.0',
+146 silly addNameRange     '17.1.0',
+146 silly addNameRange     '17.1.1',
+146 silly addNameRange     '17.2.0',
+146 silly addNameRange     '17.3.0',
+146 silly addNameRange     '17.3.2',
+146 silly addNameRange     '16.8.1',
+146 silly addNameRange     '16.8.2',
+146 silly addNameRange     '17.3.5',
+146 silly addNameRange     '17.4.0',
+146 silly addNameRange     '18.0.0',
+146 silly addNameRange     '18.1.0',
+146 silly addNameRange     '18.1.2',
+146 silly addNameRange     '18.2.0',
+146 silly addNameRange     '18.2.2',
+146 silly addNameRange     '18.3.0',
+146 silly addNameRange     '18.3.1',
+146 silly addNameRange     '18.3.2',
+146 silly addNameRange     '18.4.1',
+146 silly addNameRange     '18.4.2',
+146 silly addNameRange     '18.5.0',
+146 silly addNameRange     '18.6.0' ] ]
+147 silly addNamed @tweenjs/tween.js@18.6.0
+148 verbose addNamed "18.6.0" is a plain semver version for @tweenjs/tween.js
+149 silly mapToRegistry name @tweenjs/tween.js
+150 silly mapToRegistry scope (from package name) @tweenjs
+151 verbose mapToRegistry no registry URL found in name for scope @tweenjs
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry uri https://registry.npmjs.org/@tweenjs%2ftween.js
+155 verbose addRemoteTarball https://registry.npmjs.org/@tweenjs/tween.js/-/tween.js-18.6.0.tgz not in flight; adding
+156 verbose addRemoteTarball [ 'https://registry.npmjs.org/@tweenjs/tween.js/-/tween.js-18.6.0.tgz',
+156 verbose addRemoteTarball   '9160ca987e75ab751d0c48d5100339bd9cd0c301' ]
+157 info retry fetch attempt 1 at 12:34:57 PM
+158 info attempt registry request try #1 at 12:34:57 PM
+159 http fetch GET https://registry.npmjs.org/@tweenjs/tween.js/-/tween.js-18.6.0.tgz
+160 http fetch 200 https://registry.npmjs.org/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz
+161 silly fetchAndShaCheck shasum 0e9020dd3d21024458d4ebd27e23e40269810464
+162 verbose addTmpTarball /tmp/npm-1521-547ef4dd/registry.npmjs.org/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz not in flight; adding
+163 verbose addTmpTarball already have metadata; skipping unpack for resize-observer-polyfill@1.5.1
+164 silly cache afterAdd resize-observer-polyfill@1.5.1
+165 verbose afterAdd /home/ubuntu/.npm/resize-observer-polyfill/1.5.1/package/package.json not in flight; writing
+166 verbose afterAdd /home/ubuntu/.npm/resize-observer-polyfill/1.5.1/package/package.json written
+167 http 200 https://registry.npmjs.org/prop-types
+168 verbose headers { date: 'Fri, 31 Jul 2020 12:34:57 GMT',
+168 verbose headers   'content-type': 'application/json',
+168 verbose headers   'transfer-encoding': 'chunked',
+168 verbose headers   connection: 'keep-alive',
+168 verbose headers   'set-cookie':
+168 verbose headers    [ '__cfduid=dbe8c5b29d747580830aabd25f162eda11596198897; expires=Sun, 30-Aug-20 12:34:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+168 verbose headers   'cf-ray': '5bb75b4499490d7a-IAD',
+168 verbose headers   'cache-control': 'public, max-age=300',
+168 verbose headers   etag: 'W/"c63058c9bdd2745da8d68a9c4f42150c"',
+168 verbose headers   'last-modified': 'Sat, 13 Jun 2020 18:10:02 GMT',
+168 verbose headers   vary: 'accept-encoding, accept',
+168 verbose headers   'cf-cache-status': 'DYNAMIC',
+168 verbose headers   'cf-request-id': '0446775edc00000d7aa22a7200000001',
+168 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+168 verbose headers   server: 'cloudflare',
+168 verbose headers   'content-encoding': 'gzip' }
+169 silly get cb [ 200,
+169 silly get   { date: 'Fri, 31 Jul 2020 12:34:57 GMT',
+169 silly get     'content-type': 'application/json',
+169 silly get     'transfer-encoding': 'chunked',
+169 silly get     connection: 'keep-alive',
+169 silly get     'set-cookie':
+169 silly get      [ '__cfduid=dbe8c5b29d747580830aabd25f162eda11596198897; expires=Sun, 30-Aug-20 12:34:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+169 silly get     'cf-ray': '5bb75b4499490d7a-IAD',
+169 silly get     'cache-control': 'public, max-age=300',
+169 silly get     etag: 'W/"c63058c9bdd2745da8d68a9c4f42150c"',
+169 silly get     'last-modified': 'Sat, 13 Jun 2020 18:10:02 GMT',
+169 silly get     vary: 'accept-encoding, accept',
+169 silly get     'cf-cache-status': 'DYNAMIC',
+169 silly get     'cf-request-id': '0446775edc00000d7aa22a7200000001',
+169 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+169 silly get     server: 'cloudflare',
+169 silly get     'content-encoding': 'gzip' } ]
+170 verbose get saving prop-types to /home/ubuntu/.npm/registry.npmjs.org/prop-types/.cache.json
+171 silly resolveWithNewModule prop-types@15.7.2 checking installable status
+172 silly cache add args [ 'prop-types@^15.5.10', null ]
+173 verbose cache add spec prop-types@^15.5.10
+174 silly cache add parsed spec Result {
+174 silly cache add   raw: 'prop-types@^15.5.10',
+174 silly cache add   scope: null,
+174 silly cache add   name: 'prop-types',
+174 silly cache add   rawSpec: '^15.5.10',
+174 silly cache add   spec: '>=15.5.10 <16.0.0',
+174 silly cache add   type: 'range' }
+175 silly addNamed prop-types@>=15.5.10 <16.0.0
+176 verbose addNamed ">=15.5.10 <16.0.0" is a valid semver range for prop-types
+177 silly addNameRange { name: 'prop-types',
+177 silly addNameRange   range: '>=15.5.10 <16.0.0',
+177 silly addNameRange   hasData: false }
+178 silly mapToRegistry name prop-types
+179 silly mapToRegistry using default registry
+180 silly mapToRegistry registry https://registry.npmjs.org/
+181 silly mapToRegistry uri https://registry.npmjs.org/prop-types
+182 verbose addNameRange registry:https://registry.npmjs.org/prop-types not in flight; fetching
+183 verbose get https://registry.npmjs.org/prop-types not expired, no request
+184 silly addNameRange number 2 { name: 'prop-types', range: '>=15.5.10 <16.0.0', hasData: true }
+185 silly addNameRange versions [ 'prop-types',
+185 silly addNameRange   [ '0.1.0',
+185 silly addNameRange     '0.2.0',
+185 silly addNameRange     '15.5.0-alpha.0',
+185 silly addNameRange     '15.5.0',
+185 silly addNameRange     '15.5.1',
+185 silly addNameRange     '15.5.2',
+185 silly addNameRange     '15.5.3',
+185 silly addNameRange     '15.5.4',
+185 silly addNameRange     '15.5.5',
+185 silly addNameRange     '15.5.6',
+185 silly addNameRange     '15.5.7-alpha',
+185 silly addNameRange     '15.5.7-alpha.1',
+185 silly addNameRange     '15.5.7',
+185 silly addNameRange     '15.5.8',
+185 silly addNameRange     '15.5.9',
+185 silly addNameRange     '15.5.10',
+185 silly addNameRange     '15.6.0',
+185 silly addNameRange     '15.6.1',
+185 silly addNameRange     '15.6.2',
+185 silly addNameRange     '15.7.0',
+185 silly addNameRange     '15.7.1',
+185 silly addNameRange     '15.7.2' ] ]
+186 silly addNamed prop-types@15.7.2
+187 verbose addNamed "15.7.2" is a plain semver version for prop-types
+188 silly mapToRegistry name prop-types
+189 silly mapToRegistry using default registry
+190 silly mapToRegistry registry https://registry.npmjs.org/
+191 silly mapToRegistry uri https://registry.npmjs.org/prop-types
+192 verbose addRemoteTarball https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz not in flight; adding
+193 verbose addRemoteTarball [ 'https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz',
+193 verbose addRemoteTarball   '52c41e75b8c87e72b9d9360e0206b99dcbffa6c5' ]
+194 info retry fetch attempt 1 at 12:34:57 PM
+195 info attempt registry request try #1 at 12:34:57 PM
+196 http fetch GET https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz
+197 http fetch 200 https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz
+198 silly fetchAndShaCheck shasum 52c41e75b8c87e72b9d9360e0206b99dcbffa6c5
+199 verbose addTmpTarball /tmp/npm-1521-547ef4dd/registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz not in flight; adding
+200 verbose addTmpTarball already have metadata; skipping unpack for prop-types@15.7.2
+201 silly cache afterAdd prop-types@15.7.2
+202 verbose afterAdd /home/ubuntu/.npm/prop-types/15.7.2/package/package.json not in flight; writing
+203 verbose afterAdd /home/ubuntu/.npm/prop-types/15.7.2/package/package.json written
+204 http fetch 200 https://registry.npmjs.org/@tweenjs/tween.js/-/tween.js-18.6.0.tgz
+205 silly fetchAndShaCheck shasum 9160ca987e75ab751d0c48d5100339bd9cd0c301
+206 verbose addTmpTarball /tmp/npm-1521-547ef4dd/registry.npmjs.org/_40tweenjs/tween.js/-/tween.js-18.6.0.tgz not in flight; adding
+207 verbose addTmpTarball already have metadata; skipping unpack for @tweenjs/tween.js@18.6.0
+208 silly cache afterAdd @tweenjs/tween.js@18.6.0
+209 verbose afterAdd /home/ubuntu/.npm/@tweenjs/tween.js/18.6.0/package/package.json not in flight; writing
+210 verbose afterAdd /home/ubuntu/.npm/@tweenjs/tween.js/18.6.0/package/package.json written
+211 silly fetchNamedPackageData loose-envify
+212 silly mapToRegistry name loose-envify
+213 silly mapToRegistry using default registry
+214 silly mapToRegistry registry https://registry.npmjs.org/
+215 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+216 silly fetchNamedPackageData object-assign
+217 silly mapToRegistry name object-assign
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+221 silly fetchNamedPackageData react-is
+222 silly mapToRegistry name react-is
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry uri https://registry.npmjs.org/react-is
+226 verbose request uri https://registry.npmjs.org/loose-envify
+227 verbose request no auth needed
+228 info attempt registry request try #1 at 12:34:57 PM
+229 http request GET https://registry.npmjs.org/loose-envify
+230 verbose request uri https://registry.npmjs.org/react-is
+231 verbose request no auth needed
+232 info attempt registry request try #1 at 12:34:57 PM
+233 http request GET https://registry.npmjs.org/react-is
+234 verbose request uri https://registry.npmjs.org/object-assign
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 12:34:57 PM
+237 verbose etag W/"d7609bf70dc4cde24cf456be05d80a7c"
+238 verbose lastModified Sun, 27 May 2018 10:57:26 GMT
+239 http request GET https://registry.npmjs.org/object-assign
+240 http 304 https://registry.npmjs.org/object-assign
+241 verbose headers { date: 'Fri, 31 Jul 2020 12:34:57 GMT',
+241 verbose headers   connection: 'keep-alive',
+241 verbose headers   'set-cookie':
+241 verbose headers    [ '__cfduid=d3546c7fe68234d584f2f0daa121edc191596198897; expires=Sun, 30-Aug-20 12:34:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+241 verbose headers   'cf-ray': '5bb75b47ad759566-IAD',
+241 verbose headers   etag: '"d7609bf70dc4cde24cf456be05d80a7c"',
+241 verbose headers   'last-modified': 'Sun, 27 May 2018 10:57:26 GMT',
+241 verbose headers   'cf-cache-status': 'DYNAMIC',
+241 verbose headers   'cf-request-id': '04467760cd00009566683d3200000001',
+241 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+241 verbose headers   vary: 'Accept-Encoding',
+241 verbose headers   server: 'cloudflare' }
+242 silly get cb [ 304,
+242 silly get   { date: 'Fri, 31 Jul 2020 12:34:57 GMT',
+242 silly get     connection: 'keep-alive',
+242 silly get     'set-cookie':
+242 silly get      [ '__cfduid=d3546c7fe68234d584f2f0daa121edc191596198897; expires=Sun, 30-Aug-20 12:34:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+242 silly get     'cf-ray': '5bb75b47ad759566-IAD',
+242 silly get     etag: '"d7609bf70dc4cde24cf456be05d80a7c"',
+242 silly get     'last-modified': 'Sun, 27 May 2018 10:57:26 GMT',
+242 silly get     'cf-cache-status': 'DYNAMIC',
+242 silly get     'cf-request-id': '04467760cd00009566683d3200000001',
+242 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+242 silly get     vary: 'Accept-Encoding',
+242 silly get     server: 'cloudflare' } ]
+243 verbose etag https://registry.npmjs.org/object-assign from cache
+244 verbose get saving object-assign to /home/ubuntu/.npm/registry.npmjs.org/object-assign/.cache.json
+245 http 200 https://registry.npmjs.org/loose-envify
+246 verbose headers { date: 'Fri, 31 Jul 2020 12:34:57 GMT',
+246 verbose headers   'content-type': 'application/json; charset=UTF-8',
+246 verbose headers   'transfer-encoding': 'chunked',
+246 verbose headers   connection: 'keep-alive',
+246 verbose headers   'set-cookie':
+246 verbose headers    [ '__cfduid=dbe8c5b29d747580830aabd25f162eda11596198897; expires=Sun, 30-Aug-20 12:34:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+246 verbose headers   'cf-ray': '5bb75b47aed60d7a-IAD',
+246 verbose headers   'cache-control': 'public, max-age=300',
+246 verbose headers   etag: 'W/"ff7dfaf14204cb0931ee4ffe2c39c3ce"',
+246 verbose headers   'last-modified': 'Tue, 10 Jul 2018 11:09:50 GMT',
+246 verbose headers   vary: 'accept-encoding, accept',
+246 verbose headers   'cf-cache-status': 'DYNAMIC',
+246 verbose headers   'cf-request-id': '04467760cb00000d7aa22b2200000001',
+246 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+246 verbose headers   server: 'cloudflare',
+246 verbose headers   'content-encoding': 'gzip' }
+247 silly get cb [ 200,
+247 silly get   { date: 'Fri, 31 Jul 2020 12:34:57 GMT',
+247 silly get     'content-type': 'application/json; charset=UTF-8',
+247 silly get     'transfer-encoding': 'chunked',
+247 silly get     connection: 'keep-alive',
+247 silly get     'set-cookie':
+247 silly get      [ '__cfduid=dbe8c5b29d747580830aabd25f162eda11596198897; expires=Sun, 30-Aug-20 12:34:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+247 silly get     'cf-ray': '5bb75b47aed60d7a-IAD',
+247 silly get     'cache-control': 'public, max-age=300',
+247 silly get     etag: 'W/"ff7dfaf14204cb0931ee4ffe2c39c3ce"',
+247 silly get     'last-modified': 'Tue, 10 Jul 2018 11:09:50 GMT',
+247 silly get     vary: 'accept-encoding, accept',
+247 silly get     'cf-cache-status': 'DYNAMIC',
+247 silly get     'cf-request-id': '04467760cb00000d7aa22b2200000001',
+247 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+247 silly get     server: 'cloudflare',
+247 silly get     'content-encoding': 'gzip' } ]
+248 verbose get saving loose-envify to /home/ubuntu/.npm/registry.npmjs.org/loose-envify/.cache.json
+249 silly resolveWithNewModule object-assign@4.1.1 checking installable status
+250 silly cache add args [ 'object-assign@^4.1.1', null ]
+251 verbose cache add spec object-assign@^4.1.1
+252 silly cache add parsed spec Result {
+252 silly cache add   raw: 'object-assign@^4.1.1',
+252 silly cache add   scope: null,
+252 silly cache add   name: 'object-assign',
+252 silly cache add   rawSpec: '^4.1.1',
+252 silly cache add   spec: '>=4.1.1 <5.0.0',
+252 silly cache add   type: 'range' }
+253 silly addNamed object-assign@>=4.1.1 <5.0.0
+254 verbose addNamed ">=4.1.1 <5.0.0" is a valid semver range for object-assign
+255 silly addNameRange { name: 'object-assign',
+255 silly addNameRange   range: '>=4.1.1 <5.0.0',
+255 silly addNameRange   hasData: false }
+256 silly mapToRegistry name object-assign
+257 silly mapToRegistry using default registry
+258 silly mapToRegistry registry https://registry.npmjs.org/
+259 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+260 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+261 silly resolveWithNewModule loose-envify@1.4.0 checking installable status
+262 silly cache add args [ 'loose-envify@^1.4.0', null ]
+263 verbose cache add spec loose-envify@^1.4.0
+264 silly cache add parsed spec Result {
+264 silly cache add   raw: 'loose-envify@^1.4.0',
+264 silly cache add   scope: null,
+264 silly cache add   name: 'loose-envify',
+264 silly cache add   rawSpec: '^1.4.0',
+264 silly cache add   spec: '>=1.4.0 <2.0.0',
+264 silly cache add   type: 'range' }
+265 silly addNamed loose-envify@>=1.4.0 <2.0.0
+266 verbose addNamed ">=1.4.0 <2.0.0" is a valid semver range for loose-envify
+267 silly addNameRange { name: 'loose-envify', range: '>=1.4.0 <2.0.0', hasData: false }
+268 silly mapToRegistry name loose-envify
+269 silly mapToRegistry using default registry
+270 silly mapToRegistry registry https://registry.npmjs.org/
+271 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+272 verbose addNameRange registry:https://registry.npmjs.org/loose-envify not in flight; fetching
+273 verbose get https://registry.npmjs.org/object-assign not expired, no request
+274 silly addNameRange number 2 { name: 'object-assign', range: '>=4.1.1 <5.0.0', hasData: true }
+275 silly addNameRange versions [ 'object-assign',
+275 silly addNameRange   [ '0.1.0',
+275 silly addNameRange     '0.1.1',
+275 silly addNameRange     '0.1.2',
+275 silly addNameRange     '0.2.0',
+275 silly addNameRange     '0.2.1',
+275 silly addNameRange     '0.2.2',
+275 silly addNameRange     '0.3.0',
+275 silly addNameRange     '0.3.1',
+275 silly addNameRange     '0.4.0',
+275 silly addNameRange     '1.0.0',
+275 silly addNameRange     '2.0.0',
+275 silly addNameRange     '3.0.0',
+275 silly addNameRange     '2.1.1',
+275 silly addNameRange     '4.0.0',
+275 silly addNameRange     '4.0.1',
+275 silly addNameRange     '4.1.0',
+275 silly addNameRange     '4.1.1' ] ]
+276 silly addNamed object-assign@4.1.1
+277 verbose addNamed "4.1.1" is a plain semver version for object-assign
+278 verbose get https://registry.npmjs.org/loose-envify not expired, no request
+279 silly addNameRange number 2 { name: 'loose-envify', range: '>=1.4.0 <2.0.0', hasData: true }
+280 silly addNameRange versions [ 'loose-envify',
+280 silly addNameRange   [ '1.0.0', '1.1.0', '1.2.0', '1.3.0', '1.3.1', '1.4.0' ] ]
+281 silly addNamed loose-envify@1.4.0
+282 verbose addNamed "1.4.0" is a plain semver version for loose-envify
+283 silly mapToRegistry name object-assign
+284 silly mapToRegistry using default registry
+285 silly mapToRegistry registry https://registry.npmjs.org/
+286 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+287 verbose addRemoteTarball https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz not in flight; adding
+288 verbose addRemoteTarball [ 'https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz',
+288 verbose addRemoteTarball   '2109adc7965887cfc05cbbd442cac8bfbb360863' ]
+289 silly mapToRegistry name loose-envify
+290 silly mapToRegistry using default registry
+291 silly mapToRegistry registry https://registry.npmjs.org/
+292 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+293 verbose addRemoteTarball https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz not in flight; adding
+294 verbose addRemoteTarball [ 'https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz',
+294 verbose addRemoteTarball   '71ee51fa7be4caec1a63839f7e682d8132d30caf' ]
+295 info retry fetch attempt 1 at 12:34:57 PM
+296 info attempt registry request try #1 at 12:34:57 PM
+297 http fetch GET https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz
+298 info retry fetch attempt 1 at 12:34:57 PM
+299 info attempt registry request try #1 at 12:34:57 PM
+300 http fetch GET https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz
+301 http fetch 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz
+302 silly fetchAndShaCheck shasum 71ee51fa7be4caec1a63839f7e682d8132d30caf
+303 verbose addTmpTarball /tmp/npm-1521-547ef4dd/registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz not in flight; adding
+304 verbose addTmpTarball already have metadata; skipping unpack for loose-envify@1.4.0
+305 http fetch 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz
+306 silly fetchAndShaCheck shasum 2109adc7965887cfc05cbbd442cac8bfbb360863
+307 verbose addTmpTarball /tmp/npm-1521-547ef4dd/registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz not in flight; adding
+308 verbose addTmpTarball already have metadata; skipping unpack for object-assign@4.1.1
+309 silly cache afterAdd loose-envify@1.4.0
+310 verbose afterAdd /home/ubuntu/.npm/loose-envify/1.4.0/package/package.json not in flight; writing
+311 silly cache afterAdd object-assign@4.1.1
+312 verbose afterAdd /home/ubuntu/.npm/object-assign/4.1.1/package/package.json not in flight; writing
+313 verbose afterAdd /home/ubuntu/.npm/loose-envify/1.4.0/package/package.json written
+314 verbose afterAdd /home/ubuntu/.npm/object-assign/4.1.1/package/package.json written
+315 http 200 https://registry.npmjs.org/react-is
+316 verbose headers { date: 'Fri, 31 Jul 2020 12:34:57 GMT',
+316 verbose headers   'content-type': 'application/json',
+316 verbose headers   'transfer-encoding': 'chunked',
+316 verbose headers   connection: 'keep-alive',
+316 verbose headers   'set-cookie':
+316 verbose headers    [ '__cfduid=dc04f2c335c603b745790cbb087a6c8331596198897; expires=Sun, 30-Aug-20 12:34:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+316 verbose headers   'cf-ray': '5bb75b47afbf749f-IAD',
+316 verbose headers   'cache-control': 'public, max-age=300',
+316 verbose headers   etag: 'W/"2b2d3726a5c3a6de7911ac3ac796de0f"',
+316 verbose headers   'last-modified': 'Fri, 17 Jul 2020 16:51:44 GMT',
+316 verbose headers   vary: 'accept-encoding, accept',
+316 verbose headers   'cf-cache-status': 'DYNAMIC',
+316 verbose headers   'cf-request-id': '04467760cb0000749fbcb0f200000001',
+316 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+316 verbose headers   server: 'cloudflare',
+316 verbose headers   'content-encoding': 'gzip' }
+317 silly get cb [ 200,
+317 silly get   { date: 'Fri, 31 Jul 2020 12:34:57 GMT',
+317 silly get     'content-type': 'application/json',
+317 silly get     'transfer-encoding': 'chunked',
+317 silly get     connection: 'keep-alive',
+317 silly get     'set-cookie':
+317 silly get      [ '__cfduid=dc04f2c335c603b745790cbb087a6c8331596198897; expires=Sun, 30-Aug-20 12:34:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+317 silly get     'cf-ray': '5bb75b47afbf749f-IAD',
+317 silly get     'cache-control': 'public, max-age=300',
+317 silly get     etag: 'W/"2b2d3726a5c3a6de7911ac3ac796de0f"',
+317 silly get     'last-modified': 'Fri, 17 Jul 2020 16:51:44 GMT',
+317 silly get     vary: 'accept-encoding, accept',
+317 silly get     'cf-cache-status': 'DYNAMIC',
+317 silly get     'cf-request-id': '04467760cb0000749fbcb0f200000001',
+317 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+317 silly get     server: 'cloudflare',
+317 silly get     'content-encoding': 'gzip' } ]
+318 verbose get saving react-is to /home/ubuntu/.npm/registry.npmjs.org/react-is/.cache.json
+319 silly resolveWithNewModule react-is@16.13.1 checking installable status
+320 silly cache add args [ 'react-is@^16.8.1', null ]
+321 verbose cache add spec react-is@^16.8.1
+322 silly cache add parsed spec Result {
+322 silly cache add   raw: 'react-is@^16.8.1',
+322 silly cache add   scope: null,
+322 silly cache add   name: 'react-is',
+322 silly cache add   rawSpec: '^16.8.1',
+322 silly cache add   spec: '>=16.8.1 <17.0.0',
+322 silly cache add   type: 'range' }
+323 silly addNamed react-is@>=16.8.1 <17.0.0
+324 verbose addNamed ">=16.8.1 <17.0.0" is a valid semver range for react-is
+325 silly addNameRange { name: 'react-is', range: '>=16.8.1 <17.0.0', hasData: false }
+326 silly mapToRegistry name react-is
+327 silly mapToRegistry using default registry
+328 silly mapToRegistry registry https://registry.npmjs.org/
+329 silly mapToRegistry uri https://registry.npmjs.org/react-is
+330 verbose addNameRange registry:https://registry.npmjs.org/react-is not in flight; fetching
+331 verbose get https://registry.npmjs.org/react-is not expired, no request
+332 silly addNameRange number 2 { name: 'react-is', range: '>=16.8.1 <17.0.0', hasData: true }
+333 silly addNameRange versions [ 'react-is',
+333 silly addNameRange   [ '1.0.0',
+333 silly addNameRange     '16.3.0-alpha.1',
+333 silly addNameRange     '16.4.0-alpha.3174632',
+333 silly addNameRange     '16.4.0-alpha.0911da3',
+333 silly addNameRange     '16.3.0-alpha.2',
+333 silly addNameRange     '16.3.0-alpha.3',
+333 silly addNameRange     '16.3.0-rc.0',
+333 silly addNameRange     '16.3.0',
+333 silly addNameRange     '16.3.1',
+333 silly addNameRange     '16.3.2',
+333 silly addNameRange     '16.4.0',
+333 silly addNameRange     '16.4.1',
+333 silly addNameRange     '16.4.2',
+333 silly addNameRange     '16.5.0',
+333 silly addNameRange     '16.5.1',
+333 silly addNameRange     '16.6.0-alpha.0',
+333 silly addNameRange     '16.5.2',
+333 silly addNameRange     '16.6.0-alpha.400d197',
+333 silly addNameRange     '16.6.0-alpha.8af6728',
+333 silly addNameRange     '16.6.0',
+333 silly addNameRange     '16.7.0-alpha.0',
+333 silly addNameRange     '16.6.1',
+333 silly addNameRange     '0.0.0-d5e1bf0-aee1b84',
+333 silly addNameRange     '0.0.0-a8988e4-1d1a717',
+333 silly addNameRange     '0.0.0-8b3c1e4-1d1a717',
+333 silly addNameRange     '0.0.0-0c756fb-697f004',
+333 silly addNameRange     '16.6.2',
+333 silly addNameRange     '0.0.0-0c756fb-f7f79fd',
+333 silly addNameRange     '16.6.3',
+333 silly addNameRange     '16.7.0-alpha.1',
+333 silly addNameRange     '16.7.0-alpha.2',
+333 silly addNameRange     '0.0.0-ed4c4a51c',
+333 silly addNameRange     '0.0.0-88ada9819',
+333 silly addNameRange     '0.0.0-c5b7d26c7',
+333 silly addNameRange     '0.0.0-7325ebe4d',
+333 silly addNameRange     '0.0.0-4a1072194',
+333 silly addNameRange     '16.7.0',
+333 silly addNameRange     '0.0.0-f22621f88',
+333 silly addNameRange     '16.8.0-alpha.0',
+333 silly addNameRange     '0.0.0-3e15b1c69',
+333 silly addNameRange     '16.8.0-alpha.1',
+333 silly addNameRange     '0.0.0-fec00a869',
+333 silly addNameRange     '0.0.0-267ed9814',
+333 silly addNameRange     '0.0.0-d1326f466',
+333 silly addNameRange     '16.8.0',
+333 silly addNameRange     '0.0.0-11565a207',
+333 silly addNameRange     '16.8.1',
+333 silly addNameRange     '0.0.0-0e4135e8c',
+333 silly addNameRange     '0.0.0-dfabb77a9',
+333 silly addNameRange     '16.8.2',
+333 silly addNameRange     '0.0.0-b668168d4',
+333 silly addNameRange     '0.0.0-29b7b775f',
+333 silly addNameRange     '16.8.3',
+333 silly addNameRange     '0.0.0-741aa17a3',
+333 silly addNameRange     '16.8.4',
+333 silly addNameRange     '0.0.0-679402a66',
+333 silly addNameRange     '0.0.0-f9e41e3a5',
+333 silly addNameRange     '16.8.5',
+333 silly addNameRange     '0.0.0-297165f1e',
+333 silly addNameRange     '16.8.6',
+333 silly addNameRange     '0.0.0-c35e37aab',
+333 silly addNameRange     '16.9.0-alpha.0',
+333 silly addNameRange     '0.0.0-a9eff329c',
+333 silly addNameRange     '0.0.0-9ebe1768a',
+333 silly addNameRange     '0.0.0-4221565e1',
+333 silly addNameRange     '0.0.0-fb28e9048',
+333 silly addNameRange     '0.0.0-6da04b5d8',
+333 silly addNameRange     '0.0.0-50b50c26f',
+333 silly addNameRange     '0.0.0-fa1e8df11',
+333 silly addNameRange     '0.0.0-9f395904c',
+333 silly addNameRange     '0.0.0-424099da6',
+333 silly addNameRange     '0.0.0-b4178af81',
+333 silly addNameRange     '0.0.0-bbd21066e',
+333 silly addNameRange     '0.0.0-db3ae32b8',
+333 silly addNameRange     '0.0.0-375616788',
+333 silly addNameRange     '0.0.0-a1dbb852c',
+333 silly addNameRange     '16.9.0-rc.0',
+333 silly addNameRange     '16.9.0',
+333 silly addNameRange     '0.0.0-8d5403877',
+333 silly addNameRange     '0.0.0-45b6443c9',
+333 silly addNameRange     '0.0.0-b4b8a349a',
+333 silly addNameRange     '0.0.0-3694a3b5e',
+333 silly addNameRange     '16.10.0',
+333 silly addNameRange     '0.0.0-d346d9208',
+333 silly addNameRange     '16.10.1',
+333 silly addNameRange     '0.0.0-4ab6305f6',
+333 silly addNameRange     '16.10.2',
+333 silly addNameRange     '0.0.0-experimental-d364d8555',
+333 silly addNameRange     '0.0.0-experimental-d7feeb25a',
+333 silly addNameRange     '0.0.0-7082d5a2d',
+333 silly addNameRange     '0.0.0-experimental-7082d5a2d',
+333 silly addNameRange     '0.0.0-1022ee0ec',
+333 silly addNameRange     '0.0.0-experimental-1022ee0ec',
+333 silly addNameRange     '0.0.0-5faf377df',
+333 silly addNameRange     '0.0.0-experimental-5faf377df',
+333 silly addNameRange     '16.11.0',
+333 silly addNameRange     '0.0.0-experimental-f6b8d31a7',
+333 silly addNameRange     '0.0.0-f6b8d31a7',
+333 silly addNameRange     '0.0.0-experimental-38dd17ab9',
+333 silly addNameRange     '0.0.0-38dd17ab9',
+333 silly addNameRange     ... 36 more items ] ]
+334 silly addNamed react-is@16.13.1
+335 verbose addNamed "16.13.1" is a plain semver version for react-is
+336 silly mapToRegistry name react-is
+337 silly mapToRegistry using default registry
+338 silly mapToRegistry registry https://registry.npmjs.org/
+339 silly mapToRegistry uri https://registry.npmjs.org/react-is
+340 verbose addRemoteTarball https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz not in flight; adding
+341 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz',
+341 verbose addRemoteTarball   '789729a4dc36de2999dc156dd6c1d9c18cea56a4' ]
+342 info retry fetch attempt 1 at 12:34:58 PM
+343 info attempt registry request try #1 at 12:34:58 PM
+344 http fetch GET https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz
+345 http fetch 200 https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz
+346 silly fetchAndShaCheck shasum 789729a4dc36de2999dc156dd6c1d9c18cea56a4
+347 verbose addTmpTarball /tmp/npm-1521-547ef4dd/registry.npmjs.org/react-is/-/react-is-16.13.1.tgz not in flight; adding
+348 verbose addTmpTarball already have metadata; skipping unpack for react-is@16.13.1
+349 silly cache afterAdd react-is@16.13.1
+350 verbose afterAdd /home/ubuntu/.npm/react-is/16.13.1/package/package.json not in flight; writing
+351 verbose afterAdd /home/ubuntu/.npm/react-is/16.13.1/package/package.json written
+352 silly fetchNamedPackageData js-tokens
+353 silly mapToRegistry name js-tokens
+354 silly mapToRegistry using default registry
+355 silly mapToRegistry registry https://registry.npmjs.org/
+356 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+357 verbose request uri https://registry.npmjs.org/js-tokens
+358 verbose request no auth needed
+359 info attempt registry request try #1 at 12:34:58 PM
+360 http request GET https://registry.npmjs.org/js-tokens
+361 http 200 https://registry.npmjs.org/js-tokens
+362 verbose headers { date: 'Fri, 31 Jul 2020 12:34:58 GMT',
+362 verbose headers   'content-type': 'application/json',
+362 verbose headers   'transfer-encoding': 'chunked',
+362 verbose headers   connection: 'keep-alive',
+362 verbose headers   'set-cookie':
+362 verbose headers    [ '__cfduid=dd270c5330147b34603f444aab6f28ab31596198898; expires=Sun, 30-Aug-20 12:34:58 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+362 verbose headers   'cf-ray': '5bb75b4b4fee9566-IAD',
+362 verbose headers   'cache-control': 'public, max-age=300',
+362 verbose headers   etag: 'W/"560a7f86b01044b9ee72d25a9559c183"',
+362 verbose headers   'last-modified': 'Mon, 13 Apr 2020 16:44:08 GMT',
+362 verbose headers   vary: 'accept-encoding, accept',
+362 verbose headers   'cf-cache-status': 'DYNAMIC',
+362 verbose headers   'cf-request-id': '044677630b00009566683e3200000001',
+362 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+362 verbose headers   server: 'cloudflare',
+362 verbose headers   'content-encoding': 'gzip' }
+363 silly get cb [ 200,
+363 silly get   { date: 'Fri, 31 Jul 2020 12:34:58 GMT',
+363 silly get     'content-type': 'application/json',
+363 silly get     'transfer-encoding': 'chunked',
+363 silly get     connection: 'keep-alive',
+363 silly get     'set-cookie':
+363 silly get      [ '__cfduid=dd270c5330147b34603f444aab6f28ab31596198898; expires=Sun, 30-Aug-20 12:34:58 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+363 silly get     'cf-ray': '5bb75b4b4fee9566-IAD',
+363 silly get     'cache-control': 'public, max-age=300',
+363 silly get     etag: 'W/"560a7f86b01044b9ee72d25a9559c183"',
+363 silly get     'last-modified': 'Mon, 13 Apr 2020 16:44:08 GMT',
+363 silly get     vary: 'accept-encoding, accept',
+363 silly get     'cf-cache-status': 'DYNAMIC',
+363 silly get     'cf-request-id': '044677630b00009566683e3200000001',
+363 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+363 silly get     server: 'cloudflare',
+363 silly get     'content-encoding': 'gzip' } ]
+364 verbose get saving js-tokens to /home/ubuntu/.npm/registry.npmjs.org/js-tokens/.cache.json
+365 silly resolveWithNewModule js-tokens@4.0.0 checking installable status
+366 silly cache add args [ 'js-tokens@^3.0.0 || ^4.0.0', null ]
+367 verbose cache add spec js-tokens@^3.0.0 || ^4.0.0
+368 silly cache add parsed spec Result {
+368 silly cache add   raw: 'js-tokens@^3.0.0 || ^4.0.0',
+368 silly cache add   scope: null,
+368 silly cache add   name: 'js-tokens',
+368 silly cache add   rawSpec: '^3.0.0 || ^4.0.0',
+368 silly cache add   spec: '>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+368 silly cache add   type: 'range' }
+369 silly addNamed js-tokens@>=3.0.0 <4.0.0||>=4.0.0 <5.0.0
+370 verbose addNamed ">=3.0.0 <4.0.0||>=4.0.0 <5.0.0" is a valid semver range for js-tokens
+371 silly addNameRange { name: 'js-tokens',
+371 silly addNameRange   range: '>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+371 silly addNameRange   hasData: false }
+372 silly mapToRegistry name js-tokens
+373 silly mapToRegistry using default registry
+374 silly mapToRegistry registry https://registry.npmjs.org/
+375 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+376 verbose addNameRange registry:https://registry.npmjs.org/js-tokens not in flight; fetching
+377 verbose get https://registry.npmjs.org/js-tokens not expired, no request
+378 silly addNameRange number 2 { name: 'js-tokens',
+378 silly addNameRange   range: '>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+378 silly addNameRange   hasData: true }
+379 silly addNameRange versions [ 'js-tokens',
+379 silly addNameRange   [ '0.1.0',
+379 silly addNameRange     '0.2.0',
+379 silly addNameRange     '0.3.0',
+379 silly addNameRange     '0.3.1',
+379 silly addNameRange     '0.4.0',
+379 silly addNameRange     '0.4.1',
+379 silly addNameRange     '1.0.0',
+379 silly addNameRange     '1.0.1',
+379 silly addNameRange     '1.0.2',
+379 silly addNameRange     '1.0.3',
+379 silly addNameRange     '2.0.0',
+379 silly addNameRange     '3.0.0',
+379 silly addNameRange     '3.0.1',
+379 silly addNameRange     '3.0.2',
+379 silly addNameRange     '4.0.0',
+379 silly addNameRange     '5.0.0',
+379 silly addNameRange     '6.0.0' ] ]
+380 silly addNamed js-tokens@4.0.0
+381 verbose addNamed "4.0.0" is a plain semver version for js-tokens
+382 silly mapToRegistry name js-tokens
+383 silly mapToRegistry using default registry
+384 silly mapToRegistry registry https://registry.npmjs.org/
+385 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+386 verbose addRemoteTarball https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz not in flight; adding
+387 verbose addRemoteTarball [ 'https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz',
+387 verbose addRemoteTarball   '19203fb59991df98e3a287050d4647cdeaf32499' ]
+388 info retry fetch attempt 1 at 12:34:58 PM
+389 info attempt registry request try #1 at 12:34:58 PM
+390 http fetch GET https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz
+391 http fetch 200 https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz
+392 silly fetchAndShaCheck shasum 19203fb59991df98e3a287050d4647cdeaf32499
+393 verbose addTmpTarball /tmp/npm-1521-547ef4dd/registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz not in flight; adding
+394 verbose addTmpTarball already have metadata; skipping unpack for js-tokens@4.0.0
+395 silly cache afterAdd js-tokens@4.0.0
+396 verbose afterAdd /home/ubuntu/.npm/js-tokens/4.0.0/package/package.json not in flight; writing
+397 verbose afterAdd /home/ubuntu/.npm/js-tokens/4.0.0/package/package.json written
+398 silly fetchNamedPackageData fsevents
+399 silly mapToRegistry name fsevents
+400 silly mapToRegistry using default registry
+401 silly mapToRegistry registry https://registry.npmjs.org/
+402 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+403 verbose request uri https://registry.npmjs.org/fsevents
+404 verbose request no auth needed
+405 info attempt registry request try #1 at 12:34:58 PM
+406 verbose etag W/"7485786cbc25a6c4481b015e57d2f0e9"
+407 verbose lastModified Mon, 03 Feb 2020 05:44:47 GMT
+408 http request GET https://registry.npmjs.org/fsevents
+409 http 200 https://registry.npmjs.org/fsevents
+410 verbose headers { date: 'Fri, 31 Jul 2020 12:34:59 GMT',
+410 verbose headers   'content-type': 'application/json',
+410 verbose headers   'transfer-encoding': 'chunked',
+410 verbose headers   connection: 'keep-alive',
+410 verbose headers   'set-cookie':
+410 verbose headers    [ '__cfduid=d73c353e8684347c3dfed344c5a59a45a1596198898; expires=Sun, 30-Aug-20 12:34:58 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+410 verbose headers   'cf-ray': '5bb75b4e7c020d7a-IAD',
+410 verbose headers   'cache-control': 'public, max-age=300',
+410 verbose headers   etag: 'W/"9ff14987b4ec19e977697a4c1d741a18"',
+410 verbose headers   'last-modified': 'Wed, 06 May 2020 17:49:14 GMT',
+410 verbose headers   vary: 'accept-encoding, accept',
+410 verbose headers   'cf-cache-status': 'DYNAMIC',
+410 verbose headers   'cf-request-id': '044677650600000d7aa2331200000001',
+410 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+410 verbose headers   server: 'cloudflare',
+410 verbose headers   'content-encoding': 'gzip' }
+411 silly get cb [ 200,
+411 silly get   { date: 'Fri, 31 Jul 2020 12:34:59 GMT',
+411 silly get     'content-type': 'application/json',
+411 silly get     'transfer-encoding': 'chunked',
+411 silly get     connection: 'keep-alive',
+411 silly get     'set-cookie':
+411 silly get      [ '__cfduid=d73c353e8684347c3dfed344c5a59a45a1596198898; expires=Sun, 30-Aug-20 12:34:58 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+411 silly get     'cf-ray': '5bb75b4e7c020d7a-IAD',
+411 silly get     'cache-control': 'public, max-age=300',
+411 silly get     etag: 'W/"9ff14987b4ec19e977697a4c1d741a18"',
+411 silly get     'last-modified': 'Wed, 06 May 2020 17:49:14 GMT',
+411 silly get     vary: 'accept-encoding, accept',
+411 silly get     'cf-cache-status': 'DYNAMIC',
+411 silly get     'cf-request-id': '044677650600000d7aa2331200000001',
+411 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+411 silly get     server: 'cloudflare',
+411 silly get     'content-encoding': 'gzip' } ]
+412 verbose get saving fsevents to /home/ubuntu/.npm/registry.npmjs.org/fsevents/.cache.json
+413 silly resolveWithNewModule fsevents@1.2.13 checking installable status
+414 silly loadAllDepsIntoIdealTree Finishing
+415 silly idealTree:prePrune Website@1.0.0
+415 silly idealTree:prePrune ├── @tweenjs/tween.js@18.6.0
+415 silly idealTree:prePrune ├── abbrev@1.1.1
+415 silly idealTree:prePrune ├── accepts@1.3.7
+415 silly idealTree:prePrune ├── ansi-align@2.0.0
+415 silly idealTree:prePrune ├── ansi-regex@3.0.0
+415 silly idealTree:prePrune ├── ansi-styles@3.2.1
+415 silly idealTree:prePrune ├─┬ anymatch@2.0.0
+415 silly idealTree:prePrune │ └── normalize-path@2.1.1
+415 silly idealTree:prePrune ├── arr-diff@4.0.0
+415 silly idealTree:prePrune ├── arr-flatten@1.1.0
+415 silly idealTree:prePrune ├── arr-union@3.1.0
+415 silly idealTree:prePrune ├── array-flatten@1.1.1
+415 silly idealTree:prePrune ├── array-unique@0.3.2
+415 silly idealTree:prePrune ├── assign-symbols@1.0.0
+415 silly idealTree:prePrune ├── async-each@1.0.3
+415 silly idealTree:prePrune ├── async@2.6.2
+415 silly idealTree:prePrune ├── atob@2.1.2
+415 silly idealTree:prePrune ├── balanced-match@1.0.0
+415 silly idealTree:prePrune ├── binary-extensions@1.13.1
+415 silly idealTree:prePrune ├── bluebird@3.5.1
+415 silly idealTree:prePrune ├── body-parser@1.19.0
+415 silly idealTree:prePrune ├── boxen@1.3.0
+415 silly idealTree:prePrune ├── brace-expansion@1.1.11
+415 silly idealTree:prePrune ├── bson@1.1.1
+415 silly idealTree:prePrune ├── bytes@3.1.0
+415 silly idealTree:prePrune ├─┬ cache-base@1.0.1
+415 silly idealTree:prePrune │ ├── extend-shallow@2.0.1
+415 silly idealTree:prePrune │ ├── has-values@0.1.4
+415 silly idealTree:prePrune │ ├── kind-of@3.2.2
+415 silly idealTree:prePrune │ ├── set-value@2.0.0
+415 silly idealTree:prePrune │ ├── to-object-path@0.3.0
+415 silly idealTree:prePrune │ ├─┬ union-value@1.0.0
+415 silly idealTree:prePrune │ │ └── set-value@0.4.3
+415 silly idealTree:prePrune │ └─┬ unset-value@1.0.0
+415 silly idealTree:prePrune │   └─┬ has-value@0.3.1
+415 silly idealTree:prePrune │     └── isobject@2.1.0
+415 silly idealTree:prePrune ├── camelcase@4.1.0
+415 silly idealTree:prePrune ├── capture-stack-trace@1.0.1
+415 silly idealTree:prePrune ├── chalk@2.4.2
+415 silly idealTree:prePrune ├─┬ chokidar@2.1.6
+415 silly idealTree:prePrune │ ├─┬ base@0.11.2
+415 silly idealTree:prePrune │ │ ├── define-property@1.0.0
+415 silly idealTree:prePrune │ │ ├─┬ is-accessor-descriptor@1.0.0
+415 silly idealTree:prePrune │ │ │ └── kind-of@6.0.2
+415 silly idealTree:prePrune │ │ ├─┬ is-data-descriptor@1.0.0
+415 silly idealTree:prePrune │ │ │ └── kind-of@6.0.2
+415 silly idealTree:prePrune │ │ └─┬ is-descriptor@1.0.2
+415 silly idealTree:prePrune │ │   └── kind-of@6.0.2
+415 silly idealTree:prePrune │ ├── braces@2.3.2
+415 silly idealTree:prePrune │ ├── class-utils@0.3.6
+415 silly idealTree:prePrune │ ├── define-property@0.2.5
+415 silly idealTree:prePrune │ ├── extend-shallow@2.0.1
+415 silly idealTree:prePrune │ ├── fill-range@4.0.0
+415 silly idealTree:prePrune │ ├─┬ glob-parent@3.1.0
+415 silly idealTree:prePrune │ │ └── is-glob@3.1.0
+415 silly idealTree:prePrune │ ├── is-accessor-descriptor@0.1.6
+415 silly idealTree:prePrune │ ├── is-data-descriptor@0.1.4
+415 silly idealTree:prePrune │ ├─┬ is-descriptor@0.1.6
+415 silly idealTree:prePrune │ │ └── kind-of@5.1.0
+415 silly idealTree:prePrune │ ├── is-number@3.0.0
+415 silly idealTree:prePrune │ ├── kind-of@3.2.2
+415 silly idealTree:prePrune │ ├─┬ mixin-deep@1.3.1
+415 silly idealTree:prePrune │ │ └── is-extendable@1.0.1
+415 silly idealTree:prePrune │ ├── object-copy@0.1.0
+415 silly idealTree:prePrune │ ├─┬ snapdragon-node@2.1.1
+415 silly idealTree:prePrune │ │ ├── define-property@1.0.0
+415 silly idealTree:prePrune │ │ ├─┬ is-accessor-descriptor@1.0.0
+415 silly idealTree:prePrune │ │ │ └── kind-of@6.0.2
+415 silly idealTree:prePrune │ │ ├─┬ is-data-descriptor@1.0.0
+415 silly idealTree:prePrune │ │ │ └── kind-of@6.0.2
+415 silly idealTree:prePrune │ │ └─┬ is-descriptor@1.0.2
+415 silly idealTree:prePrune │ │   └── kind-of@6.0.2
+415 silly idealTree:prePrune │ ├── snapdragon-util@3.0.1
+415 silly idealTree:prePrune │ ├── snapdragon@0.8.2
+415 silly idealTree:prePrune │ └── static-extend@0.1.2
+415 silly idealTree:prePrune ├── ci-info@1.6.0
+415 silly idealTree:prePrune ├── cli-boxes@1.0.0
+415 silly idealTree:prePrune ├── collection-visit@1.0.0
+415 silly idealTree:prePrune ├── color-convert@1.9.3
+415 silly idealTree:prePrune ├── color-name@1.1.3
+415 silly idealTree:prePrune ├── component-emitter@1.3.0
+415 silly idealTree:prePrune ├─┬ compressible@2.0.18
+415 silly idealTree:prePrune │ └── mime-db@1.43.0
+415 silly idealTree:prePrune ├─┬ compression@1.7.4
+415 silly idealTree:prePrune │ └── bytes@3.0.0
+415 silly idealTree:prePrune ├── concat-map@0.0.1
+415 silly idealTree:prePrune ├── configstore@3.1.2
+415 silly idealTree:prePrune ├── content-disposition@0.5.3
+415 silly idealTree:prePrune ├── content-type@1.0.4
+415 silly idealTree:prePrune ├── cookie-signature@1.0.6
+415 silly idealTree:prePrune ├── cookie@0.4.0
+415 silly idealTree:prePrune ├── copy-descriptor@0.1.1
+415 silly idealTree:prePrune ├── core-util-is@1.0.2
+415 silly idealTree:prePrune ├── create-error-class@3.0.2
+415 silly idealTree:prePrune ├── cross-spawn@5.1.0
+415 silly idealTree:prePrune ├── crypto-random-string@1.0.0
+415 silly idealTree:prePrune ├── debug@2.6.9
+415 silly idealTree:prePrune ├── decode-uri-component@0.2.0
+415 silly idealTree:prePrune ├── deep-extend@0.6.0
+415 silly idealTree:prePrune ├── depd@1.1.2
+415 silly idealTree:prePrune ├── destroy@1.0.4
+415 silly idealTree:prePrune ├── dot-prop@4.2.0
+415 silly idealTree:prePrune ├── duplexer3@0.1.4
+415 silly idealTree:prePrune ├── ee-first@1.1.1
+415 silly idealTree:prePrune ├── ejs@2.6.1
+415 silly idealTree:prePrune ├── encodeurl@1.0.2
+415 silly idealTree:prePrune ├── escape-html@1.0.3
+415 silly idealTree:prePrune ├── escape-string-regexp@1.0.5
+415 silly idealTree:prePrune ├── etag@1.8.1
+415 silly idealTree:prePrune ├── execa@0.7.0
+415 silly idealTree:prePrune ├── express@4.17.1
+415 silly idealTree:prePrune ├── finalhandler@1.1.2
+415 silly idealTree:prePrune ├── for-in@1.0.2
+415 silly idealTree:prePrune ├── forwarded@0.1.2
+415 silly idealTree:prePrune ├── fragment-cache@0.2.1
+415 silly idealTree:prePrune ├── fresh@0.5.2
+415 silly idealTree:prePrune ├── g@2.0.1
+415 silly idealTree:prePrune ├── get-stream@3.0.0
+415 silly idealTree:prePrune ├── get-value@2.0.6
+415 silly idealTree:prePrune ├── global-dirs@0.1.1
+415 silly idealTree:prePrune ├── got@6.7.1
+415 silly idealTree:prePrune ├── graceful-fs@4.1.15
+415 silly idealTree:prePrune ├── has-flag@3.0.0
+415 silly idealTree:prePrune ├─┬ has-value@1.0.0
+415 silly idealTree:prePrune │ ├── has-values@1.0.0
+415 silly idealTree:prePrune │ ├─┬ is-number@3.0.0
+415 silly idealTree:prePrune │ │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │ └── kind-of@4.0.0
+415 silly idealTree:prePrune ├── http-errors@1.7.2
+415 silly idealTree:prePrune ├── iconv-lite@0.4.24
+415 silly idealTree:prePrune ├── ignore-by-default@1.0.1
+415 silly idealTree:prePrune ├── import-lazy@2.1.0
+415 silly idealTree:prePrune ├── imurmurhash@0.1.4
+415 silly idealTree:prePrune ├── inherits@2.0.3
+415 silly idealTree:prePrune ├── ini@1.3.5
+415 silly idealTree:prePrune ├── ipaddr.js@1.9.0
+415 silly idealTree:prePrune ├── is-binary-path@1.0.1
+415 silly idealTree:prePrune ├── is-buffer@1.1.6
+415 silly idealTree:prePrune ├── is-ci@1.2.1
+415 silly idealTree:prePrune ├── is-extendable@0.1.1
+415 silly idealTree:prePrune ├── is-extglob@2.1.1
+415 silly idealTree:prePrune ├── is-fullwidth-code-point@2.0.0
+415 silly idealTree:prePrune ├── is-glob@4.0.1
+415 silly idealTree:prePrune ├── is-installed-globally@0.1.0
+415 silly idealTree:prePrune ├── is-npm@1.0.0
+415 silly idealTree:prePrune ├── is-obj@1.0.1
+415 silly idealTree:prePrune ├── is-path-inside@1.0.1
+415 silly idealTree:prePrune ├── is-plain-object@2.0.4
+415 silly idealTree:prePrune ├── is-redirect@1.0.0
+415 silly idealTree:prePrune ├── is-retry-allowed@1.1.0
+415 silly idealTree:prePrune ├── is-stream@1.1.0
+415 silly idealTree:prePrune ├── is-windows@1.0.2
+415 silly idealTree:prePrune ├── isarray@1.0.0
+415 silly idealTree:prePrune ├── isexe@2.0.0
+415 silly idealTree:prePrune ├── isobject@3.0.1
+415 silly idealTree:prePrune ├── js-tokens@4.0.0
+415 silly idealTree:prePrune ├── kareem@2.3.0
+415 silly idealTree:prePrune ├── kind-of@6.0.2
+415 silly idealTree:prePrune ├── latest-version@3.1.0
+415 silly idealTree:prePrune ├── lodash@4.17.11
+415 silly idealTree:prePrune ├── loose-envify@1.4.0
+415 silly idealTree:prePrune ├── lowercase-keys@1.0.1
+415 silly idealTree:prePrune ├── lru-cache@4.1.5
+415 silly idealTree:prePrune ├── make-dir@1.3.0
+415 silly idealTree:prePrune ├── map-cache@0.2.2
+415 silly idealTree:prePrune ├── map-visit@1.0.0
+415 silly idealTree:prePrune ├── media-typer@0.3.0
+415 silly idealTree:prePrune ├── memory-pager@1.5.0
+415 silly idealTree:prePrune ├── merge-descriptors@1.0.1
+415 silly idealTree:prePrune ├── methods@1.1.2
+415 silly idealTree:prePrune ├─┬ micromatch@3.1.10
+415 silly idealTree:prePrune │ ├─┬ base@0.11.2
+415 silly idealTree:prePrune │ │ ├── define-property@1.0.0
+415 silly idealTree:prePrune │ │ ├── is-accessor-descriptor@1.0.0
+415 silly idealTree:prePrune │ │ ├── is-data-descriptor@1.0.0
+415 silly idealTree:prePrune │ │ └── is-descriptor@1.0.2
+415 silly idealTree:prePrune │ ├─┬ braces@2.3.2
+415 silly idealTree:prePrune │ │ └── extend-shallow@2.0.1
+415 silly idealTree:prePrune │ ├─┬ class-utils@0.3.6
+415 silly idealTree:prePrune │ │ └── define-property@0.2.5
+415 silly idealTree:prePrune │ ├─┬ define-property@2.0.2
+415 silly idealTree:prePrune │ │ ├── is-accessor-descriptor@1.0.0
+415 silly idealTree:prePrune │ │ ├── is-data-descriptor@1.0.0
+415 silly idealTree:prePrune │ │ └── is-descriptor@1.0.2
+415 silly idealTree:prePrune │ ├─┬ expand-brackets@2.1.4
+415 silly idealTree:prePrune │ │ ├── define-property@0.2.5
+415 silly idealTree:prePrune │ │ └── extend-shallow@2.0.1
+415 silly idealTree:prePrune │ ├─┬ extend-shallow@3.0.2
+415 silly idealTree:prePrune │ │ └── is-extendable@1.0.1
+415 silly idealTree:prePrune │ ├─┬ extglob@2.0.4
+415 silly idealTree:prePrune │ │ ├── define-property@1.0.0
+415 silly idealTree:prePrune │ │ ├── extend-shallow@2.0.1
+415 silly idealTree:prePrune │ │ ├── is-accessor-descriptor@1.0.0
+415 silly idealTree:prePrune │ │ ├── is-data-descriptor@1.0.0
+415 silly idealTree:prePrune │ │ └── is-descriptor@1.0.2
+415 silly idealTree:prePrune │ ├─┬ fill-range@4.0.0
+415 silly idealTree:prePrune │ │ └── extend-shallow@2.0.1
+415 silly idealTree:prePrune │ ├─┬ is-accessor-descriptor@0.1.6
+415 silly idealTree:prePrune │ │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │ ├─┬ is-data-descriptor@0.1.4
+415 silly idealTree:prePrune │ │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │ ├─┬ is-descriptor@0.1.6
+415 silly idealTree:prePrune │ │ └── kind-of@5.1.0
+415 silly idealTree:prePrune │ ├─┬ is-number@3.0.0
+415 silly idealTree:prePrune │ │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │ ├─┬ mixin-deep@1.3.1
+415 silly idealTree:prePrune │ │ └── is-extendable@1.0.1
+415 silly idealTree:prePrune │ ├─┬ object-copy@0.1.0
+415 silly idealTree:prePrune │ │ ├── define-property@0.2.5
+415 silly idealTree:prePrune │ │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │ ├─┬ snapdragon-node@2.1.1
+415 silly idealTree:prePrune │ │ ├── define-property@1.0.0
+415 silly idealTree:prePrune │ │ ├── is-accessor-descriptor@1.0.0
+415 silly idealTree:prePrune │ │ ├── is-data-descriptor@1.0.0
+415 silly idealTree:prePrune │ │ └── is-descriptor@1.0.2
+415 silly idealTree:prePrune │ ├─┬ snapdragon-util@3.0.1
+415 silly idealTree:prePrune │ │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │ ├─┬ snapdragon@0.8.2
+415 silly idealTree:prePrune │ │ ├── define-property@0.2.5
+415 silly idealTree:prePrune │ │ └── extend-shallow@2.0.1
+415 silly idealTree:prePrune │ └─┬ static-extend@0.1.2
+415 silly idealTree:prePrune │   └── define-property@0.2.5
+415 silly idealTree:prePrune ├── mime-db@1.40.0
+415 silly idealTree:prePrune ├── mime-types@2.1.24
+415 silly idealTree:prePrune ├── mime@1.6.0
+415 silly idealTree:prePrune ├── minimatch@3.0.4
+415 silly idealTree:prePrune ├── minimist@1.2.0
+415 silly idealTree:prePrune ├── moment@2.24.0
+415 silly idealTree:prePrune ├── mongodb-core@3.2.6
+415 silly idealTree:prePrune ├── mongodb@3.2.6
+415 silly idealTree:prePrune ├── mongoose-legacy-pluralize@1.0.2
+415 silly idealTree:prePrune ├─┬ mongoose@5.5.12
+415 silly idealTree:prePrune │ └── ms@2.1.1
+415 silly idealTree:prePrune ├── mpath@0.6.0
+415 silly idealTree:prePrune ├─┬ mquery@3.2.0
+415 silly idealTree:prePrune │ └── debug@3.1.0
+415 silly idealTree:prePrune ├── ms@2.0.0
+415 silly idealTree:prePrune ├─┬ nanomatch@1.2.13
+415 silly idealTree:prePrune │ ├─┬ base@0.11.2
+415 silly idealTree:prePrune │ │ └── define-property@1.0.0
+415 silly idealTree:prePrune │ ├─┬ class-utils@0.3.6
+415 silly idealTree:prePrune │ │ ├─┬ define-property@0.2.5
+415 silly idealTree:prePrune │ │ │ └── is-descriptor@0.1.6
+415 silly idealTree:prePrune │ │ ├─┬ is-accessor-descriptor@0.1.6
+415 silly idealTree:prePrune │ │ │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │ │ ├─┬ is-data-descriptor@0.1.4
+415 silly idealTree:prePrune │ │ │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │ │ └── kind-of@5.1.0
+415 silly idealTree:prePrune │ ├── define-property@2.0.2
+415 silly idealTree:prePrune │ ├── extend-shallow@3.0.2
+415 silly idealTree:prePrune │ ├── is-accessor-descriptor@1.0.0
+415 silly idealTree:prePrune │ ├── is-data-descriptor@1.0.0
+415 silly idealTree:prePrune │ ├── is-descriptor@1.0.2
+415 silly idealTree:prePrune │ ├── is-extendable@1.0.1
+415 silly idealTree:prePrune │ ├── mixin-deep@1.3.1
+415 silly idealTree:prePrune │ ├─┬ object-copy@0.1.0
+415 silly idealTree:prePrune │ │ ├─┬ define-property@0.2.5
+415 silly idealTree:prePrune │ │ │ ├── is-descriptor@0.1.6
+415 silly idealTree:prePrune │ │ │ └── kind-of@5.1.0
+415 silly idealTree:prePrune │ │ ├── is-accessor-descriptor@0.1.6
+415 silly idealTree:prePrune │ │ ├── is-data-descriptor@0.1.4
+415 silly idealTree:prePrune │ │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │ ├─┬ snapdragon@0.8.2
+415 silly idealTree:prePrune │ │ ├─┬ define-property@0.2.5
+415 silly idealTree:prePrune │ │ │ └── is-descriptor@0.1.6
+415 silly idealTree:prePrune │ │ ├─┬ extend-shallow@2.0.1
+415 silly idealTree:prePrune │ │ │ └── is-extendable@0.1.1
+415 silly idealTree:prePrune │ │ ├─┬ is-accessor-descriptor@0.1.6
+415 silly idealTree:prePrune │ │ │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │ │ ├─┬ is-data-descriptor@0.1.4
+415 silly idealTree:prePrune │ │ │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │ │ └── kind-of@5.1.0
+415 silly idealTree:prePrune │ └─┬ static-extend@0.1.2
+415 silly idealTree:prePrune │   ├─┬ define-property@0.2.5
+415 silly idealTree:prePrune │   │ └── is-descriptor@0.1.6
+415 silly idealTree:prePrune │   ├─┬ is-accessor-descriptor@0.1.6
+415 silly idealTree:prePrune │   │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │   ├─┬ is-data-descriptor@0.1.4
+415 silly idealTree:prePrune │   │ └── kind-of@3.2.2
+415 silly idealTree:prePrune │   └── kind-of@5.1.0
+415 silly idealTree:prePrune ├── negotiator@0.6.2
+415 silly idealTree:prePrune ├── nodejs-nodemailer-outlook@1.1.0
+415 silly idealTree:prePrune ├── nodemailer@4.7.0
+415 silly idealTree:prePrune ├─┬ nodemon@1.19.1
+415 silly idealTree:prePrune │ ├── debug@3.2.6
+415 silly idealTree:prePrune │ └── ms@2.1.1
+415 silly idealTree:prePrune ├── nopt@1.0.10
+415 silly idealTree:prePrune ├── normalize-path@3.0.0
+415 silly idealTree:prePrune ├── npm-run-path@2.0.2
+415 silly idealTree:prePrune ├── object-assign@4.1.1
+415 silly idealTree:prePrune ├── object-visit@1.0.1
+415 silly idealTree:prePrune ├── object.pick@1.3.0
+415 silly idealTree:prePrune ├── on-finished@2.3.0
+415 silly idealTree:prePrune ├── on-headers@1.0.2
+415 silly idealTree:prePrune ├── p-finally@1.0.0
+415 silly idealTree:prePrune ├── package-json@4.0.1
+415 silly idealTree:prePrune ├── parseurl@1.3.3
+415 silly idealTree:prePrune ├── pascalcase@0.1.1
+415 silly idealTree:prePrune ├── path-dirname@1.0.2
+415 silly idealTree:prePrune ├── path-is-absolute@1.0.1
+415 silly idealTree:prePrune ├── path-is-inside@1.0.2
+415 silly idealTree:prePrune ├── path-key@2.0.1
+415 silly idealTree:prePrune ├── path-to-regexp@0.1.7
+415 silly idealTree:prePrune ├── pify@3.0.0
+415 silly idealTree:prePrune ├── posix-character-classes@0.1.1
+415 silly idealTree:prePrune ├── prepend-http@1.0.4
+415 silly idealTree:prePrune ├── process-nextick-args@2.0.0
+415 silly idealTree:prePrune ├── prop-types@15.7.2
+415 silly idealTree:prePrune ├── proxy-addr@2.0.5
+415 silly idealTree:prePrune ├── pseudomap@1.0.2
+415 silly idealTree:prePrune ├── pstree.remy@1.1.7
+415 silly idealTree:prePrune ├── qs@6.7.0
+415 silly idealTree:prePrune ├── range-parser@1.2.1
+415 silly idealTree:prePrune ├── raw-body@2.4.0
+415 silly idealTree:prePrune ├── rc@1.2.8
+415 silly idealTree:prePrune ├── react-is@16.13.1
+415 silly idealTree:prePrune ├── react-slideshow-image@3.0.2
+415 silly idealTree:prePrune ├── readable-stream@2.3.6
+415 silly idealTree:prePrune ├── readdirp@2.2.1
+415 silly idealTree:prePrune ├─┬ regex-not@1.0.2
+415 silly idealTree:prePrune │ ├── extend-shallow@3.0.2
+415 silly idealTree:prePrune │ └── is-extendable@1.0.1
+415 silly idealTree:prePrune ├── regexp-clone@0.0.1
+415 silly idealTree:prePrune ├── registry-auth-token@3.4.0
+415 silly idealTree:prePrune ├── registry-url@3.1.0
+415 silly idealTree:prePrune ├── remove-trailing-separator@1.1.0
+415 silly idealTree:prePrune ├── repeat-element@1.1.3
+415 silly idealTree:prePrune ├── repeat-string@1.6.1
+415 silly idealTree:prePrune ├── require_optional@1.0.1
+415 silly idealTree:prePrune ├── resize-observer-polyfill@1.5.1
+415 silly idealTree:prePrune ├── resolve-from@2.0.0
+415 silly idealTree:prePrune ├── resolve-url@0.2.1
+415 silly idealTree:prePrune ├── ret@0.1.15
+415 silly idealTree:prePrune ├── safe-buffer@5.1.2
+415 silly idealTree:prePrune ├── safe-regex@1.1.0
+415 silly idealTree:prePrune ├── safer-buffer@2.1.2
+415 silly idealTree:prePrune ├── saslprep@1.0.3
+415 silly idealTree:prePrune ├── semver-diff@2.1.0
+415 silly idealTree:prePrune ├── semver@5.7.0
+415 silly idealTree:prePrune ├─┬ send@0.17.1
+415 silly idealTree:prePrune │ └── ms@2.1.1
+415 silly idealTree:prePrune ├── serve-static@1.14.1
+415 silly idealTree:prePrune ├── setprototypeof@1.1.1
+415 silly idealTree:prePrune ├── shebang-command@1.2.0
+415 silly idealTree:prePrune ├── shebang-regex@1.0.0
+415 silly idealTree:prePrune ├── sift@7.0.1
+415 silly idealTree:prePrune ├── signal-exit@3.0.2
+415 silly idealTree:prePrune ├── sliced@1.0.1
+415 silly idealTree:prePrune ├── source-map-resolve@0.5.2
+415 silly idealTree:prePrune ├── source-map-url@0.4.0
+415 silly idealTree:prePrune ├── source-map@0.5.7
+415 silly idealTree:prePrune ├── sparse-bitfield@3.0.3
+415 silly idealTree:prePrune ├─┬ split-string@3.1.0
+415 silly idealTree:prePrune │ ├── extend-shallow@3.0.2
+415 silly idealTree:prePrune │ └── is-extendable@1.0.1
+415 silly idealTree:prePrune ├── statuses@1.5.0
+415 silly idealTree:prePrune ├── string_decoder@1.1.1
+415 silly idealTree:prePrune ├── string-width@2.1.1
+415 silly idealTree:prePrune ├── strip-ansi@4.0.0
+415 silly idealTree:prePrune ├── strip-eof@1.0.0
+415 silly idealTree:prePrune ├── strip-json-comments@2.0.1
+415 silly idealTree:prePrune ├── supports-color@5.5.0
+415 silly idealTree:prePrune ├── term-size@1.2.0
+415 silly idealTree:prePrune ├── timed-out@4.0.1
+415 silly idealTree:prePrune ├─┬ to-regex-range@2.1.1
+415 silly idealTree:prePrune │ ├── is-number@3.0.0
+415 silly idealTree:prePrune │ └── kind-of@3.2.2
+415 silly idealTree:prePrune ├─┬ to-regex@3.0.2
+415 silly idealTree:prePrune │ ├── define-property@2.0.2
+415 silly idealTree:prePrune │ ├── extend-shallow@3.0.2
+415 silly idealTree:prePrune │ ├── is-accessor-descriptor@1.0.0
+415 silly idealTree:prePrune │ ├── is-data-descriptor@1.0.0
+415 silly idealTree:prePrune │ ├── is-descriptor@1.0.2
+415 silly idealTree:prePrune │ └── is-extendable@1.0.1
+415 silly idealTree:prePrune ├── toidentifier@1.0.0
+415 silly idealTree:prePrune ├── touch@3.1.0
+415 silly idealTree:prePrune ├── type-is@1.6.18
+415 silly idealTree:prePrune ├── undefsafe@2.0.2
+415 silly idealTree:prePrune ├── unique-string@1.0.0
+415 silly idealTree:prePrune ├── unpipe@1.0.0
+415 silly idealTree:prePrune ├── unzip-response@2.0.1
+415 silly idealTree:prePrune ├── upath@1.1.2
+415 silly idealTree:prePrune ├── update-notifier@2.5.0
+415 silly idealTree:prePrune ├── urix@0.1.0
+415 silly idealTree:prePrune ├── url-parse-lax@1.0.0
+415 silly idealTree:prePrune ├── use@3.1.1
+415 silly idealTree:prePrune ├── util-deprecate@1.0.2
+415 silly idealTree:prePrune ├── utils-merge@1.0.1
+415 silly idealTree:prePrune ├── vary@1.1.2
+415 silly idealTree:prePrune ├── which@1.3.1
+415 silly idealTree:prePrune ├── widest-line@2.0.1
+415 silly idealTree:prePrune ├── write-file-atomic@2.4.3
+415 silly idealTree:prePrune ├── xdg-basedir@3.0.0
+415 silly idealTree:prePrune └── yallist@2.1.2
+416 silly loadIdealTree Finishing
+417 silly currentTree Website@1.0.0
+417 silly currentTree ├── abbrev@1.1.1
+417 silly currentTree ├── accepts@1.3.7
+417 silly currentTree ├── ansi-align@2.0.0
+417 silly currentTree ├── ansi-regex@3.0.0
+417 silly currentTree ├── ansi-styles@3.2.1
+417 silly currentTree ├─┬ anymatch@2.0.0
+417 silly currentTree │ └── normalize-path@2.1.1
+417 silly currentTree ├── arr-diff@4.0.0
+417 silly currentTree ├── arr-flatten@1.1.0
+417 silly currentTree ├── arr-union@3.1.0
+417 silly currentTree ├── array-flatten@1.1.1
+417 silly currentTree ├── array-unique@0.3.2
+417 silly currentTree ├── assign-symbols@1.0.0
+417 silly currentTree ├── async-each@1.0.3
+417 silly currentTree ├── async@2.6.2
+417 silly currentTree ├── atob@2.1.2
+417 silly currentTree ├── balanced-match@1.0.0
+417 silly currentTree ├── binary-extensions@1.13.1
+417 silly currentTree ├── bluebird@3.5.1
+417 silly currentTree ├── body-parser@1.19.0
+417 silly currentTree ├── boxen@1.3.0
+417 silly currentTree ├── brace-expansion@1.1.11
+417 silly currentTree ├── bson@1.1.1
+417 silly currentTree ├── bytes@3.1.0
+417 silly currentTree ├─┬ cache-base@1.0.1
+417 silly currentTree │ ├── extend-shallow@2.0.1
+417 silly currentTree │ ├── has-values@0.1.4
+417 silly currentTree │ ├── kind-of@3.2.2
+417 silly currentTree │ ├── set-value@2.0.0
+417 silly currentTree │ ├── to-object-path@0.3.0
+417 silly currentTree │ ├─┬ union-value@1.0.0
+417 silly currentTree │ │ └── set-value@0.4.3
+417 silly currentTree │ └─┬ unset-value@1.0.0
+417 silly currentTree │   └─┬ has-value@0.3.1
+417 silly currentTree │     └── isobject@2.1.0
+417 silly currentTree ├── camelcase@4.1.0
+417 silly currentTree ├── capture-stack-trace@1.0.1
+417 silly currentTree ├── chalk@2.4.2
+417 silly currentTree ├─┬ chokidar@2.1.6
+417 silly currentTree │ ├─┬ base@0.11.2
+417 silly currentTree │ │ ├── define-property@1.0.0
+417 silly currentTree │ │ ├─┬ is-accessor-descriptor@1.0.0
+417 silly currentTree │ │ │ └── kind-of@6.0.2
+417 silly currentTree │ │ ├─┬ is-data-descriptor@1.0.0
+417 silly currentTree │ │ │ └── kind-of@6.0.2
+417 silly currentTree │ │ └─┬ is-descriptor@1.0.2
+417 silly currentTree │ │   └── kind-of@6.0.2
+417 silly currentTree │ ├── braces@2.3.2
+417 silly currentTree │ ├── class-utils@0.3.6
+417 silly currentTree │ ├── define-property@0.2.5
+417 silly currentTree │ ├── extend-shallow@2.0.1
+417 silly currentTree │ ├── fill-range@4.0.0
+417 silly currentTree │ ├─┬ glob-parent@3.1.0
+417 silly currentTree │ │ └── is-glob@3.1.0
+417 silly currentTree │ ├── is-accessor-descriptor@0.1.6
+417 silly currentTree │ ├── is-data-descriptor@0.1.4
+417 silly currentTree │ ├─┬ is-descriptor@0.1.6
+417 silly currentTree │ │ └── kind-of@5.1.0
+417 silly currentTree │ ├── is-number@3.0.0
+417 silly currentTree │ ├── kind-of@3.2.2
+417 silly currentTree │ ├─┬ mixin-deep@1.3.1
+417 silly currentTree │ │ └── is-extendable@1.0.1
+417 silly currentTree │ ├── object-copy@0.1.0
+417 silly currentTree │ ├─┬ snapdragon-node@2.1.1
+417 silly currentTree │ │ ├── define-property@1.0.0
+417 silly currentTree │ │ ├─┬ is-accessor-descriptor@1.0.0
+417 silly currentTree │ │ │ └── kind-of@6.0.2
+417 silly currentTree │ │ ├─┬ is-data-descriptor@1.0.0
+417 silly currentTree │ │ │ └── kind-of@6.0.2
+417 silly currentTree │ │ └─┬ is-descriptor@1.0.2
+417 silly currentTree │ │   └── kind-of@6.0.2
+417 silly currentTree │ ├── snapdragon-util@3.0.1
+417 silly currentTree │ ├── snapdragon@0.8.2
+417 silly currentTree │ └── static-extend@0.1.2
+417 silly currentTree ├── ci-info@1.6.0
+417 silly currentTree ├── cli-boxes@1.0.0
+417 silly currentTree ├── collection-visit@1.0.0
+417 silly currentTree ├── color-convert@1.9.3
+417 silly currentTree ├── color-name@1.1.3
+417 silly currentTree ├── component-emitter@1.3.0
+417 silly currentTree ├─┬ compressible@2.0.18
+417 silly currentTree │ └── mime-db@1.43.0
+417 silly currentTree ├─┬ compression@1.7.4
+417 silly currentTree │ └── bytes@3.0.0
+417 silly currentTree ├── concat-map@0.0.1
+417 silly currentTree ├── configstore@3.1.2
+417 silly currentTree ├── content-disposition@0.5.3
+417 silly currentTree ├── content-type@1.0.4
+417 silly currentTree ├── cookie-signature@1.0.6
+417 silly currentTree ├── cookie@0.4.0
+417 silly currentTree ├── copy-descriptor@0.1.1
+417 silly currentTree ├── core-util-is@1.0.2
+417 silly currentTree ├── create-error-class@3.0.2
+417 silly currentTree ├── cross-spawn@5.1.0
+417 silly currentTree ├── crypto-random-string@1.0.0
+417 silly currentTree ├── debug@2.6.9
+417 silly currentTree ├── decode-uri-component@0.2.0
+417 silly currentTree ├── deep-extend@0.6.0
+417 silly currentTree ├── depd@1.1.2
+417 silly currentTree ├── destroy@1.0.4
+417 silly currentTree ├── dot-prop@4.2.0
+417 silly currentTree ├── duplexer3@0.1.4
+417 silly currentTree ├── ee-first@1.1.1
+417 silly currentTree ├── ejs@2.6.1
+417 silly currentTree ├── encodeurl@1.0.2
+417 silly currentTree ├── escape-html@1.0.3
+417 silly currentTree ├── escape-string-regexp@1.0.5
+417 silly currentTree ├── etag@1.8.1
+417 silly currentTree ├── execa@0.7.0
+417 silly currentTree ├── express@4.17.1
+417 silly currentTree ├── finalhandler@1.1.2
+417 silly currentTree ├── for-in@1.0.2
+417 silly currentTree ├── forwarded@0.1.2
+417 silly currentTree ├── fragment-cache@0.2.1
+417 silly currentTree ├── fresh@0.5.2
+417 silly currentTree ├── g@2.0.1
+417 silly currentTree ├── get-stream@3.0.0
+417 silly currentTree ├── get-value@2.0.6
+417 silly currentTree ├── global-dirs@0.1.1
+417 silly currentTree ├── got@6.7.1
+417 silly currentTree ├── graceful-fs@4.1.15
+417 silly currentTree ├── has-flag@3.0.0
+417 silly currentTree ├─┬ has-value@1.0.0
+417 silly currentTree │ ├── has-values@1.0.0
+417 silly currentTree │ ├─┬ is-number@3.0.0
+417 silly currentTree │ │ └── kind-of@3.2.2
+417 silly currentTree │ └── kind-of@4.0.0
+417 silly currentTree ├── http-errors@1.7.2
+417 silly currentTree ├── iconv-lite@0.4.24
+417 silly currentTree ├── ignore-by-default@1.0.1
+417 silly currentTree ├── import-lazy@2.1.0
+417 silly currentTree ├── imurmurhash@0.1.4
+417 silly currentTree ├── inherits@2.0.3
+417 silly currentTree ├── ini@1.3.5
+417 silly currentTree ├── ipaddr.js@1.9.0
+417 silly currentTree ├── is-binary-path@1.0.1
+417 silly currentTree ├── is-buffer@1.1.6
+417 silly currentTree ├── is-ci@1.2.1
+417 silly currentTree ├── is-extendable@0.1.1
+417 silly currentTree ├── is-extglob@2.1.1
+417 silly currentTree ├── is-fullwidth-code-point@2.0.0
+417 silly currentTree ├── is-glob@4.0.1
+417 silly currentTree ├── is-installed-globally@0.1.0
+417 silly currentTree ├── is-npm@1.0.0
+417 silly currentTree ├── is-obj@1.0.1
+417 silly currentTree ├── is-path-inside@1.0.1
+417 silly currentTree ├── is-plain-object@2.0.4
+417 silly currentTree ├── is-redirect@1.0.0
+417 silly currentTree ├── is-retry-allowed@1.1.0
+417 silly currentTree ├── is-stream@1.1.0
+417 silly currentTree ├── is-windows@1.0.2
+417 silly currentTree ├── isarray@1.0.0
+417 silly currentTree ├── isexe@2.0.0
+417 silly currentTree ├── isobject@3.0.1
+417 silly currentTree ├── kareem@2.3.0
+417 silly currentTree ├── kind-of@6.0.2
+417 silly currentTree ├── latest-version@3.1.0
+417 silly currentTree ├── lodash@4.17.11
+417 silly currentTree ├── lowercase-keys@1.0.1
+417 silly currentTree ├── lru-cache@4.1.5
+417 silly currentTree ├── make-dir@1.3.0
+417 silly currentTree ├── map-cache@0.2.2
+417 silly currentTree ├── map-visit@1.0.0
+417 silly currentTree ├── media-typer@0.3.0
+417 silly currentTree ├── memory-pager@1.5.0
+417 silly currentTree ├── merge-descriptors@1.0.1
+417 silly currentTree ├── methods@1.1.2
+417 silly currentTree ├─┬ micromatch@3.1.10
+417 silly currentTree │ ├─┬ base@0.11.2
+417 silly currentTree │ │ ├── define-property@1.0.0
+417 silly currentTree │ │ ├── is-accessor-descriptor@1.0.0
+417 silly currentTree │ │ ├── is-data-descriptor@1.0.0
+417 silly currentTree │ │ └── is-descriptor@1.0.2
+417 silly currentTree │ ├─┬ braces@2.3.2
+417 silly currentTree │ │ └── extend-shallow@2.0.1
+417 silly currentTree │ ├─┬ class-utils@0.3.6
+417 silly currentTree │ │ └── define-property@0.2.5
+417 silly currentTree │ ├─┬ define-property@2.0.2
+417 silly currentTree │ │ ├── is-accessor-descriptor@1.0.0
+417 silly currentTree │ │ ├── is-data-descriptor@1.0.0
+417 silly currentTree │ │ └── is-descriptor@1.0.2
+417 silly currentTree │ ├─┬ expand-brackets@2.1.4
+417 silly currentTree │ │ ├── define-property@0.2.5
+417 silly currentTree │ │ └── extend-shallow@2.0.1
+417 silly currentTree │ ├─┬ extend-shallow@3.0.2
+417 silly currentTree │ │ └── is-extendable@1.0.1
+417 silly currentTree │ ├─┬ extglob@2.0.4
+417 silly currentTree │ │ ├── define-property@1.0.0
+417 silly currentTree │ │ ├── extend-shallow@2.0.1
+417 silly currentTree │ │ ├── is-accessor-descriptor@1.0.0
+417 silly currentTree │ │ ├── is-data-descriptor@1.0.0
+417 silly currentTree │ │ └── is-descriptor@1.0.2
+417 silly currentTree │ ├─┬ fill-range@4.0.0
+417 silly currentTree │ │ └── extend-shallow@2.0.1
+417 silly currentTree │ ├─┬ is-accessor-descriptor@0.1.6
+417 silly currentTree │ │ └── kind-of@3.2.2
+417 silly currentTree │ ├─┬ is-data-descriptor@0.1.4
+417 silly currentTree │ │ └── kind-of@3.2.2
+417 silly currentTree │ ├─┬ is-descriptor@0.1.6
+417 silly currentTree │ │ └── kind-of@5.1.0
+417 silly currentTree │ ├─┬ is-number@3.0.0
+417 silly currentTree │ │ └── kind-of@3.2.2
+417 silly currentTree │ ├─┬ mixin-deep@1.3.1
+417 silly currentTree │ │ └── is-extendable@1.0.1
+417 silly currentTree │ ├─┬ object-copy@0.1.0
+417 silly currentTree │ │ ├── define-property@0.2.5
+417 silly currentTree │ │ └── kind-of@3.2.2
+417 silly currentTree │ ├─┬ snapdragon-node@2.1.1
+417 silly currentTree │ │ ├── define-property@1.0.0
+417 silly currentTree │ │ ├── is-accessor-descriptor@1.0.0
+417 silly currentTree │ │ ├── is-data-descriptor@1.0.0
+417 silly currentTree │ │ └── is-descriptor@1.0.2
+417 silly currentTree │ ├─┬ snapdragon-util@3.0.1
+417 silly currentTree │ │ └── kind-of@3.2.2
+417 silly currentTree │ ├─┬ snapdragon@0.8.2
+417 silly currentTree │ │ ├── define-property@0.2.5
+417 silly currentTree │ │ └── extend-shallow@2.0.1
+417 silly currentTree │ └─┬ static-extend@0.1.2
+417 silly currentTree │   └── define-property@0.2.5
+417 silly currentTree ├── mime-db@1.40.0
+417 silly currentTree ├── mime-types@2.1.24
+417 silly currentTree ├── mime@1.6.0
+417 silly currentTree ├── minimatch@3.0.4
+417 silly currentTree ├── minimist@1.2.0
+417 silly currentTree ├── moment@2.24.0
+417 silly currentTree ├── mongodb-core@3.2.6
+417 silly currentTree ├── mongodb@3.2.6
+417 silly currentTree ├── mongoose-legacy-pluralize@1.0.2
+417 silly currentTree ├─┬ mongoose@5.5.12
+417 silly currentTree │ └── ms@2.1.1
+417 silly currentTree ├── mpath@0.6.0
+417 silly currentTree ├─┬ mquery@3.2.0
+417 silly currentTree │ └── debug@3.1.0
+417 silly currentTree ├── ms@2.0.0
+417 silly currentTree ├─┬ nanomatch@1.2.13
+417 silly currentTree │ ├─┬ base@0.11.2
+417 silly currentTree │ │ └── define-property@1.0.0
+417 silly currentTree │ ├─┬ class-utils@0.3.6
+417 silly currentTree │ │ ├─┬ define-property@0.2.5
+417 silly currentTree │ │ │ └── is-descriptor@0.1.6
+417 silly currentTree │ │ ├─┬ is-accessor-descriptor@0.1.6
+417 silly currentTree │ │ │ └── kind-of@3.2.2
+417 silly currentTree │ │ ├─┬ is-data-descriptor@0.1.4
+417 silly currentTree │ │ │ └── kind-of@3.2.2
+417 silly currentTree │ │ └── kind-of@5.1.0
+417 silly currentTree │ ├── define-property@2.0.2
+417 silly currentTree │ ├── extend-shallow@3.0.2
+417 silly currentTree │ ├── is-accessor-descriptor@1.0.0
+417 silly currentTree │ ├── is-data-descriptor@1.0.0
+417 silly currentTree │ ├── is-descriptor@1.0.2
+417 silly currentTree │ ├── is-extendable@1.0.1
+417 silly currentTree │ ├── mixin-deep@1.3.1
+417 silly currentTree │ ├─┬ object-copy@0.1.0
+417 silly currentTree │ │ ├─┬ define-property@0.2.5
+417 silly currentTree │ │ │ ├── is-descriptor@0.1.6
+417 silly currentTree │ │ │ └── kind-of@5.1.0
+417 silly currentTree │ │ ├── is-accessor-descriptor@0.1.6
+417 silly currentTree │ │ ├── is-data-descriptor@0.1.4
+417 silly currentTree │ │ └── kind-of@3.2.2
+417 silly currentTree │ ├─┬ snapdragon@0.8.2
+417 silly currentTree │ │ ├─┬ define-property@0.2.5
+417 silly currentTree │ │ │ └── is-descriptor@0.1.6
+417 silly currentTree │ │ ├─┬ extend-shallow@2.0.1
+417 silly currentTree │ │ │ └── is-extendable@0.1.1
+417 silly currentTree │ │ ├─┬ is-accessor-descriptor@0.1.6
+417 silly currentTree │ │ │ └── kind-of@3.2.2
+417 silly currentTree │ │ ├─┬ is-data-descriptor@0.1.4
+417 silly currentTree │ │ │ └── kind-of@3.2.2
+417 silly currentTree │ │ └── kind-of@5.1.0
+417 silly currentTree │ └─┬ static-extend@0.1.2
+417 silly currentTree │   ├─┬ define-property@0.2.5
+417 silly currentTree │   │ └── is-descriptor@0.1.6
+417 silly currentTree │   ├─┬ is-accessor-descriptor@0.1.6
+417 silly currentTree │   │ └── kind-of@3.2.2
+417 silly currentTree │   ├─┬ is-data-descriptor@0.1.4
+417 silly currentTree │   │ └── kind-of@3.2.2
+417 silly currentTree │   └── kind-of@5.1.0
+417 silly currentTree ├── negotiator@0.6.2
+417 silly currentTree ├── nodejs-nodemailer-outlook@1.1.0
+417 silly currentTree ├── nodemailer@4.7.0
+417 silly currentTree ├─┬ nodemon@1.19.1
+417 silly currentTree │ ├── debug@3.2.6
+417 silly currentTree │ └── ms@2.1.1
+417 silly currentTree ├── nopt@1.0.10
+417 silly currentTree ├── normalize-path@3.0.0
+417 silly currentTree ├── npm-run-path@2.0.2
+417 silly currentTree ├── object-visit@1.0.1
+417 silly currentTree ├── object.pick@1.3.0
+417 silly currentTree ├── on-finished@2.3.0
+417 silly currentTree ├── on-headers@1.0.2
+417 silly currentTree ├── p-finally@1.0.0
+417 silly currentTree ├── package-json@4.0.1
+417 silly currentTree ├── parseurl@1.3.3
+417 silly currentTree ├── pascalcase@0.1.1
+417 silly currentTree ├── path-dirname@1.0.2
+417 silly currentTree ├── path-is-absolute@1.0.1
+417 silly currentTree ├── path-is-inside@1.0.2
+417 silly currentTree ├── path-key@2.0.1
+417 silly currentTree ├── path-to-regexp@0.1.7
+417 silly currentTree ├── pify@3.0.0
+417 silly currentTree ├── posix-character-classes@0.1.1
+417 silly currentTree ├── prepend-http@1.0.4
+417 silly currentTree ├── process-nextick-args@2.0.0
+417 silly currentTree ├── proxy-addr@2.0.5
+417 silly currentTree ├── pseudomap@1.0.2
+417 silly currentTree ├── pstree.remy@1.1.7
+417 silly currentTree ├── qs@6.7.0
+417 silly currentTree ├── range-parser@1.2.1
+417 silly currentTree ├── raw-body@2.4.0
+417 silly currentTree ├── rc@1.2.8
+417 silly currentTree ├── readable-stream@2.3.6
+417 silly currentTree ├── readdirp@2.2.1
+417 silly currentTree ├─┬ regex-not@1.0.2
+417 silly currentTree │ ├── extend-shallow@3.0.2
+417 silly currentTree │ └── is-extendable@1.0.1
+417 silly currentTree ├── regexp-clone@0.0.1
+417 silly currentTree ├── registry-auth-token@3.4.0
+417 silly currentTree ├── registry-url@3.1.0
+417 silly currentTree ├── remove-trailing-separator@1.1.0
+417 silly currentTree ├── repeat-element@1.1.3
+417 silly currentTree ├── repeat-string@1.6.1
+417 silly currentTree ├── require_optional@1.0.1
+417 silly currentTree ├── resolve-from@2.0.0
+417 silly currentTree ├── resolve-url@0.2.1
+417 silly currentTree ├── ret@0.1.15
+417 silly currentTree ├── safe-buffer@5.1.2
+417 silly currentTree ├── safe-regex@1.1.0
+417 silly currentTree ├── safer-buffer@2.1.2
+417 silly currentTree ├── saslprep@1.0.3
+417 silly currentTree ├── semver-diff@2.1.0
+417 silly currentTree ├── semver@5.7.0
+417 silly currentTree ├─┬ send@0.17.1
+417 silly currentTree │ └── ms@2.1.1
+417 silly currentTree ├── serve-static@1.14.1
+417 silly currentTree ├── setprototypeof@1.1.1
+417 silly currentTree ├── shebang-command@1.2.0
+417 silly currentTree ├── shebang-regex@1.0.0
+417 silly currentTree ├── sift@7.0.1
+417 silly currentTree ├── signal-exit@3.0.2
+417 silly currentTree ├── sliced@1.0.1
+417 silly currentTree ├── source-map-resolve@0.5.2
+417 silly currentTree ├── source-map-url@0.4.0
+417 silly currentTree ├── source-map@0.5.7
+417 silly currentTree ├── sparse-bitfield@3.0.3
+417 silly currentTree ├─┬ split-string@3.1.0
+417 silly currentTree │ ├── extend-shallow@3.0.2
+417 silly currentTree │ └── is-extendable@1.0.1
+417 silly currentTree ├── statuses@1.5.0
+417 silly currentTree ├── string_decoder@1.1.1
+417 silly currentTree ├── string-width@2.1.1
+417 silly currentTree ├── strip-ansi@4.0.0
+417 silly currentTree ├── strip-eof@1.0.0
+417 silly currentTree ├── strip-json-comments@2.0.1
+417 silly currentTree ├── supports-color@5.5.0
+417 silly currentTree ├── term-size@1.2.0
+417 silly currentTree ├── timed-out@4.0.1
+417 silly currentTree ├─┬ to-regex-range@2.1.1
+417 silly currentTree │ ├── is-number@3.0.0
+417 silly currentTree │ └── kind-of@3.2.2
+417 silly currentTree ├─┬ to-regex@3.0.2
+417 silly currentTree │ ├── define-property@2.0.2
+417 silly currentTree │ ├── extend-shallow@3.0.2
+417 silly currentTree │ ├── is-accessor-descriptor@1.0.0
+417 silly currentTree │ ├── is-data-descriptor@1.0.0
+417 silly currentTree │ ├── is-descriptor@1.0.2
+417 silly currentTree │ └── is-extendable@1.0.1
+417 silly currentTree ├── toidentifier@1.0.0
+417 silly currentTree ├── touch@3.1.0
+417 silly currentTree ├── type-is@1.6.18
+417 silly currentTree ├── undefsafe@2.0.2
+417 silly currentTree ├── unique-string@1.0.0
+417 silly currentTree ├── unpipe@1.0.0
+417 silly currentTree ├── unzip-response@2.0.1
+417 silly currentTree ├── upath@1.1.2
+417 silly currentTree ├── update-notifier@2.5.0
+417 silly currentTree ├── urix@0.1.0
+417 silly currentTree ├── url-parse-lax@1.0.0
+417 silly currentTree ├── use@3.1.1
+417 silly currentTree ├── util-deprecate@1.0.2
+417 silly currentTree ├── utils-merge@1.0.1
+417 silly currentTree ├── vary@1.1.2
+417 silly currentTree ├── which@1.3.1
+417 silly currentTree ├── widest-line@2.0.1
+417 silly currentTree ├── write-file-atomic@2.4.3
+417 silly currentTree ├── xdg-basedir@3.0.0
+417 silly currentTree └── yallist@2.1.2
+418 silly idealTree Website@1.0.0
+418 silly idealTree ├── @tweenjs/tween.js@18.6.0
+418 silly idealTree ├── abbrev@1.1.1
+418 silly idealTree ├── accepts@1.3.7
+418 silly idealTree ├── ansi-align@2.0.0
+418 silly idealTree ├── ansi-regex@3.0.0
+418 silly idealTree ├── ansi-styles@3.2.1
+418 silly idealTree ├─┬ anymatch@2.0.0
+418 silly idealTree │ └── normalize-path@2.1.1
+418 silly idealTree ├── arr-diff@4.0.0
+418 silly idealTree ├── arr-flatten@1.1.0
+418 silly idealTree ├── arr-union@3.1.0
+418 silly idealTree ├── array-flatten@1.1.1
+418 silly idealTree ├── array-unique@0.3.2
+418 silly idealTree ├── assign-symbols@1.0.0
+418 silly idealTree ├── async-each@1.0.3
+418 silly idealTree ├── async@2.6.2
+418 silly idealTree ├── atob@2.1.2
+418 silly idealTree ├── balanced-match@1.0.0
+418 silly idealTree ├── binary-extensions@1.13.1
+418 silly idealTree ├── bluebird@3.5.1
+418 silly idealTree ├── body-parser@1.19.0
+418 silly idealTree ├── boxen@1.3.0
+418 silly idealTree ├── brace-expansion@1.1.11
+418 silly idealTree ├── bson@1.1.1
+418 silly idealTree ├── bytes@3.1.0
+418 silly idealTree ├─┬ cache-base@1.0.1
+418 silly idealTree │ ├── extend-shallow@2.0.1
+418 silly idealTree │ ├── has-values@0.1.4
+418 silly idealTree │ ├── kind-of@3.2.2
+418 silly idealTree │ ├── set-value@2.0.0
+418 silly idealTree │ ├── to-object-path@0.3.0
+418 silly idealTree │ ├─┬ union-value@1.0.0
+418 silly idealTree │ │ └── set-value@0.4.3
+418 silly idealTree │ └─┬ unset-value@1.0.0
+418 silly idealTree │   └─┬ has-value@0.3.1
+418 silly idealTree │     └── isobject@2.1.0
+418 silly idealTree ├── camelcase@4.1.0
+418 silly idealTree ├── capture-stack-trace@1.0.1
+418 silly idealTree ├── chalk@2.4.2
+418 silly idealTree ├─┬ chokidar@2.1.6
+418 silly idealTree │ ├─┬ base@0.11.2
+418 silly idealTree │ │ ├── define-property@1.0.0
+418 silly idealTree │ │ ├─┬ is-accessor-descriptor@1.0.0
+418 silly idealTree │ │ │ └── kind-of@6.0.2
+418 silly idealTree │ │ ├─┬ is-data-descriptor@1.0.0
+418 silly idealTree │ │ │ └── kind-of@6.0.2
+418 silly idealTree │ │ └─┬ is-descriptor@1.0.2
+418 silly idealTree │ │   └── kind-of@6.0.2
+418 silly idealTree │ ├── braces@2.3.2
+418 silly idealTree │ ├── class-utils@0.3.6
+418 silly idealTree │ ├── define-property@0.2.5
+418 silly idealTree │ ├── extend-shallow@2.0.1
+418 silly idealTree │ ├── fill-range@4.0.0
+418 silly idealTree │ ├─┬ glob-parent@3.1.0
+418 silly idealTree │ │ └── is-glob@3.1.0
+418 silly idealTree │ ├── is-accessor-descriptor@0.1.6
+418 silly idealTree │ ├── is-data-descriptor@0.1.4
+418 silly idealTree │ ├─┬ is-descriptor@0.1.6
+418 silly idealTree │ │ └── kind-of@5.1.0
+418 silly idealTree │ ├── is-number@3.0.0
+418 silly idealTree │ ├── kind-of@3.2.2
+418 silly idealTree │ ├─┬ mixin-deep@1.3.1
+418 silly idealTree │ │ └── is-extendable@1.0.1
+418 silly idealTree │ ├── object-copy@0.1.0
+418 silly idealTree │ ├─┬ snapdragon-node@2.1.1
+418 silly idealTree │ │ ├── define-property@1.0.0
+418 silly idealTree │ │ ├─┬ is-accessor-descriptor@1.0.0
+418 silly idealTree │ │ │ └── kind-of@6.0.2
+418 silly idealTree │ │ ├─┬ is-data-descriptor@1.0.0
+418 silly idealTree │ │ │ └── kind-of@6.0.2
+418 silly idealTree │ │ └─┬ is-descriptor@1.0.2
+418 silly idealTree │ │   └── kind-of@6.0.2
+418 silly idealTree │ ├── snapdragon-util@3.0.1
+418 silly idealTree │ ├── snapdragon@0.8.2
+418 silly idealTree │ └── static-extend@0.1.2
+418 silly idealTree ├── ci-info@1.6.0
+418 silly idealTree ├── cli-boxes@1.0.0
+418 silly idealTree ├── collection-visit@1.0.0
+418 silly idealTree ├── color-convert@1.9.3
+418 silly idealTree ├── color-name@1.1.3
+418 silly idealTree ├── component-emitter@1.3.0
+418 silly idealTree ├─┬ compressible@2.0.18
+418 silly idealTree │ └── mime-db@1.43.0
+418 silly idealTree ├─┬ compression@1.7.4
+418 silly idealTree │ └── bytes@3.0.0
+418 silly idealTree ├── concat-map@0.0.1
+418 silly idealTree ├── configstore@3.1.2
+418 silly idealTree ├── content-disposition@0.5.3
+418 silly idealTree ├── content-type@1.0.4
+418 silly idealTree ├── cookie-signature@1.0.6
+418 silly idealTree ├── cookie@0.4.0
+418 silly idealTree ├── copy-descriptor@0.1.1
+418 silly idealTree ├── core-util-is@1.0.2
+418 silly idealTree ├── create-error-class@3.0.2
+418 silly idealTree ├── cross-spawn@5.1.0
+418 silly idealTree ├── crypto-random-string@1.0.0
+418 silly idealTree ├── debug@2.6.9
+418 silly idealTree ├── decode-uri-component@0.2.0
+418 silly idealTree ├── deep-extend@0.6.0
+418 silly idealTree ├── depd@1.1.2
+418 silly idealTree ├── destroy@1.0.4
+418 silly idealTree ├── dot-prop@4.2.0
+418 silly idealTree ├── duplexer3@0.1.4
+418 silly idealTree ├── ee-first@1.1.1
+418 silly idealTree ├── ejs@2.6.1
+418 silly idealTree ├── encodeurl@1.0.2
+418 silly idealTree ├── escape-html@1.0.3
+418 silly idealTree ├── escape-string-regexp@1.0.5
+418 silly idealTree ├── etag@1.8.1
+418 silly idealTree ├── execa@0.7.0
+418 silly idealTree ├── express@4.17.1
+418 silly idealTree ├── finalhandler@1.1.2
+418 silly idealTree ├── for-in@1.0.2
+418 silly idealTree ├── forwarded@0.1.2
+418 silly idealTree ├── fragment-cache@0.2.1
+418 silly idealTree ├── fresh@0.5.2
+418 silly idealTree ├── g@2.0.1
+418 silly idealTree ├── get-stream@3.0.0
+418 silly idealTree ├── get-value@2.0.6
+418 silly idealTree ├── global-dirs@0.1.1
+418 silly idealTree ├── got@6.7.1
+418 silly idealTree ├── graceful-fs@4.1.15
+418 silly idealTree ├── has-flag@3.0.0
+418 silly idealTree ├─┬ has-value@1.0.0
+418 silly idealTree │ ├── has-values@1.0.0
+418 silly idealTree │ ├─┬ is-number@3.0.0
+418 silly idealTree │ │ └── kind-of@3.2.2
+418 silly idealTree │ └── kind-of@4.0.0
+418 silly idealTree ├── http-errors@1.7.2
+418 silly idealTree ├── iconv-lite@0.4.24
+418 silly idealTree ├── ignore-by-default@1.0.1
+418 silly idealTree ├── import-lazy@2.1.0
+418 silly idealTree ├── imurmurhash@0.1.4
+418 silly idealTree ├── inherits@2.0.3
+418 silly idealTree ├── ini@1.3.5
+418 silly idealTree ├── ipaddr.js@1.9.0
+418 silly idealTree ├── is-binary-path@1.0.1
+418 silly idealTree ├── is-buffer@1.1.6
+418 silly idealTree ├── is-ci@1.2.1
+418 silly idealTree ├── is-extendable@0.1.1
+418 silly idealTree ├── is-extglob@2.1.1
+418 silly idealTree ├── is-fullwidth-code-point@2.0.0
+418 silly idealTree ├── is-glob@4.0.1
+418 silly idealTree ├── is-installed-globally@0.1.0
+418 silly idealTree ├── is-npm@1.0.0
+418 silly idealTree ├── is-obj@1.0.1
+418 silly idealTree ├── is-path-inside@1.0.1
+418 silly idealTree ├── is-plain-object@2.0.4
+418 silly idealTree ├── is-redirect@1.0.0
+418 silly idealTree ├── is-retry-allowed@1.1.0
+418 silly idealTree ├── is-stream@1.1.0
+418 silly idealTree ├── is-windows@1.0.2
+418 silly idealTree ├── isarray@1.0.0
+418 silly idealTree ├── isexe@2.0.0
+418 silly idealTree ├── isobject@3.0.1
+418 silly idealTree ├── js-tokens@4.0.0
+418 silly idealTree ├── kareem@2.3.0
+418 silly idealTree ├── kind-of@6.0.2
+418 silly idealTree ├── latest-version@3.1.0
+418 silly idealTree ├── lodash@4.17.11
+418 silly idealTree ├── loose-envify@1.4.0
+418 silly idealTree ├── lowercase-keys@1.0.1
+418 silly idealTree ├── lru-cache@4.1.5
+418 silly idealTree ├── make-dir@1.3.0
+418 silly idealTree ├── map-cache@0.2.2
+418 silly idealTree ├── map-visit@1.0.0
+418 silly idealTree ├── media-typer@0.3.0
+418 silly idealTree ├── memory-pager@1.5.0
+418 silly idealTree ├── merge-descriptors@1.0.1
+418 silly idealTree ├── methods@1.1.2
+418 silly idealTree ├─┬ micromatch@3.1.10
+418 silly idealTree │ ├─┬ base@0.11.2
+418 silly idealTree │ │ ├── define-property@1.0.0
+418 silly idealTree │ │ ├── is-accessor-descriptor@1.0.0
+418 silly idealTree │ │ ├── is-data-descriptor@1.0.0
+418 silly idealTree │ │ └── is-descriptor@1.0.2
+418 silly idealTree │ ├─┬ braces@2.3.2
+418 silly idealTree │ │ └── extend-shallow@2.0.1
+418 silly idealTree │ ├─┬ class-utils@0.3.6
+418 silly idealTree │ │ └── define-property@0.2.5
+418 silly idealTree │ ├─┬ define-property@2.0.2
+418 silly idealTree │ │ ├── is-accessor-descriptor@1.0.0
+418 silly idealTree │ │ ├── is-data-descriptor@1.0.0
+418 silly idealTree │ │ └── is-descriptor@1.0.2
+418 silly idealTree │ ├─┬ expand-brackets@2.1.4
+418 silly idealTree │ │ ├── define-property@0.2.5
+418 silly idealTree │ │ └── extend-shallow@2.0.1
+418 silly idealTree │ ├─┬ extend-shallow@3.0.2
+418 silly idealTree │ │ └── is-extendable@1.0.1
+418 silly idealTree │ ├─┬ extglob@2.0.4
+418 silly idealTree │ │ ├── define-property@1.0.0
+418 silly idealTree │ │ ├── extend-shallow@2.0.1
+418 silly idealTree │ │ ├── is-accessor-descriptor@1.0.0
+418 silly idealTree │ │ ├── is-data-descriptor@1.0.0
+418 silly idealTree │ │ └── is-descriptor@1.0.2
+418 silly idealTree │ ├─┬ fill-range@4.0.0
+418 silly idealTree │ │ └── extend-shallow@2.0.1
+418 silly idealTree │ ├─┬ is-accessor-descriptor@0.1.6
+418 silly idealTree │ │ └── kind-of@3.2.2
+418 silly idealTree │ ├─┬ is-data-descriptor@0.1.4
+418 silly idealTree │ │ └── kind-of@3.2.2
+418 silly idealTree │ ├─┬ is-descriptor@0.1.6
+418 silly idealTree │ │ └── kind-of@5.1.0
+418 silly idealTree │ ├─┬ is-number@3.0.0
+418 silly idealTree │ │ └── kind-of@3.2.2
+418 silly idealTree │ ├─┬ mixin-deep@1.3.1
+418 silly idealTree │ │ └── is-extendable@1.0.1
+418 silly idealTree │ ├─┬ object-copy@0.1.0
+418 silly idealTree │ │ ├── define-property@0.2.5
+418 silly idealTree │ │ └── kind-of@3.2.2
+418 silly idealTree │ ├─┬ snapdragon-node@2.1.1
+418 silly idealTree │ │ ├── define-property@1.0.0
+418 silly idealTree │ │ ├── is-accessor-descriptor@1.0.0
+418 silly idealTree │ │ ├── is-data-descriptor@1.0.0
+418 silly idealTree │ │ └── is-descriptor@1.0.2
+418 silly idealTree │ ├─┬ snapdragon-util@3.0.1
+418 silly idealTree │ │ └── kind-of@3.2.2
+418 silly idealTree │ ├─┬ snapdragon@0.8.2
+418 silly idealTree │ │ ├── define-property@0.2.5
+418 silly idealTree │ │ └── extend-shallow@2.0.1
+418 silly idealTree │ └─┬ static-extend@0.1.2
+418 silly idealTree │   └── define-property@0.2.5
+418 silly idealTree ├── mime-db@1.40.0
+418 silly idealTree ├── mime-types@2.1.24
+418 silly idealTree ├── mime@1.6.0
+418 silly idealTree ├── minimatch@3.0.4
+418 silly idealTree ├── minimist@1.2.0
+418 silly idealTree ├── moment@2.24.0
+418 silly idealTree ├── mongodb-core@3.2.6
+418 silly idealTree ├── mongodb@3.2.6
+418 silly idealTree ├── mongoose-legacy-pluralize@1.0.2
+418 silly idealTree ├─┬ mongoose@5.5.12
+418 silly idealTree │ └── ms@2.1.1
+418 silly idealTree ├── mpath@0.6.0
+418 silly idealTree ├─┬ mquery@3.2.0
+418 silly idealTree │ └── debug@3.1.0
+418 silly idealTree ├── ms@2.0.0
+418 silly idealTree ├─┬ nanomatch@1.2.13
+418 silly idealTree │ ├─┬ base@0.11.2
+418 silly idealTree │ │ └── define-property@1.0.0
+418 silly idealTree │ ├─┬ class-utils@0.3.6
+418 silly idealTree │ │ ├─┬ define-property@0.2.5
+418 silly idealTree │ │ │ └── is-descriptor@0.1.6
+418 silly idealTree │ │ ├─┬ is-accessor-descriptor@0.1.6
+418 silly idealTree │ │ │ └── kind-of@3.2.2
+418 silly idealTree │ │ ├─┬ is-data-descriptor@0.1.4
+418 silly idealTree │ │ │ └── kind-of@3.2.2
+418 silly idealTree │ │ └── kind-of@5.1.0
+418 silly idealTree │ ├── define-property@2.0.2
+418 silly idealTree │ ├── extend-shallow@3.0.2
+418 silly idealTree │ ├── is-accessor-descriptor@1.0.0
+418 silly idealTree │ ├── is-data-descriptor@1.0.0
+418 silly idealTree │ ├── is-descriptor@1.0.2
+418 silly idealTree │ ├── is-extendable@1.0.1
+418 silly idealTree │ ├── mixin-deep@1.3.1
+418 silly idealTree │ ├─┬ object-copy@0.1.0
+418 silly idealTree │ │ ├─┬ define-property@0.2.5
+418 silly idealTree │ │ │ ├── is-descriptor@0.1.6
+418 silly idealTree │ │ │ └── kind-of@5.1.0
+418 silly idealTree │ │ ├── is-accessor-descriptor@0.1.6
+418 silly idealTree │ │ ├── is-data-descriptor@0.1.4
+418 silly idealTree │ │ └── kind-of@3.2.2
+418 silly idealTree │ ├─┬ snapdragon@0.8.2
+418 silly idealTree │ │ ├─┬ define-property@0.2.5
+418 silly idealTree │ │ │ └── is-descriptor@0.1.6
+418 silly idealTree │ │ ├─┬ extend-shallow@2.0.1
+418 silly idealTree │ │ │ └── is-extendable@0.1.1
+418 silly idealTree │ │ ├─┬ is-accessor-descriptor@0.1.6
+418 silly idealTree │ │ │ └── kind-of@3.2.2
+418 silly idealTree │ │ ├─┬ is-data-descriptor@0.1.4
+418 silly idealTree │ │ │ └── kind-of@3.2.2
+418 silly idealTree │ │ └── kind-of@5.1.0
+418 silly idealTree │ └─┬ static-extend@0.1.2
+418 silly idealTree │   ├─┬ define-property@0.2.5
+418 silly idealTree │   │ └── is-descriptor@0.1.6
+418 silly idealTree │   ├─┬ is-accessor-descriptor@0.1.6
+418 silly idealTree │   │ └── kind-of@3.2.2
+418 silly idealTree │   ├─┬ is-data-descriptor@0.1.4
+418 silly idealTree │   │ └── kind-of@3.2.2
+418 silly idealTree │   └── kind-of@5.1.0
+418 silly idealTree ├── negotiator@0.6.2
+418 silly idealTree ├── nodejs-nodemailer-outlook@1.1.0
+418 silly idealTree ├── nodemailer@4.7.0
+418 silly idealTree ├─┬ nodemon@1.19.1
+418 silly idealTree │ ├── debug@3.2.6
+418 silly idealTree │ └── ms@2.1.1
+418 silly idealTree ├── nopt@1.0.10
+418 silly idealTree ├── normalize-path@3.0.0
+418 silly idealTree ├── npm-run-path@2.0.2
+418 silly idealTree ├── object-assign@4.1.1
+418 silly idealTree ├── object-visit@1.0.1
+418 silly idealTree ├── object.pick@1.3.0
+418 silly idealTree ├── on-finished@2.3.0
+418 silly idealTree ├── on-headers@1.0.2
+418 silly idealTree ├── p-finally@1.0.0
+418 silly idealTree ├── package-json@4.0.1
+418 silly idealTree ├── parseurl@1.3.3
+418 silly idealTree ├── pascalcase@0.1.1
+418 silly idealTree ├── path-dirname@1.0.2
+418 silly idealTree ├── path-is-absolute@1.0.1
+418 silly idealTree ├── path-is-inside@1.0.2
+418 silly idealTree ├── path-key@2.0.1
+418 silly idealTree ├── path-to-regexp@0.1.7
+418 silly idealTree ├── pify@3.0.0
+418 silly idealTree ├── posix-character-classes@0.1.1
+418 silly idealTree ├── prepend-http@1.0.4
+418 silly idealTree ├── process-nextick-args@2.0.0
+418 silly idealTree ├── prop-types@15.7.2
+418 silly idealTree ├── proxy-addr@2.0.5
+418 silly idealTree ├── pseudomap@1.0.2
+418 silly idealTree ├── pstree.remy@1.1.7
+418 silly idealTree ├── qs@6.7.0
+418 silly idealTree ├── range-parser@1.2.1
+418 silly idealTree ├── raw-body@2.4.0
+418 silly idealTree ├── rc@1.2.8
+418 silly idealTree ├── react-is@16.13.1
+418 silly idealTree ├── react-slideshow-image@3.0.2
+418 silly idealTree ├── readable-stream@2.3.6
+418 silly idealTree ├── readdirp@2.2.1
+418 silly idealTree ├─┬ regex-not@1.0.2
+418 silly idealTree │ ├── extend-shallow@3.0.2
+418 silly idealTree │ └── is-extendable@1.0.1
+418 silly idealTree ├── regexp-clone@0.0.1
+418 silly idealTree ├── registry-auth-token@3.4.0
+418 silly idealTree ├── registry-url@3.1.0
+418 silly idealTree ├── remove-trailing-separator@1.1.0
+418 silly idealTree ├── repeat-element@1.1.3
+418 silly idealTree ├── repeat-string@1.6.1
+418 silly idealTree ├── require_optional@1.0.1
+418 silly idealTree ├── resize-observer-polyfill@1.5.1
+418 silly idealTree ├── resolve-from@2.0.0
+418 silly idealTree ├── resolve-url@0.2.1
+418 silly idealTree ├── ret@0.1.15
+418 silly idealTree ├── safe-buffer@5.1.2
+418 silly idealTree ├── safe-regex@1.1.0
+418 silly idealTree ├── safer-buffer@2.1.2
+418 silly idealTree ├── saslprep@1.0.3
+418 silly idealTree ├── semver-diff@2.1.0
+418 silly idealTree ├── semver@5.7.0
+418 silly idealTree ├─┬ send@0.17.1
+418 silly idealTree │ └── ms@2.1.1
+418 silly idealTree ├── serve-static@1.14.1
+418 silly idealTree ├── setprototypeof@1.1.1
+418 silly idealTree ├── shebang-command@1.2.0
+418 silly idealTree ├── shebang-regex@1.0.0
+418 silly idealTree ├── sift@7.0.1
+418 silly idealTree ├── signal-exit@3.0.2
+418 silly idealTree ├── sliced@1.0.1
+418 silly idealTree ├── source-map-resolve@0.5.2
+418 silly idealTree ├── source-map-url@0.4.0
+418 silly idealTree ├── source-map@0.5.7
+418 silly idealTree ├── sparse-bitfield@3.0.3
+418 silly idealTree ├─┬ split-string@3.1.0
+418 silly idealTree │ ├── extend-shallow@3.0.2
+418 silly idealTree │ └── is-extendable@1.0.1
+418 silly idealTree ├── statuses@1.5.0
+418 silly idealTree ├── string_decoder@1.1.1
+418 silly idealTree ├── string-width@2.1.1
+418 silly idealTree ├── strip-ansi@4.0.0
+418 silly idealTree ├── strip-eof@1.0.0
+418 silly idealTree ├── strip-json-comments@2.0.1
+418 silly idealTree ├── supports-color@5.5.0
+418 silly idealTree ├── term-size@1.2.0
+418 silly idealTree ├── timed-out@4.0.1
+418 silly idealTree ├─┬ to-regex-range@2.1.1
+418 silly idealTree │ ├── is-number@3.0.0
+418 silly idealTree │ └── kind-of@3.2.2
+418 silly idealTree ├─┬ to-regex@3.0.2
+418 silly idealTree │ ├── define-property@2.0.2
+418 silly idealTree │ ├── extend-shallow@3.0.2
+418 silly idealTree │ ├── is-accessor-descriptor@1.0.0
+418 silly idealTree │ ├── is-data-descriptor@1.0.0
+418 silly idealTree │ ├── is-descriptor@1.0.2
+418 silly idealTree │ └── is-extendable@1.0.1
+418 silly idealTree ├── toidentifier@1.0.0
+418 silly idealTree ├── touch@3.1.0
+418 silly idealTree ├── type-is@1.6.18
+418 silly idealTree ├── undefsafe@2.0.2
+418 silly idealTree ├── unique-string@1.0.0
+418 silly idealTree ├── unpipe@1.0.0
+418 silly idealTree ├── unzip-response@2.0.1
+418 silly idealTree ├── upath@1.1.2
+418 silly idealTree ├── update-notifier@2.5.0
+418 silly idealTree ├── urix@0.1.0
+418 silly idealTree ├── url-parse-lax@1.0.0
+418 silly idealTree ├── use@3.1.1
+418 silly idealTree ├── util-deprecate@1.0.2
+418 silly idealTree ├── utils-merge@1.0.1
+418 silly idealTree ├── vary@1.1.2
+418 silly idealTree ├── which@1.3.1
+418 silly idealTree ├── widest-line@2.0.1
+418 silly idealTree ├── write-file-atomic@2.4.3
+418 silly idealTree ├── xdg-basedir@3.0.0
+418 silly idealTree └── yallist@2.1.2
+419 silly generateActionsToTake Starting
+420 silly install generateActionsToTake
+421 silly generateActionsToTake Finishing
+422 silly diffTrees action count 9
+423 silly diffTrees add @tweenjs/tween.js@18.6.0
+424 silly diffTrees add js-tokens@4.0.0
+425 silly diffTrees add loose-envify@1.4.0
+426 silly diffTrees add object-assign@4.1.1
+427 silly diffTrees add react-is@16.13.1
+428 silly diffTrees add prop-types@15.7.2
+429 silly diffTrees add resize-observer-polyfill@1.5.1
+430 silly diffTrees update compression@1.7.4
+431 silly diffTrees add react-slideshow-image@3.0.2
+432 silly decomposeActions action count 72
+433 silly decomposeActions fetch @tweenjs/tween.js@18.6.0
+434 silly decomposeActions extract @tweenjs/tween.js@18.6.0
+435 silly decomposeActions test @tweenjs/tween.js@18.6.0
+436 silly decomposeActions preinstall @tweenjs/tween.js@18.6.0
+437 silly decomposeActions build @tweenjs/tween.js@18.6.0
+438 silly decomposeActions install @tweenjs/tween.js@18.6.0
+439 silly decomposeActions postinstall @tweenjs/tween.js@18.6.0
+440 silly decomposeActions finalize @tweenjs/tween.js@18.6.0
+441 silly decomposeActions fetch js-tokens@4.0.0
+442 silly decomposeActions extract js-tokens@4.0.0
+443 silly decomposeActions test js-tokens@4.0.0
+444 silly decomposeActions preinstall js-tokens@4.0.0
+445 silly decomposeActions build js-tokens@4.0.0
+446 silly decomposeActions install js-tokens@4.0.0
+447 silly decomposeActions postinstall js-tokens@4.0.0
+448 silly decomposeActions finalize js-tokens@4.0.0
+449 silly decomposeActions fetch loose-envify@1.4.0
+450 silly decomposeActions extract loose-envify@1.4.0
+451 silly decomposeActions test loose-envify@1.4.0
+452 silly decomposeActions preinstall loose-envify@1.4.0
+453 silly decomposeActions build loose-envify@1.4.0
+454 silly decomposeActions install loose-envify@1.4.0
+455 silly decomposeActions postinstall loose-envify@1.4.0
+456 silly decomposeActions finalize loose-envify@1.4.0
+457 silly decomposeActions fetch object-assign@4.1.1
+458 silly decomposeActions extract object-assign@4.1.1
+459 silly decomposeActions test object-assign@4.1.1
+460 silly decomposeActions preinstall object-assign@4.1.1
+461 silly decomposeActions build object-assign@4.1.1
+462 silly decomposeActions install object-assign@4.1.1
+463 silly decomposeActions postinstall object-assign@4.1.1
+464 silly decomposeActions finalize object-assign@4.1.1
+465 silly decomposeActions fetch react-is@16.13.1
+466 silly decomposeActions extract react-is@16.13.1
+467 silly decomposeActions test react-is@16.13.1
+468 silly decomposeActions preinstall react-is@16.13.1
+469 silly decomposeActions build react-is@16.13.1
+470 silly decomposeActions install react-is@16.13.1
+471 silly decomposeActions postinstall react-is@16.13.1
+472 silly decomposeActions finalize react-is@16.13.1
+473 silly decomposeActions fetch prop-types@15.7.2
+474 silly decomposeActions extract prop-types@15.7.2
+475 silly decomposeActions test prop-types@15.7.2
+476 silly decomposeActions preinstall prop-types@15.7.2
+477 silly decomposeActions build prop-types@15.7.2
+478 silly decomposeActions install prop-types@15.7.2
+479 silly decomposeActions postinstall prop-types@15.7.2
+480 silly decomposeActions finalize prop-types@15.7.2
+481 silly decomposeActions fetch resize-observer-polyfill@1.5.1
+482 silly decomposeActions extract resize-observer-polyfill@1.5.1
+483 silly decomposeActions test resize-observer-polyfill@1.5.1
+484 silly decomposeActions preinstall resize-observer-polyfill@1.5.1
+485 silly decomposeActions build resize-observer-polyfill@1.5.1
+486 silly decomposeActions install resize-observer-polyfill@1.5.1
+487 silly decomposeActions postinstall resize-observer-polyfill@1.5.1
+488 silly decomposeActions finalize resize-observer-polyfill@1.5.1
+489 silly decomposeActions fetch compression@1.7.4
+490 silly decomposeActions extract compression@1.7.4
+491 silly decomposeActions test compression@1.7.4
+492 silly decomposeActions preinstall compression@1.7.4
+493 silly decomposeActions build compression@1.7.4
+494 silly decomposeActions install compression@1.7.4
+495 silly decomposeActions postinstall compression@1.7.4
+496 silly decomposeActions finalize compression@1.7.4
+497 silly decomposeActions fetch react-slideshow-image@3.0.2
+498 silly decomposeActions extract react-slideshow-image@3.0.2
+499 silly decomposeActions test react-slideshow-image@3.0.2
+500 silly decomposeActions preinstall react-slideshow-image@3.0.2
+501 silly decomposeActions build react-slideshow-image@3.0.2
+502 silly decomposeActions install react-slideshow-image@3.0.2
+503 silly decomposeActions postinstall react-slideshow-image@3.0.2
+504 silly decomposeActions finalize react-slideshow-image@3.0.2
+505 silly executeActions Starting
+506 silly install executeActions
+507 silly doSerial global-install 0
+508 silly doParallel fetch 9
+509 verbose lock using /home/ubuntu/.npm/_locks/staging-fca7826f70396a15.lock for /home/ubuntu/workspace/website/node_modules/.staging
+510 silly doParallel extract 9
+511 silly extract @tweenjs/tween.js@18.6.0
+512 silly extract js-tokens@4.0.0
+513 silly extract loose-envify@1.4.0
+514 silly extract object-assign@4.1.1
+515 silly extract react-is@16.13.1
+516 silly extract prop-types@15.7.2
+517 silly extract resize-observer-polyfill@1.5.1
+518 silly extract compression@1.7.4
+519 silly extract react-slideshow-image@3.0.2
+520 verbose unbuild node_modules/.staging/@tweenjs/tween.js-c8b323ad
+521 verbose unbuild node_modules/.staging/js-tokens-4770ae90
+522 verbose unbuild node_modules/.staging/object-assign-16b68912
+523 verbose unbuild node_modules/.staging/react-is-b1400f76
+524 verbose unbuild node_modules/.staging/prop-types-751cf287
+525 verbose unbuild node_modules/.staging/resize-observer-polyfill-b3bdd637
+526 verbose unbuild node_modules/.staging/react-slideshow-image-743c1747
+527 verbose unbuild node_modules/.staging/loose-envify-fbd7201d
+528 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/@tweenjs/tween.js-c8b323ad is being purged from base /home/ubuntu/workspace/website
+529 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/@tweenjs/tween.js-c8b323ad
+530 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/js-tokens-4770ae90 is being purged from base /home/ubuntu/workspace/website
+531 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/js-tokens-4770ae90
+532 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/object-assign-16b68912 is being purged from base /home/ubuntu/workspace/website
+533 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/object-assign-16b68912
+534 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/react-is-b1400f76 is being purged from base /home/ubuntu/workspace/website
+535 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/react-is-b1400f76
+536 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/prop-types-751cf287 is being purged from base /home/ubuntu/workspace/website
+537 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/prop-types-751cf287
+538 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/resize-observer-polyfill-b3bdd637 is being purged from base /home/ubuntu/workspace/website
+539 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/resize-observer-polyfill-b3bdd637
+540 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/react-slideshow-image-743c1747 is being purged from base /home/ubuntu/workspace/website
+541 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/react-slideshow-image-743c1747
+542 verbose tar unpack /home/ubuntu/.npm/@tweenjs/tween.js/18.6.0/package.tgz
+543 verbose tar unpacking to /home/ubuntu/workspace/website/node_modules/.staging/@tweenjs/tween.js-c8b323ad
+544 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/@tweenjs/tween.js-c8b323ad is being purged
+545 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/@tweenjs/tween.js-c8b323ad
+546 verbose tar unpack /home/ubuntu/.npm/js-tokens/4.0.0/package.tgz
+547 verbose tar unpacking to /home/ubuntu/workspace/website/node_modules/.staging/js-tokens-4770ae90
+548 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/js-tokens-4770ae90 is being purged
+549 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/js-tokens-4770ae90
+550 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/loose-envify-fbd7201d is being purged from base /home/ubuntu/workspace/website
+551 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/loose-envify-fbd7201d
+552 verbose tar unpack /home/ubuntu/.npm/object-assign/4.1.1/package.tgz
+553 verbose tar unpacking to /home/ubuntu/workspace/website/node_modules/.staging/object-assign-16b68912
+554 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/object-assign-16b68912 is being purged
+555 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/object-assign-16b68912
+556 verbose tar unpack /home/ubuntu/.npm/react-is/16.13.1/package.tgz
+557 verbose tar unpacking to /home/ubuntu/workspace/website/node_modules/.staging/react-is-b1400f76
+558 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/react-is-b1400f76 is being purged
+559 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/react-is-b1400f76
+560 verbose tar unpack /home/ubuntu/.npm/prop-types/15.7.2/package.tgz
+561 verbose tar unpacking to /home/ubuntu/workspace/website/node_modules/.staging/prop-types-751cf287
+562 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/prop-types-751cf287 is being purged
+563 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/prop-types-751cf287
+564 verbose tar unpack /home/ubuntu/.npm/resize-observer-polyfill/1.5.1/package.tgz
+565 verbose tar unpacking to /home/ubuntu/workspace/website/node_modules/.staging/resize-observer-polyfill-b3bdd637
+566 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/resize-observer-polyfill-b3bdd637 is being purged
+567 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/resize-observer-polyfill-b3bdd637
+568 verbose tar unpack /home/ubuntu/.npm/react-slideshow-image/3.0.2/package.tgz
+569 verbose tar unpacking to /home/ubuntu/workspace/website/node_modules/.staging/react-slideshow-image-743c1747
+570 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/react-slideshow-image-743c1747 is being purged
+571 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/react-slideshow-image-743c1747
+572 silly gunzTarPerm modes [ '775', '664' ]
+573 silly gunzTarPerm modes [ '775', '664' ]
+574 verbose tar unpack /home/ubuntu/.npm/loose-envify/1.4.0/package.tgz
+575 verbose tar unpacking to /home/ubuntu/workspace/website/node_modules/.staging/loose-envify-fbd7201d
+576 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/loose-envify-fbd7201d is being purged
+577 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/loose-envify-fbd7201d
+578 silly gunzTarPerm modes [ '775', '664' ]
+579 silly gunzTarPerm modes [ '775', '664' ]
+580 silly gunzTarPerm modes [ '775', '664' ]
+581 silly gunzTarPerm modes [ '775', '664' ]
+582 silly gunzTarPerm modes [ '775', '664' ]
+583 verbose unbuild node_modules/.staging/compression-6c59e3e6
+584 silly gunzTarPerm modes [ '775', '664' ]
+585 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/compression-6c59e3e6 is being purged from base /home/ubuntu/workspace/website
+586 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/compression-6c59e3e6
+587 verbose tar unpack /home/ubuntu/.npm/compression/1.7.4/package.tgz
+588 verbose tar unpacking to /home/ubuntu/workspace/website/node_modules/.staging/compression-6c59e3e6
+589 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/compression-6c59e3e6 is being purged
+590 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/compression-6c59e3e6
+591 silly gunzTarPerm modes [ '775', '664' ]
+592 silly gunzTarPerm extractEntry package.json
+593 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+594 silly gunzTarPerm extractEntry package.json
+595 silly gunzTarPerm extractEntry package.json
+596 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+597 silly gunzTarPerm extractEntry package.json
+598 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+599 silly gunzTarPerm extractEntry
+600 silly gunzTarPerm modified mode [ '', 493, 509 ]
+601 silly gunzTarPerm extractEntry package.json
+602 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+603 silly gunzTarPerm extractEntry LICENSE
+604 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+605 silly gunzTarPerm extractEntry package.json
+606 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+607 silly gunzTarPerm extractEntry LICENSE
+608 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+609 silly gunzTarPerm extractEntry README.md
+610 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+611 silly gunzTarPerm extractEntry CHANGELOG.md
+612 silly gunzTarPerm extractEntry index.js
+613 silly gunzTarPerm extractEntry index.js
+614 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+615 silly gunzTarPerm extractEntry license
+616 silly gunzTarPerm modified mode [ 'license', 420, 436 ]
+617 silly gunzTarPerm extractEntry build-info.json
+618 silly gunzTarPerm modified mode [ 'build-info.json', 420, 436 ]
+619 silly gunzTarPerm extractEntry index.js
+620 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+621 silly gunzTarPerm extractEntry LICENSE
+622 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+623 silly gunzTarPerm extractEntry README.md
+624 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+625 silly gunzTarPerm extractEntry dist/styles.css
+626 silly gunzTarPerm modified mode [ 'dist/styles.css', 420, 436 ]
+627 silly gunzTarPerm extractEntry lib/css/styles.css
+628 silly gunzTarPerm modified mode [ 'lib/css/styles.css', 420, 436 ]
+629 silly gunzTarPerm extractEntry cli.js
+630 silly gunzTarPerm modified mode [ 'cli.js', 493, 509 ]
+631 silly gunzTarPerm extractEntry custom.js
+632 silly gunzTarPerm modified mode [ 'custom.js', 420, 436 ]
+633 silly gunzTarPerm extractEntry CHANGELOG.md
+634 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 436 ]
+635 silly gunzTarPerm extractEntry LICENSE
+636 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+637 silly gunzTarPerm extractEntry README.md
+638 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+639 silly gunzTarPerm extractEntry package.json
+640 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+641 silly gunzTarPerm extractEntry checkPropTypes.js
+642 silly gunzTarPerm modified mode [ 'checkPropTypes.js', 420, 436 ]
+643 silly gunzTarPerm extractEntry dist/index.d.ts
+644 silly gunzTarPerm modified mode [ 'dist/index.d.ts', 438, 436 ]
+645 silly gunzTarPerm extractEntry dist/tween.amd.js
+646 silly gunzTarPerm modified mode [ 'dist/tween.amd.js', 438, 436 ]
+647 silly gunzTarPerm extractEntry dist/tween.cjs.js
+648 silly gunzTarPerm modified mode [ 'dist/tween.cjs.js', 438, 436 ]
+649 silly gunzTarPerm extractEntry dist/tween.esm.js
+650 silly gunzTarPerm modified mode [ 'dist/tween.esm.js', 438, 436 ]
+651 silly gunzTarPerm extractEntry dist/tween.umd.js
+652 silly gunzTarPerm modified mode [ 'dist/tween.umd.js', 438, 436 ]
+653 silly gunzTarPerm extractEntry lib/fade.js
+654 silly gunzTarPerm modified mode [ 'lib/fade.js', 420, 436 ]
+655 silly gunzTarPerm extractEntry LICENSE
+656 silly gunzTarPerm extractEntry README.md
+657 silly gunzTarPerm extractEntry HISTORY.md
+658 silly gunzTarPerm modified mode [ 'HISTORY.md', 420, 436 ]
+659 silly gunzTarPerm extractEntry index.js
+660 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+661 silly gunzTarPerm extractEntry readme.md
+662 silly gunzTarPerm modified mode [ 'readme.md', 420, 436 ]
+663 silly gunzTarPerm extractEntry LICENSE
+664 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+665 silly gunzTarPerm extractEntry README.md
+666 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+667 silly gunzTarPerm extractEntry dist/ResizeObserver.es.js
+668 silly gunzTarPerm modified mode [ 'dist/ResizeObserver.es.js', 438, 436 ]
+669 silly gunzTarPerm extractEntry dist/ResizeObserver.global.js
+670 silly gunzTarPerm modified mode [ 'dist/ResizeObserver.global.js', 438, 436 ]
+671 silly gunzTarPerm extractEntry dist/ResizeObserver.js
+672 silly gunzTarPerm modified mode [ 'dist/ResizeObserver.js', 438, 436 ]
+673 silly gunzTarPerm extractEntry dist/ResizeObserver.js.flow
+674 silly gunzTarPerm modified mode [ 'dist/ResizeObserver.js.flow', 438, 436 ]
+675 silly gunzTarPerm extractEntry src/index.d.ts
+676 silly gunzTarPerm modified mode [ 'src/index.d.ts', 438, 436 ]
+677 silly gunzTarPerm extractEntry src/index.js
+678 silly gunzTarPerm modified mode [ 'src/index.js', 438, 436 ]
+679 silly gunzTarPerm extractEntry src/index.js.flow
+680 silly gunzTarPerm modified mode [ 'src/index.js.flow', 438, 436 ]
+681 silly gunzTarPerm extractEntry src/ResizeObservation.js
+682 silly gunzTarPerm modified mode [ 'src/ResizeObservation.js', 438, 436 ]
+683 silly gunzTarPerm extractEntry src/ResizeObserver.js
+684 silly gunzTarPerm modified mode [ 'src/ResizeObserver.js', 438, 436 ]
+685 silly gunzTarPerm extractEntry src/ResizeObserverController.js
+686 silly gunzTarPerm modified mode [ 'src/ResizeObserverController.js', 438, 436 ]
+687 silly gunzTarPerm extractEntry src/ResizeObserverEntry.js
+688 silly gunzTarPerm modified mode [ 'src/ResizeObserverEntry.js', 438, 436 ]
+689 silly gunzTarPerm extractEntry src/ResizeObserverSPI.js
+690 silly gunzTarPerm modified mode [ 'src/ResizeObserverSPI.js', 438, 436 ]
+691 silly gunzTarPerm extractEntry src/shims/es6-collections.js
+692 silly gunzTarPerm modified mode [ 'src/shims/es6-collections.js', 438, 436 ]
+693 silly gunzTarPerm extractEntry src/shims/global.js
+694 silly gunzTarPerm modified mode [ 'src/shims/global.js', 438, 436 ]
+695 silly gunzTarPerm extractEntry src/shims/requestAnimationFrame.js
+696 silly gunzTarPerm modified mode [ 'src/shims/requestAnimationFrame.js', 438, 436 ]
+697 silly gunzTarPerm extractEntry src/utils/defineConfigurable.js
+698 silly gunzTarPerm modified mode [ 'src/utils/defineConfigurable.js', 438, 436 ]
+699 silly gunzTarPerm extractEntry src/utils/geometry.js
+700 silly gunzTarPerm modified mode [ 'src/utils/geometry.js', 438, 436 ]
+701 silly gunzTarPerm extractEntry src/utils/getWindowOf.js
+702 silly gunzTarPerm modified mode [ 'src/utils/getWindowOf.js', 438, 436 ]
+703 silly gunzTarPerm extractEntry src/utils/isBrowser.js
+704 silly gunzTarPerm modified mode [ 'src/utils/isBrowser.js', 438, 436 ]
+705 silly gunzTarPerm extractEntry src/utils/throttle.js
+706 silly gunzTarPerm modified mode [ 'src/utils/throttle.js', 438, 436 ]
+707 silly gunzTarPerm extractEntry index.js
+708 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+709 silly gunzTarPerm extractEntry LICENSE
+710 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+711 silly gunzTarPerm extractEntry factory.js
+712 silly gunzTarPerm modified mode [ 'factory.js', 420, 436 ]
+713 silly gunzTarPerm extractEntry factoryWithThrowingShims.js
+714 silly gunzTarPerm modified mode [ 'factoryWithThrowingShims.js', 420, 436 ]
+715 silly gunzTarPerm extractEntry cjs/react-is.development.js
+716 silly gunzTarPerm modified mode [ 'cjs/react-is.development.js', 420, 436 ]
+717 silly gunzTarPerm extractEntry cjs/react-is.production.min.js
+718 silly gunzTarPerm modified mode [ 'cjs/react-is.production.min.js', 420, 436 ]
+719 silly gunzTarPerm extractEntry umd/react-is.development.js
+720 silly gunzTarPerm modified mode [ 'umd/react-is.development.js', 420, 436 ]
+721 silly gunzTarPerm extractEntry umd/react-is.production.min.js
+722 silly gunzTarPerm modified mode [ 'umd/react-is.production.min.js', 420, 436 ]
+723 silly gunzTarPerm extractEntry LICENSE
+724 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+725 silly gunzTarPerm extractEntry loose-envify.js
+726 silly gunzTarPerm modified mode [ 'loose-envify.js', 420, 436 ]
+727 silly gunzTarPerm extractEntry README.md
+728 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+729 silly gunzTarPerm extractEntry lib/helpers.js
+730 silly gunzTarPerm modified mode [ 'lib/helpers.js', 420, 436 ]
+731 silly gunzTarPerm extractEntry lib/index.js
+732 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 436 ]
+733 silly gunzTarPerm extractEntry factoryWithTypeCheckers.js
+734 silly gunzTarPerm modified mode [ 'factoryWithTypeCheckers.js', 420, 436 ]
+735 silly gunzTarPerm extractEntry index.js
+736 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+737 silly gunzTarPerm extractEntry replace.js
+738 silly gunzTarPerm modified mode [ 'replace.js', 420, 436 ]
+739 silly gunzTarPerm extractEntry README.md
+740 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+741 silly gunzTarPerm extractEntry lib
+742 silly gunzTarPerm modified mode [ 'lib', 493, 509 ]
+743 silly gunzTarPerm extractEntry package.json
+744 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+745 silly gunzTarPerm extractEntry dist/react-slideshow-image.min.js
+746 silly gunzTarPerm modified mode [ 'dist/react-slideshow-image.min.js', 420, 436 ]
+747 silly gunzTarPerm extractEntry lib/slide.js
+748 silly gunzTarPerm modified mode [ 'lib/slide.js', 420, 436 ]
+749 silly gunzTarPerm extractEntry prop-types.js
+750 silly gunzTarPerm modified mode [ 'prop-types.js', 420, 436 ]
+751 silly gunzTarPerm extractEntry prop-types.min.js
+752 silly gunzTarPerm modified mode [ 'prop-types.min.js', 420, 436 ]
+753 silly gunzTarPerm extractEntry lib/zoom.js
+754 silly gunzTarPerm modified mode [ 'lib/zoom.js', 420, 436 ]
+755 silly gunzTarPerm extractEntry package.json
+756 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+757 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/object-assign-16b68912/node_modules is being purged
+758 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/object-assign-16b68912/node_modules
+759 silly gunzTarPerm extractEntry lib/ReactPropTypesSecret.js
+760 silly gunzTarPerm modified mode [ 'lib/ReactPropTypesSecret.js', 420, 436 ]
+761 silly gunzTarPerm extractEntry dist/react-slideshow-image.min.js.map
+762 silly gunzTarPerm modified mode [ 'dist/react-slideshow-image.min.js.map', 420, 436 ]
+763 silly gunzTarPerm extractEntry README.md
+764 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+765 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/js-tokens-4770ae90/node_modules is being purged
+766 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/js-tokens-4770ae90/node_modules
+767 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/compression-6c59e3e6/node_modules is being purged
+768 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/compression-6c59e3e6/node_modules
+769 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/loose-envify-fbd7201d/node_modules is being purged
+770 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/loose-envify-fbd7201d/node_modules
+771 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/@tweenjs/tween.js-c8b323ad/node_modules is being purged
+772 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/@tweenjs/tween.js-c8b323ad/node_modules
+773 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/react-is-b1400f76/node_modules is being purged
+774 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/react-is-b1400f76/node_modules
+775 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/prop-types-751cf287/node_modules is being purged
+776 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/prop-types-751cf287/node_modules
+777 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/react-slideshow-image-743c1747/node_modules is being purged
+778 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/react-slideshow-image-743c1747/node_modules
+779 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.staging/resize-observer-polyfill-b3bdd637/node_modules is being purged
+780 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.staging/resize-observer-polyfill-b3bdd637/node_modules
+781 silly doParallel preinstall 9
+782 silly preinstall @tweenjs/tween.js@18.6.0 /home/ubuntu/workspace/website/node_modules/.staging/@tweenjs/tween.js-c8b323ad
+783 info lifecycle @tweenjs/tween.js@18.6.0~preinstall: @tweenjs/tween.js@18.6.0
+784 silly preinstall js-tokens@4.0.0 /home/ubuntu/workspace/website/node_modules/.staging/js-tokens-4770ae90
+785 info lifecycle js-tokens@4.0.0~preinstall: js-tokens@4.0.0
+786 silly preinstall loose-envify@1.4.0 /home/ubuntu/workspace/website/node_modules/.staging/loose-envify-fbd7201d
+787 info lifecycle loose-envify@1.4.0~preinstall: loose-envify@1.4.0
+788 silly preinstall object-assign@4.1.1 /home/ubuntu/workspace/website/node_modules/.staging/object-assign-16b68912
+789 info lifecycle object-assign@4.1.1~preinstall: object-assign@4.1.1
+790 silly preinstall react-is@16.13.1 /home/ubuntu/workspace/website/node_modules/.staging/react-is-b1400f76
+791 info lifecycle react-is@16.13.1~preinstall: react-is@16.13.1
+792 silly preinstall prop-types@15.7.2 /home/ubuntu/workspace/website/node_modules/.staging/prop-types-751cf287
+793 info lifecycle prop-types@15.7.2~preinstall: prop-types@15.7.2
+794 silly preinstall resize-observer-polyfill@1.5.1 /home/ubuntu/workspace/website/node_modules/.staging/resize-observer-polyfill-b3bdd637
+795 info lifecycle resize-observer-polyfill@1.5.1~preinstall: resize-observer-polyfill@1.5.1
+796 silly preinstall compression@1.7.4 /home/ubuntu/workspace/website/node_modules/.staging/compression-6c59e3e6
+797 info lifecycle compression@1.7.4~preinstall: compression@1.7.4
+798 silly preinstall react-slideshow-image@3.0.2 /home/ubuntu/workspace/website/node_modules/.staging/react-slideshow-image-743c1747
+799 info lifecycle react-slideshow-image@3.0.2~preinstall: react-slideshow-image@3.0.2
+800 silly lifecycle @tweenjs/tween.js@18.6.0~preinstall: no script for preinstall, continuing
+801 silly lifecycle js-tokens@4.0.0~preinstall: no script for preinstall, continuing
+802 silly lifecycle loose-envify@1.4.0~preinstall: no script for preinstall, continuing
+803 silly lifecycle object-assign@4.1.1~preinstall: no script for preinstall, continuing
+804 silly lifecycle react-is@16.13.1~preinstall: no script for preinstall, continuing
+805 silly lifecycle prop-types@15.7.2~preinstall: no script for preinstall, continuing
+806 silly lifecycle resize-observer-polyfill@1.5.1~preinstall: no script for preinstall, continuing
+807 silly lifecycle compression@1.7.4~preinstall: no script for preinstall, continuing
+808 silly lifecycle react-slideshow-image@3.0.2~preinstall: no script for preinstall, continuing
+809 silly doReverseSerial remove 0
+810 silly doSerial move 0
+811 silly doSerial finalize 9
+812 silly finalize /home/ubuntu/workspace/website/node_modules/@tweenjs/tween.js
+813 silly finalize /home/ubuntu/workspace/website/node_modules/js-tokens
+814 silly finalize /home/ubuntu/workspace/website/node_modules/loose-envify
+815 silly finalize /home/ubuntu/workspace/website/node_modules/object-assign
+816 silly finalize /home/ubuntu/workspace/website/node_modules/react-is
+817 silly finalize /home/ubuntu/workspace/website/node_modules/prop-types
+818 silly finalize /home/ubuntu/workspace/website/node_modules/resize-observer-polyfill
+819 silly finalize /home/ubuntu/workspace/website/node_modules/compression
+820 silly finalize /home/ubuntu/workspace/website/node_modules/react-slideshow-image
+821 silly doSerial build 9
+822 silly build @tweenjs/tween.js@18.6.0
+823 info linkStuff @tweenjs/tween.js@18.6.0
+824 silly linkStuff @tweenjs/tween.js@18.6.0 has /home/ubuntu/workspace/website/node_modules as its parent node_modules
+825 verbose linkBins @tweenjs/tween.js@18.6.0
+826 verbose linkMans @tweenjs/tween.js@18.6.0
+827 silly build js-tokens@4.0.0
+828 info linkStuff js-tokens@4.0.0
+829 silly linkStuff js-tokens@4.0.0 has /home/ubuntu/workspace/website/node_modules as its parent node_modules
+830 verbose linkBins js-tokens@4.0.0
+831 verbose linkMans js-tokens@4.0.0
+832 silly build loose-envify@1.4.0
+833 info linkStuff loose-envify@1.4.0
+834 silly linkStuff loose-envify@1.4.0 has /home/ubuntu/workspace/website/node_modules as its parent node_modules
+835 verbose linkBins loose-envify@1.4.0
+836 verbose link bins [ { 'loose-envify': 'cli.js' },
+836 verbose link bins   '/home/ubuntu/workspace/website/node_modules/.bin',
+836 verbose link bins   false ]
+837 verbose linkMans loose-envify@1.4.0
+838 silly gentlyRm /home/ubuntu/workspace/website/node_modules/.bin/loose-envify is being purged
+839 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/website/node_modules/.bin/loose-envify
+840 verbose unlock done using /home/ubuntu/.npm/_locks/staging-fca7826f70396a15.lock for /home/ubuntu/workspace/website/node_modules/.staging
+841 silly rollbackFailedOptional Starting
+842 silly rollbackFailedOptional Finishing
+843 silly runTopLevelLifecycles Starting
+844 silly runTopLevelLifecycles Finishing
+845 silly install printInstalled
+846 warn optional Skipping failed optional dependency /chokidar/fsevents:
+847 warn notsup Not compatible with your operating system or architecture: fsevents@1.2.13
+848 warn react-slideshow-image@3.0.2 requires a peer of react@^16.2.0 but none was installed.
+849 warn react-slideshow-image@3.0.2 requires a peer of react-dom@^16.2.0 but none was installed.
+850 warn Website@1.0.0 No description
+851 warn Website@1.0.0 No repository field.
+852 verbose stack Error: EACCES: permission denied, symlink '../loose-envify/cli.js' -> '/home/ubuntu/workspace/website/node_modules/.bin/loose-envify'
+853 verbose cwd /home/ubuntu/workspace/website
+854 error Linux 5.3.0-1017-aws
+855 error argv "/usr/bin/node" "/usr/bin/npm" "install" "react-slideshow-image"
+856 error node v8.10.0
+857 error npm  v3.5.2
+858 error path ../loose-envify/cli.js
+859 error code EACCES
+860 error errno -13
+861 error syscall symlink
+862 error Error: EACCES: permission denied, symlink '../loose-envify/cli.js' -> '/home/ubuntu/workspace/website/node_modules/.bin/loose-envify'
+862 error  { Error: EACCES: permission denied, symlink '../loose-envify/cli.js' -> '/home/ubuntu/workspace/website/node_modules/.bin/loose-envify'
+862 error   errno: -13,
+862 error   code: 'EACCES',
+862 error   syscall: 'symlink',
+862 error   path: '../loose-envify/cli.js',
+862 error   dest: '/home/ubuntu/workspace/website/node_modules/.bin/loose-envify',
+862 error   parent: 'Website' }
+863 error Please try running this command again as root/Administrator.
+864 verbose exit [ -13, true ]
