@@ -153,6 +153,10 @@ app.get('/login', (req, res, next) => {
 	res.sendfile(path.resolve(__dirname, 'client', 'build', 'login.html'));
 });
 
+app.get('/register', (req, res, next) => {
+	res.sendfile(path.resolve(__dirname, 'client', 'build', 'register.html'));
+});
+
 app.get('/distributor-registration', (req, res, next) => {
 	res.render('addDistrbutor');
 });
