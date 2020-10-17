@@ -149,6 +149,10 @@ app.get('/covid', (req, res, next) => {
 	res.sendfile(path.resolve(__dirname, 'client', 'build', 'covid.html'));
 });
 
+app.get('/login', (req, res, next) => {
+	res.sendfile(path.resolve(__dirname, 'client', 'build', 'login.html'));
+});
+
 app.get('/distributor-registration', (req, res, next) => {
 	res.render('addDistrbutor');
 });
