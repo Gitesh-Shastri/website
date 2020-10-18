@@ -162,7 +162,7 @@ app.get('/distributor-registration', (req, res, next) => {
 });
 
 app.get('/career', (req, res, next) => {
-	res.render('career');
+	res.sendfile(path.resolve(__dirname, 'client', 'build', 'career.html'));
 });
 
 app.get('/careers', (req, res, next) => {
