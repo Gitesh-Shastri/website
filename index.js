@@ -165,6 +165,10 @@ app.get('/career', (req, res, next) => {
 	res.sendfile(path.resolve(__dirname, 'client', 'build', 'career.html'));
 });
 
+app.get('/full_time', (req, res, next) => {
+	res.sendfile(path.resolve(__dirname, 'client', 'build', 'full_time.html'));
+});
+
 app.get('/careers', (req, res, next) => {
 	res.render('career');
 });
