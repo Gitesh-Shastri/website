@@ -137,7 +137,7 @@ app.get('/about-us', (req, res, next) => {
 	res.sendfile(path.resolve(__dirname, 'client', 'build', 'about.html'));
 });
 
-app.get('/aboutusdetail', (req, res, next) => {
+app.get('/about-us-description', (req, res, next) => {
 	res.sendfile(path.resolve(__dirname, 'client', 'build', 'aboutusdetail.html'));
 });
 
